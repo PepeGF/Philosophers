@@ -14,12 +14,12 @@ SRCS_PATH = src/
 INCS_PATH = inc/
 BIN_PATH = bin/
 
-SRCS = main.c atoi.c
+SRCS = main.c atoi.c arguments_manage.c
 
 OBJS = $(SRCS:%.c=bin/%.o)
 
 CC = gcc
-CFLAGS =-Wall -Werror -Wextra -g -O0
+CFLAGS = -Wall -Werror -Wextra -g -O0
 RM = rm -f
 
 ###		RULES		###
@@ -27,22 +27,22 @@ RM = rm -f
 all: $(NAME)
 
 bin/%.o: src/%.c
-	mkdir -p bin
-	$(CC) $(CFLAGS) -c $< -o $@
+	@mkdir -p bin
+	@$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJS)
-	echo $(PURPLE)"[Creating philo]"$(BLUE)
-	$(CC) -o $(NAME) $(OBJS) #-fsanitize=address
-	echo $(GREEN)"$(NAME): ready to be executed"$(WHITE)
+	@echo $(PURPLE)"[Creating philo]"$(BLUE)
+	@$(CC) -o $(NAME) $(OBJS) #-fsanitize=address
+	@echo $(GREEN)"$(NAME): ready to be executed"$(WHITE)
 
 clean:
-	$(RM) $(OBJS)
-	rm -rf bin/
-	echo $(RED)"[Object Files Deleted]"$(WHITE)
+	@$(RM) $(OBJS)
+	@rm -rf bin/
+	@echo $(RED)"[Object Files Deleted]"$(WHITE)
 
 fclean: clean
-	$(RM) $(NAME)
-	echo $(RED)"[Executable File Deleted]"$(WHITE)
+	@$(RM) $(NAME)
+	@echo $(RED)"[Executable File Deleted]"$(WHITE)
 
 re: fclean $(NAME)
 

@@ -16,6 +16,13 @@
 # include <unistd.h>
 # include <stdio.h>
 
+typedef struct s_data
+{
+	struct s_args	*args;
+	struct s_philo	*philo;
+	struct s_fork	*fork;
+}	t_data;
+
 typedef struct s_args
 {
 	int	n_philo;
@@ -23,7 +30,19 @@ typedef struct s_args
 	int	t_eat;
 	int	t_sleep;
 	int	n_meal;
-} t_args;
+}	t_args;
+
+typedef struct s_philo
+{
+	int				id;
+	struct s_philo	*next;
+}	t_philo;
+
+typedef struct s_fork
+{
+	int				id;
+	struct s_fork	*next;
+}	t_fork;
 
 int	ft_atoi(const char *str);
 int	atoi_args(char **argv, t_args *args);

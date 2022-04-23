@@ -54,5 +54,7 @@ int	atoi_args(char **argv, t_args *args)
 	args->t_sleep = matrix[i++];
 	if (argv[i + 1])
 		args->n_meal = matrix[i];
+	else
+		args->n_meal = -1;
 	return (1);
 }

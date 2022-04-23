@@ -15,13 +15,8 @@
 
 # include <unistd.h>
 # include <stdio.h>
-
-typedef struct s_data
-{
-	struct s_args	*args;
-	struct s_philo	*philo;
-	struct s_fork	*fork;
-}	t_data;
+# include <stdlib.h>
+# include <pthread.h>
 
 typedef struct s_args
 {
@@ -35,17 +30,18 @@ typedef struct s_args
 typedef struct s_philo
 {
 	int				id;
-	struct s_philo	*next;
+	pthread_t		thread;
+	pthread_mutex_t	fork;
+	struct s_philo	*right;
+	struct s_philo	*left;
 }	t_philo;
-
-typedef struct s_fork
-{
-	int				id;
-	struct s_fork	*next;
-}	t_fork;
 
 int	ft_atoi(const char *str);
 int	atoi_args(char **argv, t_args *args);
 int	arg_number_manage(int argc);
 
+/* List functions */
+t_philo	*ft_lstnew(int id);
+void	ft_lstadd_back(t_philo **lst, t_philo *new);
+t_philo	*ft_lstlast(t_philo *lst);
 #endif

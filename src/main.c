@@ -76,6 +76,61 @@ void	ft_free_philos(t_philo *lst_philo, t_args args)
 	return ;
 }
 
+void	ft_init_philos(t_philo	*lst_philo, t_args args)
+{
+	t_philo	*aux;
+	int		i;
+(void)aux;
+(void)lst_philo;
+	i = 1;
+	while(i <= args.n_philo)
+	{
+		i++;
+	}
+}
+
+void	*routine(void)
+{
+	printf("%s\n", "Soy un HILO");
+	usleep(1000);
+	printf("%s\n", "Viva er Betis");
+	return 0;
+}
+
+int	ft_create_threads(t_philo *lst_philo, t_args args, void *routine)
+{
+	int	i;
+
+	i = 1;
+	while (i <= args.n_philo)
+	{
+		if (pthread_create(&lst_philo->thread, NULL, routine, NULL))
+		{
+			ft_free_philos(lst_philo, args);
+			return (1);
+		}
+		i++;
+	}
+	return (0);
+}
+
+int	ft_join_threads(t_philo *lst_philo, t_args args)
+{
+	int	i;
+
+	i = 0;
+	while (i <= args.n_philo)
+	{
+		if (pthread_join(lst_philo->thread, NULL))
+		{
+			ft_free_philos(lst_philo, args);
+			return (1);
+		}
+		i++;
+	}
+	return (0);
+}
+
 int	main(int argc, char *argv[])
 {
 	t_args	args;
@@ -87,6 +142,11 @@ int	main(int argc, char *argv[])
 	ft_create_philos(&lst_philo, args);
 	// ft_lst_len(lst_philo);
 	ft_link_list(lst_philo);
+	if (ft_create_threads(lst_philo, args, &routine))
+		return (1);
+	if (ft_join_threads(lst_philo, args))
+		return (1);
+	printf("%s\n", "Aunque el Atleti mola más");
 	ft_free_philos(lst_philo, args);
 	return (0);
 }

@@ -35,3 +35,30 @@ t_philo	*ft_lstnew(int id)
 	new->right = NULL;
 	return (new);
 }
+
+void	ft_link_list(t_philo *lst_philo)
+{
+	t_philo *aux;
+
+	aux = lst_philo;
+	while (aux)
+	{
+		if (aux->right)
+			aux->right->left = aux;
+		else
+		{
+			lst_philo->left = aux;
+			aux->right = lst_philo;
+			break;
+		}
+		aux = aux->right;
+	}
+	aux = lst_philo;
+/*	int i = 1;
+	while (i <= 20)
+	{
+		printf("Filo nº: %d, filo de la dcha: %d\n", aux->id, aux->right->id);
+		i++;
+		aux = aux->right;
+	}*/
+}

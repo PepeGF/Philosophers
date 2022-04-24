@@ -36,6 +36,7 @@ typedef struct s_philo
 	struct s_philo	*left;
 }	t_philo;
 
+/* Arguments manage */
 int	ft_atoi(const char *str);
 int	atoi_args(char **argv, t_args *args);
 int	arg_number_manage(int argc);
@@ -44,4 +45,20 @@ int	arg_number_manage(int argc);
 t_philo	*ft_lstnew(int id);
 void	ft_lstadd_back(t_philo **lst, t_philo *new);
 t_philo	*ft_lstlast(t_philo *lst);
+
+/* Lists functions */
+t_philo	*ft_lstlast(t_philo *lst);
+void	ft_lstadd_back(t_philo **lst, t_philo *new);
+t_philo	*ft_lstnew(int id);
+void	ft_link_list(t_philo *lst_philo);
+
+/* Philos functions */
+void	ft_create_philos(t_philo **lst_philo, t_args args);
+void	ft_init_philos(t_philo	*lst_philo, t_args args);
+void	ft_free_philos(t_philo *lst_philo, t_args args);
+
+/* Threads functions */
+int	ft_create_threads(t_philo *lst_philo, t_args args, void *routine);
+int	ft_join_threads(t_philo *lst_philo, t_args args);
+
 #endif

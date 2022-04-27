@@ -17,6 +17,13 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <pthread.h>
+# include <sys/time.h>
+
+typedef struct s_data
+{
+	struct s_args	*args;
+	struct s_philo	*lst_philo;
+}	t_data;
 
 typedef struct s_args
 {
@@ -34,7 +41,17 @@ typedef struct s_philo
 	pthread_mutex_t	fork;
 	struct s_philo	*right;
 	struct s_philo	*left;
+	struct s_time	*moment;
+	struct timeval	start;
+	struct timeval	end;
+	struct timeval	current;
 }	t_philo;
+
+/*struct timeval
+{
+	time_t		tv_sec;
+	suseconds_t	tv_usec;
+};*/
 
 /* Arguments manage */
 int	ft_atoi(const char *str);
@@ -58,7 +75,7 @@ void	ft_init_philos(t_philo	*lst_philo, t_args args);
 void	ft_free_philos(t_philo *lst_philo, t_args args);
 
 /* Threads functions */
-int	ft_create_threads(t_philo *lst_philo, t_args args, void *routine);
+int	ft_create_threads(t_data *data, void *routine);
 int	ft_join_threads(t_philo *lst_philo, t_args args);
 
 #endif

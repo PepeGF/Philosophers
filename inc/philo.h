@@ -41,10 +41,10 @@ typedef struct s_philo
 	pthread_mutex_t	fork;
 	struct s_philo	*right;
 	struct s_philo	*left;
-	struct s_time	*moment;
 	struct timeval	start;
 	struct timeval	end;
 	struct timeval	current;
+	struct s_args	*args;
 }	t_philo;
 
 /*struct timeval

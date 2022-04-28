@@ -19,11 +19,14 @@
 # include <pthread.h>
 # include <sys/time.h>
 
-typedef struct s_data
+typedef enum status
 {
-	struct s_args	*args;
-	struct s_philo	*lst_philo;
-}	t_data;
+	ALIVE,
+	DEAD,
+	EATING,
+	SLEEPING,
+	THINKING
+}	t_status;
 
 typedef struct s_args
 {
@@ -38,6 +41,8 @@ typedef struct s_philo
 {
 	int				id;
 	pthread_t		thread;
+	int				fork_id;
+	int				status;
 	pthread_mutex_t	fork;
 	struct s_philo	*right;
 	struct s_philo	*left;
@@ -47,16 +52,18 @@ typedef struct s_philo
 	struct s_args	*args;
 }	t_philo;
 
-/*struct timeval
+/*
+struct timeval
 {
 	time_t		tv_sec;
 	suseconds_t	tv_usec;
-};*/
+};
+*/
 
 /* Arguments manage */
-int	ft_atoi(const char *str);
-int	atoi_args(char **argv, t_args *args);
-int	arg_number_manage(int argc);
+int		ft_atoi(const char *str);
+int		atoi_args(char **argv, t_args *args);
+int		arg_number_manage(int argc);
 
 /* List functions */
 t_philo	*ft_lstnew(int id);
@@ -75,7 +82,7 @@ void	ft_init_philos(t_philo	*lst_philo, t_args args);
 void	ft_free_philos(t_philo *lst_philo, t_args args);
 
 /* Threads functions */
-int	ft_create_threads(t_data *data, void *routine);
-int	ft_join_threads(t_philo *lst_philo, t_args args);
+int		ft_create_threads(t_philo *lst_philo, void *routine);
+int		ft_join_threads(t_philo *lst_philo, t_args args);
 
 #endif

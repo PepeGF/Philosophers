@@ -1,11 +1,12 @@
 ### --- COLORS --- ###
 
-RED		= '\033[1;31m'
+RED		= '\033[31m'
 GREEN	= '\033[1;32m'
 PURPLE	= '\033[1;35m'
-YELLOW	= '\033[1;33m'
-WHITE	= '\033[1;37m'
-BLUE	= '\033[1;34m'
+YELLOW	= '\033[33m'
+WHITE	= '\033[37m'
+BLUE	= '\033[34m'
+NONE	= '\033[0m'
 
 NAME = philo
 
@@ -22,7 +23,7 @@ CC = gcc
 CFLAGS = -Wall -Werror -Wextra -g -O0
 RM = rm -f
 
-###		RULES		###
+###	--- RULES --- ###
 
 all: $(NAME)
 
@@ -31,18 +32,18 @@ bin/%.o: src/%.c
 	@$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJS)
-	@echo $(PURPLE)"[Creating philo]"$(BLUE)
+	@echo $(PURPLE)"[Creating philo]"$(NONE)
 	@$(CC) -o $(NAME) $(OBJS) -pthread #-fsanitize=address
-	@echo $(GREEN)"$(NAME): ready to be executed"$(WHITE)
+	@echo $(GREEN)"$(NAME): ready to be executed"$(NONE)
 
 clean:
 	@$(RM) $(OBJS)
 	@rm -rf bin/
-	@echo $(RED)"[Object Files Deleted]"$(WHITE)
+	@echo $(RED)"[Object Files Deleted]"$(NONE)
 
 fclean: clean
 	@$(RM) $(NAME)
-	@echo $(RED)"[Executable File Deleted]"$(WHITE)
+	@echo $(RED)"[Executable File Deleted]"$(NONE)
 
 re: fclean $(NAME)
 

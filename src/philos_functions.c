@@ -15,15 +15,13 @@ void	ft_create_philos(t_philo **lst_philo, t_args args)
 
 void	ft_init_philos(t_philo	*lst_philo, t_args args)
 {
-	t_philo	*aux;
 	int		i;
-(void)aux;
-(void)lst_philo;
-	aux = lst_philo;
+
 	i = 1;
 	while(i <= args.n_philo)
 	{
-		aux = aux->right;
+		lst_philo->args = &args;
+		lst_philo = lst_philo->right;
 		i++;
 	}
 }

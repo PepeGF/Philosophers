@@ -17,16 +17,22 @@ void	leaks()
 	system("leaks philo");
 }
 
-void	*routine(void *data)
+void	*routine(void *philo)
 {
-	printf("Hola, soy el filosofo nº %d\n", ((t_data *)data)->lst_philo->id);
-	/*int	start;
+	int	start;
 	int	end;
 	int	elapsed;
 	struct timeval	moment;
+
 	gettimeofday(&moment, NULL);
 	start = moment.tv_sec * 1000000 + moment.tv_usec;
-	// printf("%d\n", start);
+	usleep(1 / ((t_philo *)philo)->id);
+	printf("Hola, soy el filósofo nº %d\n", ((t_philo *)philo)->id);
+	gettimeofday(&moment, NULL);
+	end = moment.tv_sec * 1000000 + moment.tv_usec;
+	elapsed = end - start;
+	printf("Soy el \033[7;32m%d\033[0m, he tardado\033[31m %d\033[0m\n", ((t_philo *)philo)->id, elapsed);
+	/*// printf("%d\n", start);
 	usleep(1500000);
 	gettimeofday(&moment, NULL);
 	end = moment.tv_sec * 1000000 + moment.tv_usec;
@@ -78,7 +84,7 @@ void	ft_destroy_mutex(t_philo *lst_philo, t_args args)
 	}
 }
 
-t_data	*ft_init_data(t_philo *lst_philo, t_args *args)
+/*t_data	*ft_init_data(t_philo *lst_philo, t_args *args)
 {
 	t_data *data;
 
@@ -86,24 +92,26 @@ t_data	*ft_init_data(t_philo *lst_philo, t_args *args)
 	data->args = args;
 	data->lst_philo = lst_philo;
 	return (data);
-}
+}*/
 
 int	main(int argc, char *argv[])
 {
 	t_args	args;
 	t_philo	*lst_philo;
-	t_data	*data;
- atexit(leaks);
+	// t_data	*data;
+// atexit(leaks);
 	if (!arg_number_manage(argc) || !atoi_args(argv, &args))
 		return (1);
 	lst_philo = 0;
 	ft_create_philos(&lst_philo, args);
 	// ft_lst_len(lst_philo);
 	ft_link_list(lst_philo);
+	ft_init_philos(lst_philo, args);
+
 	//iniciar los mutex;
 	ft_create_mutex(lst_philo, args);
-	data = ft_init_data(lst_philo, &args);
-	if (ft_create_threads(data, &routine))
+	// data = ft_init_data(lst_philo, &args);
+	if (ft_create_threads(lst_philo, &routine))
 		return (1);
 	if (ft_join_threads(lst_philo, args))
 		return (1);

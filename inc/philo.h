@@ -37,6 +37,8 @@ typedef struct s_args
 	int			t_eat;
 	int			t_sleep;
 	int			n_meal;
+	bool		alive;
+	bool		hungry;
 }	t_args;
 
 typedef struct s_philo
@@ -46,9 +48,10 @@ typedef struct s_philo
 	int				meals;
 	int				r_fork_id;
 	int				l_fork_id;
-	bool			alive;
 	long long		last_meal;
 	pthread_mutex_t	fork;
+	pthread_mutex_t	mutex2;
+	pthread_mutex_t	mutex3;
 	struct s_philo	*right;
 	struct s_philo	*left;
 	struct timeval	start;
@@ -70,11 +73,6 @@ int		ft_atoi(const char *str);
 int		atoi_args(char **argv, t_args *args);
 int		arg_number_manage(int argc);
 
-/* List functions */
-t_philo	*ft_lstnew(int id);
-void	ft_lstadd_back(t_philo **lst, t_philo *new);
-t_philo	*ft_lstlast(t_philo *lst);
-
 /* Lists functions */
 t_philo	*ft_lstlast(t_philo *lst);
 void	ft_lstadd_back(t_philo **lst, t_philo *new);
@@ -82,12 +80,17 @@ t_philo	*ft_lstnew(int id);
 void	ft_link_list(t_philo *lst_philo);
 
 /* Philos functions */
-void	ft_create_philos(t_philo **lst_philo, t_args args);
-void	ft_init_philos(t_philo	*lst_philo, t_args args);
-void	ft_free_philos(t_philo *lst_philo, t_args args);
+void	ft_create_philos(t_philo **lst_philo, t_args *args);
+void	ft_init_philos(t_philo	*lst_philo, t_args *args);
+void	ft_free_philos(t_philo *lst_philo, t_args *args);
 
 /* Threads functions */
 int		ft_create_threads(t_philo *lst_philo, void *routine);
-int		ft_join_threads(t_philo *lst_philo, t_args args);
+int		ft_join_threads(t_philo *lst_philo, t_args *args);
+
+/* Action functions */
+int		ft_eating(t_philo *philo);
+void	ft_sleeping(t_philo *philo);
+void	ft_thinking(t_philo *philo);
 
 #endif

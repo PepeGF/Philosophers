@@ -19,7 +19,22 @@ void	leaks()
 
 void	*routine(void *philo)
 {
-	int	start;
+	t_philo *ph;
+	
+	ph = (t_philo *)philo;
+	if (ph->id % 2 == 0)
+		usleep(ph->args->t_eat * 1000 * 1.1); //si no funciona dejar un valor fijo
+	while (ph->args->alive == true && ph->args->hungry == true)
+	{
+		ft_eating(ph);
+		ft_sleeping(ph);
+		ft_thinking(ph);
+
+		break;//para q no sea infinito mientras pruebo.
+	}
+
+
+/*	int	start;
 	int	end;
 	int	elapsed;
 	struct timeval	moment;
@@ -35,6 +50,7 @@ void	*routine(void *philo)
 	end = moment.tv_sec * 1000000 + moment.tv_usec;
 	elapsed = end - start;
 	printf("Soy el \033[7;32m%d\033[0m, he tardado\033[31m %d\033[0m\n", ((t_philo *)philo)->id, elapsed);
+*/
 	/*// printf("%d\n", start);
 	usleep(1500000);
 	gettimeofday(&moment, NULL);
@@ -42,19 +58,26 @@ void	*routine(void *philo)
 	// printf("%d\n", end);
 	elapsed = end - start;
 	printf("%d\n", elapsed);*/
-	return 0;
+	return (NULL);
 }
 
-void	ft_create_mutex(t_philo *lst_philo, t_args args)
+void	ft_create_mutex(t_philo *lst_philo, t_args *args)
 {
 	int		i;
 	t_philo	*aux;
+//hay que gestionar la liberación y el cierre si la creación de los mutex fallan
 
 	i = 1;
 	aux = lst_philo;
-	while (i <= args.n_philo)
+	while (i <= args->n_philo)
 	{
-		pthread_mutex_init(&aux->fork, NULL);
+		if (pthread_mutex_init(&aux->fork, NULL))
+			printf("Problema creando el mutex fork nº %d\n", aux->id);
+		if (pthread_mutex_init(&aux->mutex2, NULL))
+			printf("Problema creando el mutex mutex2 nº %d\n", aux->id);
+		if (pthread_mutex_init(&aux->mutex3, NULL))
+			printf("Problema creando el mutex mutex nº %d\n", aux->id);
+
 /*		if (aux->id % 2 != 0)
 			pthread_mutex_lock(&aux->fork);
 		else
@@ -62,24 +85,29 @@ void	ft_create_mutex(t_philo *lst_philo, t_args args)
 		aux = aux->right;
 		i++;
 	}
-	i = 1;
+/*	i = 1;
 	aux = lst_philo;
-	while (i <= args.n_philo)
+	while (i <= args->n_philo)
 	{
 
 		aux = aux->right;
 		i++;
-	}
+	}*/
 }
 
-void	ft_destroy_mutex(t_philo *lst_philo, t_args args)
+void	ft_destroy_mutex(t_philo *lst_philo, t_args *args)
 {
 	int		i;
-
+//hay que gestionar la liberación y el cierre si los destroy de los mutex fallan
 	i = 1;
-	while (i <= args.n_philo)
+	while (i <= args->n_philo)
 	{
-		pthread_mutex_destroy(&lst_philo->fork);
+		if (pthread_mutex_destroy(&lst_philo->fork))
+			printf("Problema destruyendo el mutex fork nº %d\n", lst_philo->id);
+		if (pthread_mutex_destroy(&lst_philo->mutex2))
+			printf("Problema destruyendo el mutex mutex2 nº %d\n", lst_philo->id);
+		if (pthread_mutex_destroy(&lst_philo->mutex3))
+			printf("Problema destruyendo el mutex mutex3 nº %d\n", lst_philo->id);
 		lst_philo = lst_philo->right;
 		i++;
 	}
@@ -97,24 +125,25 @@ void	ft_destroy_mutex(t_philo *lst_philo, t_args args)
 
 int	main(int argc, char *argv[])
 {
-	t_args	args;
+	t_args	*args;
 	t_philo	*lst_philo;
-// atexit(leaks);
-	if (!arg_number_manage(argc) || !atoi_args(argv, &args))
+atexit(leaks);
+	args = malloc(sizeof(t_args *));
+	if (!args)
+		return (1);
+	if (!arg_number_manage(argc) || atoi_args(argv, args))
 		return (1);
 	lst_philo = 0;
 	ft_create_philos(&lst_philo, args);
 	ft_link_list(lst_philo);
 	ft_init_philos(lst_philo, args);
-
-	//iniciar los mutex;
 	ft_create_mutex(lst_philo, args);
-	// data = ft_init_data(lst_philo, &args);
 	if (ft_create_threads(lst_philo, &routine))
 		return (1);
 	if (ft_join_threads(lst_philo, args))
 		return (1);
 	ft_destroy_mutex(lst_philo, args);
 	ft_free_philos(lst_philo, args);
+	//free(args); //ojo con estoooooooooooooooooo, hay que liberarlo en más sitios
 	return (0);
 }

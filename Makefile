@@ -16,7 +16,7 @@ INCS_PATH = inc/
 BIN_PATH = bin/
 
 SRCS = main.c atoi.c arguments_manage.c list_functions.c philos_functions.c \
-		threads_functions.c
+		threads_functions.c actions.c time_functions.c
 
 OBJS = $(SRCS:%.c=bin/%.o)
 
@@ -34,7 +34,7 @@ bin/%.o: src/%.c
 
 $(NAME): $(OBJS)
 	@echo $(PURPLE)"[Creating philo]"$(NONE)
-	@$(CC) -o $(NAME) $(OBJS) -pthread -fsanitize=address
+	@$(CC) -o $(NAME) $(OBJS) -pthread #-fsanitize=address
 	@echo $(GREEN)"$(NAME): ready to be executed"$(NONE)
 
 clean:

@@ -43,7 +43,7 @@ int	atoi_args(char **argv, t_args *args)
 		if (matrix [i - 1] <= 0)
 		{
 			write(1, "Wrong argument\n", 15);
-			return (0);
+			return (1);
 		}
 		i++;
 	}
@@ -56,5 +56,7 @@ int	atoi_args(char **argv, t_args *args)
 		args->n_meal = matrix[i];
 	else
 		args->n_meal = -1;
-	return (1);
+	args->alive = true;
+	args->hungry = true;
+	return (0);
 }

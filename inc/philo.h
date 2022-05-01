@@ -18,6 +18,8 @@
 # include <stdlib.h>
 # include <pthread.h>
 # include <sys/time.h>
+# include <stdbool.h>
+# include <limits.h>
 
 typedef enum status
 {
@@ -30,19 +32,22 @@ typedef enum status
 
 typedef struct s_args
 {
-	int	n_philo;
-	int	t_die;
-	int	t_eat;
-	int	t_sleep;
-	int	n_meal;
+	int			n_philo;
+	int			t_die;
+	int			t_eat;
+	int			t_sleep;
+	int			n_meal;
 }	t_args;
 
 typedef struct s_philo
 {
 	int				id;
 	pthread_t		thread;
-	int				fork_id;
-	int				status;
+	int				meals;
+	int				r_fork_id;
+	int				l_fork_id;
+	bool			alive;
+	long long		last_meal;
 	pthread_mutex_t	fork;
 	struct s_philo	*right;
 	struct s_philo	*left;

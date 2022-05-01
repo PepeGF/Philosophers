@@ -7,6 +7,7 @@ int	ft_create_threads(t_philo *lst_philo, void *routine)
 
 	i = 1;
 	aux = lst_philo;
+	// printf("--*-*-*-*-*-*-*-***%p\n", lst_philo->args);
 	while (i <= lst_philo->args->n_philo)
 	{
 		if (pthread_create(&aux->thread, NULL, routine, aux))

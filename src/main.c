@@ -26,8 +26,11 @@ void	*routine(void *philo)
 
 	gettimeofday(&moment, NULL);
 	start = moment.tv_sec * 1000000 + moment.tv_usec;
+	printf("%i - %i\n", start, INT_MAX); 
 	usleep(1 / ((t_philo *)philo)->id);
-	printf("Hola, soy el filósofo nº %d\n", ((t_philo *)philo)->id);
+	// printf("\033[36m%p\033[0m\n", ((t_philo *)philo)->args);
+	printf("filó nº %d, el tenedorD es %d, tenedorI es %d\n", ((t_philo *)philo)->id, ((t_philo *)philo)->r_fork_id, ((t_philo *)philo)->l_fork_id);
+	printf("En total semos: %d pensadores\n", ((t_philo *)philo)->args->n_philo);
 	gettimeofday(&moment, NULL);
 	end = moment.tv_sec * 1000000 + moment.tv_usec;
 	elapsed = end - start;
@@ -72,14 +75,12 @@ void	ft_create_mutex(t_philo *lst_philo, t_args args)
 void	ft_destroy_mutex(t_philo *lst_philo, t_args args)
 {
 	int		i;
-	t_philo	*aux;
 
 	i = 1;
-	aux = lst_philo;
 	while (i <= args.n_philo)
 	{
-		pthread_mutex_destroy(&aux->fork);
-		aux = aux->right;
+		pthread_mutex_destroy(&lst_philo->fork);
+		lst_philo = lst_philo->right;
 		i++;
 	}
 }
@@ -98,13 +99,11 @@ int	main(int argc, char *argv[])
 {
 	t_args	args;
 	t_philo	*lst_philo;
-	// t_data	*data;
 // atexit(leaks);
 	if (!arg_number_manage(argc) || !atoi_args(argv, &args))
 		return (1);
 	lst_philo = 0;
 	ft_create_philos(&lst_philo, args);
-	// ft_lst_len(lst_philo);
 	ft_link_list(lst_philo);
 	ft_init_philos(lst_philo, args);
 

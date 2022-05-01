@@ -2,10 +2,11 @@
 
 RED		= '\033[31m'
 GREEN	= '\033[1;32m'
-PURPLE	= '\033[1;35m'
 YELLOW	= '\033[33m'
-WHITE	= '\033[37m'
 BLUE	= '\033[34m'
+PURPLE	= '\033[1;35m'
+CIAN	= '\033[36m'
+WHITE	= '\033[37m'
 NONE	= '\033[0m'
 
 NAME = philo
@@ -33,7 +34,7 @@ bin/%.o: src/%.c
 
 $(NAME): $(OBJS)
 	@echo $(PURPLE)"[Creating philo]"$(NONE)
-	@$(CC) -o $(NAME) $(OBJS) -pthread #-fsanitize=address
+	@$(CC) -o $(NAME) $(OBJS) -pthread -fsanitize=address
 	@echo $(GREEN)"$(NAME): ready to be executed"$(NONE)
 
 clean:

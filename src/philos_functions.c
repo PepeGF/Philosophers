@@ -18,17 +18,18 @@ void	ft_init_philos(t_philo	*lst_philo, t_args *args)
 	int		i;
 
 	i = 1;
+	args->alive = true;
+	args->hungry = true;
 	while(i <= args->n_philo)
 	{
 		lst_philo->args = args;
-		// printf("\033[33m%p\033[0m\n", lst_philo->args);
 		lst_philo->r_fork_id = i;
 		if (lst_philo->id != 1)
 			lst_philo->l_fork_id = i - 1;
 		else
 			lst_philo->l_fork_id = args->n_philo;
 		lst_philo = lst_philo->right;
-		args->alive = true;
+		
 		lst_philo->meals = -1;
 
 		i++;

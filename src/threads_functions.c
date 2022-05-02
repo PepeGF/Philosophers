@@ -3,19 +3,16 @@
 int	ft_create_threads(t_philo *lst_philo, void *routine)
 {
 	int		i;
-	t_philo	*aux;
 
 	i = 1;
-	aux = lst_philo;
-	// printf("--*-*-*-*-*-*-*-***%p\n", lst_philo->args);
 	while (i <= lst_philo->args->n_philo)
 	{
-		if (pthread_create(&aux->thread, NULL, routine, aux))
+		if (pthread_create(&lst_philo->thread, NULL, routine, lst_philo))
 		{
 			ft_free_philos(lst_philo, lst_philo->args);
 			return (1);
 		}
-		aux = aux->right;
+		lst_philo = lst_philo->right;
 		i++;
 	}
 	return (0);

@@ -39,7 +39,7 @@ typedef struct s_args
 	int			n_meal;
 	bool		alive;
 	bool		hungry;
-	long long int	zero_time;
+	long long	zero_time;
 }	t_args;
 
 typedef struct s_philo

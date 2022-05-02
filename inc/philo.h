@@ -21,25 +21,26 @@
 # include <stdbool.h>
 # include <limits.h>
 
-typedef enum status
+/*typedef enum status
 {
 	ALIVE,
 	DEAD,
 	EATING,
 	SLEEPING,
 	THINKING
-}	t_status;
+}	t_status;*/
 
 typedef struct s_args
 {
-	int			n_philo;
-	int			t_die;
-	int			t_eat;
-	int			t_sleep;
-	int			n_meal;
-	bool		alive;
-	bool		hungry;
-	long long	zero_time;
+	int				n_philo;
+	int				t_die;
+	int				t_eat;
+	int				t_sleep;
+	int				n_meal;
+	bool			alive;
+	bool			hungry;
+	long long		zero_time;
+	pthread_mutex_t	mutex_args;
 }	t_args;
 
 typedef struct s_philo
@@ -52,7 +53,6 @@ typedef struct s_philo
 	long long		last_meal;
 	pthread_mutex_t	fork;
 	pthread_mutex_t	mutex2;
-	pthread_mutex_t	mutex3;
 	struct s_philo	*right;
 	struct s_philo	*left;
 	struct timeval	start;

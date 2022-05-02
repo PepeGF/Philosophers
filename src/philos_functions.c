@@ -29,9 +29,7 @@ void	ft_init_philos(t_philo	*lst_philo, t_args *args)
 		else
 			lst_philo->l_fork_id = args->n_philo;
 		lst_philo = lst_philo->right;
-		
-		lst_philo->meals = -1;
-
+		lst_philo->meals = 0;
 		i++;
 	}
 }

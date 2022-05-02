@@ -19,16 +19,17 @@ void	leaks()
 
 void	*routine(void *philo)
 {
-	t_philo *ph;
+	// t_philo *ph;
 	
-	ph = (t_philo *)philo;
-	if (ph->id % 2 == 0)
-		usleep(ph->args->t_eat * 1000 * 1.1); //si no funciona dejar un valor fijo
-	while (ph->args->alive == true && ph->args->hungry == true)
+	// ph = (t_philo *)philo;
+	printf("ZZZZZero time in routine: %llu\n", ((t_philo *)philo)->args->zero_time);
+	if (((t_philo *)philo)->id % 2 == 0)
+		usleep(((t_philo *)philo)->args->t_eat * 100000 * 1.1); //si no funciona dejar un valor fijo
+	while (((t_philo *)philo)->args->alive == true && ((t_philo *)philo)->args->hungry == true)
 	{
-		ft_eating(ph);
-		ft_sleeping(ph);
-		ft_thinking(ph);
+		ft_eating((t_philo *)philo);
+		ft_sleeping((t_philo *)philo);
+		ft_thinking((t_philo *)philo);
 
 		break;//para q no sea infinito mientras pruebo.
 	}
@@ -123,10 +124,23 @@ void	ft_destroy_mutex(t_philo *lst_philo, t_args *args)
 	return (data);
 }*/
 
+void	verify_zero_time(t_philo *lst_philo)
+{
+	int i = 1;
+
+	while (i <= lst_philo->args->n_philo)
+	{
+		printf("Filo nº %d, tiempo_zero: %llu\n", lst_philo->id, lst_philo->args->zero_time);
+		lst_philo = lst_philo->right;
+		i++;
+	}
+}
+
 int	main(int argc, char *argv[])
 {
-	t_args	*args;
-	t_philo	*lst_philo;
+	t_args		*args;
+	t_philo		*lst_philo;
+
 atexit(leaks);
 	args = malloc(sizeof(t_args *));
 	if (!args)
@@ -138,6 +152,10 @@ atexit(leaks);
 	ft_link_list(lst_philo);
 	ft_init_philos(lst_philo, args);
 	ft_create_mutex(lst_philo, args);
+	
+	args->zero_time = ft_get_timestamp();
+	printf("Tiempo zero main: %llu\n", args->zero_time);
+	verify_zero_time(lst_philo);
 	if (ft_create_threads(lst_philo, &routine))
 		return (1);
 	if (ft_join_threads(lst_philo, args))

@@ -33,7 +33,7 @@ void	*routine(void *philo)
 		ft_sleeping(ph);
 		ft_thinking(ph);
 
-		break;//para q no sea infinito mientras pruebo.
+		// break;//para q no sea infinito mientras pruebo.
 	}
 
 	return (NULL);

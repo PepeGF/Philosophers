@@ -11,6 +11,17 @@ void	ft_print(char *msg, t_philo *philo)
 	pthread_mutex_unlock(&philo->args->mutex_args);
 }
 
+void	ft_do_nothing(t_philo *philo, int duration)
+{
+	while (philo->args->alive)
+	{
+		if ((ft_get_timestamp() - philo->last_meal) / 1000 >= duration)
+			break;
+		// usleep(duration / 100);
+		usleep(50);
+	}
+}
+
 int	ft_eating(t_philo *philo)
 {
 	pthread_mutex_lock(&philo->fork);
@@ -23,12 +34,13 @@ int	ft_eating(t_philo *philo)
 	philo->last_meal = ft_get_timestamp();
 /*	printf("%lld ms %d is eating\n", (philo->last_meal
 			- philo->args->zero_time) / 1000, philo->id);*/
-	while (philo->args->alive)
+	ft_do_nothing(philo, philo->args->t_eat);
+	/*while (philo->args->alive)
 	{
 		if (ft_get_timestamp() - philo->last_meal >= philo->args->t_eat)
 			break;
 		usleep(philo->args->t_eat / 10);
-	}
+	}*/
 	philo->meals++;
 	pthread_mutex_unlock(&philo->fork);
 	pthread_mutex_unlock(&philo->left->fork);
@@ -37,7 +49,7 @@ int	ft_eating(t_philo *philo)
 
 void	ft_sleeping(t_philo *philo)
 {
-(void)philo;
+	ft_print("is sleeping", philo);
 	return ;
 }
 

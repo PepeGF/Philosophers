@@ -17,28 +17,6 @@ void	leaks()
 	system("leaks philo");
 }
 
-void	*routine(void *philo)
-{
-	t_philo *ph;
-	t_args	*args;
-	
-	ph = (t_philo *)philo;
-	args = ph->args;
-	// printf("tiempo espera ->%f\n", args->t_eat * 1.1);
-	if (ph->id % 2 == 0)
-		usleep(args->t_eat * 1.1); //si no funciona dejar un valor fijo
-	while (args->alive == true && args->hungry == true)
-	{
-		ft_eating(ph);
-		ft_sleeping(ph);
-		ft_thinking(ph);
-
-		// break;//para q no sea infinito mientras pruebo.
-	}
-
-	return (NULL);
-}
-
 void	ft_create_mutex(t_philo *lst_philo, t_args *args)
 {
 	int		i;

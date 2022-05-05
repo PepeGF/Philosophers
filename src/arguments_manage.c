@@ -55,7 +55,7 @@ int	atoi_args(char **argv, t_args *args)
 	if (argv[i + 1])
 		args->n_meal = matrix[i];
 	else
-		args->n_meal = -1;
+		args->n_meal = 0;
 	args->alive = true;
 	args->hungry = true;
 	return (0);

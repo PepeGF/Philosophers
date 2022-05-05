@@ -90,6 +90,7 @@ int		ft_create_threads(t_philo *lst_philo, void *routine);
 int		ft_join_threads(t_philo *lst_philo, t_args *args);
 
 /* Action functions */
+void	*routine(void *philo);
 int		ft_eating(t_philo *philo);
 void	ft_sleeping(t_philo *philo);
 void	ft_thinking(t_philo *philo);

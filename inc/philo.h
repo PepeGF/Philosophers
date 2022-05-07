@@ -95,7 +95,7 @@ void	ft_sleeping(t_philo *philo);
 void	ft_thinking(t_philo *philo);
 
 /* Time functions */
-long long	ft_get_timestamp(void);
+int		ft_get_timestamp(void);
 //void	ft_set_zero_time(t_args *args);
 
 #endif

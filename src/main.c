@@ -24,18 +24,15 @@ void	*routine(void *philo)
 	
 	ph = (t_philo *)philo;
 	args = ph->args;
-	// printf("tiempo espera ->%f\n", args->t_eat * 1.1);
 	if (ph->id % 2 == 0)
-		usleep(args->t_eat * 1100); //si no funciona dejar un valor fijo
-	while (args->alive == true && args->hungry == true)
+		usleep(args->t_eat * 1000); //si no funciona dejar un valor fijo
+	while (args->alive == true)
 	{
 		ft_eating(ph);
 		ft_sleeping(ph);
 		if (args->n_meal != 0 && ph->meals == args->n_meal)
 			break;
 		ft_thinking(ph);
-
-		// break;//para q no sea infinito mientras pruebo.
 	}
 
 	return (NULL);

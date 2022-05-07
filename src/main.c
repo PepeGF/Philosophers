@@ -6,7 +6,7 @@
 /*   By: josgarci <josgarci@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/22 17:15:57 by josgarci          #+#    #+#             */
-/*   Updated: 2022/04/22 18:25:11 by josgarci         ###   ########.fr       */
+/*   Updated: 2022/05/06 19:28:40 by josgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,11 @@ void	*routine(void *philo)
 	args = ph->args;
 	// printf("tiempo espera ->%f\n", args->t_eat * 1.1);
 	if (ph->id % 2 == 0)
-		usleep(args->t_eat * 1.1); //si no funciona dejar un valor fijo
+		usleep(args->t_eat * 1100); //si no funciona dejar un valor fijo
 	while (args->alive == true && args->hungry == true)
 	{
+		if (args->n_meal != 0 && ph->meals == args->n_meal)
+			break;
 		ft_eating(ph);
 		ft_sleeping(ph);
 		ft_thinking(ph);

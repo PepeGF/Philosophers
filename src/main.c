@@ -6,7 +6,7 @@
 /*   By: josgarci <josgarci@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/22 17:15:57 by josgarci          #+#    #+#             */
-/*   Updated: 2022/05/06 19:28:40 by josgarci         ###   ########.fr       */
+/*   Updated: 2022/05/07 12:42:47 by josgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,10 @@ void	*routine(void *philo)
 		usleep(args->t_eat * 1100); //si no funciona dejar un valor fijo
 	while (args->alive == true && args->hungry == true)
 	{
-		if (args->n_meal != 0 && ph->meals == args->n_meal)
-			break;
 		ft_eating(ph);
 		ft_sleeping(ph);
+		if (args->n_meal != 0 && ph->meals == args->n_meal)
+			break;
 		ft_thinking(ph);
 
 		// break;//para q no sea infinito mientras pruebo.

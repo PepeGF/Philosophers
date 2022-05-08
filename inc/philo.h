@@ -39,7 +39,7 @@ typedef struct s_args
 	int				n_meal;
 	bool			alive;
 	bool			hungry;
-	long long		zero_time;
+	int				zero_time;
 	pthread_mutex_t	mutex_args;
 }	t_args;
 
@@ -50,7 +50,7 @@ typedef struct s_philo
 	int				meals;
 	int				r_fork_id;
 	int				l_fork_id;
-	long long		last_meal;
+	int				last_meal;
 	pthread_mutex_t	fork;
 	pthread_mutex_t	mutex2;
 	struct s_philo	*right;

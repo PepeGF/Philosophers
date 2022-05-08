@@ -5,13 +5,13 @@ void	ft_print(char *msg, t_philo *philo)
 	pthread_mutex_lock(&philo->args->mutex_args);
 	if (philo->args->alive == true)
 	{
-		printf("%lld ms %d %s\n", ft_get_timestamp()
+		printf("%d ms %d %s\n", ft_get_timestamp()
 			- philo->args->zero_time, philo->id, msg);
 	}
 	pthread_mutex_unlock(&philo->args->mutex_args);
 }
 
-void	ft_keep_eating(t_philo *philo, int duration)
+/*void	ft_keep_eating(t_philo *philo, int duration)
 {
 	while (philo->args->alive)
 	{
@@ -19,12 +19,17 @@ void	ft_keep_eating(t_philo *philo, int duration)
 			break;
 		usleep(300);
 	}
-}
+}*/
 
 int	ft_eating(t_philo *philo)
 {
 	pthread_mutex_lock(&philo->fork);
 	ft_print("has taken a RIGHT fork", philo);
+	if (philo->args->n_philo == 1)
+	{
+		pthread_mutex_unlock(&philo->fork);
+		return (1);
+	}
 	pthread_mutex_lock(&philo->left->fork);
 	ft_print("has taken a LEFT fork", philo);
 	ft_print("is eating", philo);
@@ -35,11 +40,8 @@ int	ft_eating(t_philo *philo)
 			break;
 		usleep(300);
 	}
-	// ft_keep_eating(philo, philo->args->t_eat);
 	pthread_mutex_unlock(&philo->left->fork);
-	// ft_print("has dropped LEFT fork", philo);
 	pthread_mutex_unlock(&philo->fork);
-	// ft_print("has dropped RIGHT fork", philo);
 	philo->meals++;
 	return (0);
 }

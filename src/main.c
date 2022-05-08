@@ -25,7 +25,7 @@ void	*routine(void *philo)
 	ph = (t_philo *)philo;
 	args = ph->args;
 	if (ph->id % 2 == 0)
-		usleep(args->t_eat * 1000); //si no funciona dejar un valor fijo
+		usleep(1000); //si no funciona dejar un valor fijo
 	while (args->alive == true)
 	{
 		ft_eating(ph);

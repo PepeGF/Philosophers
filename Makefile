@@ -34,9 +34,8 @@ bin/%.o: src/%.c
 
 $(NAME): $(OBJS)
 	@echo $(PURPLE)"[Creating philo]"$(NONE)
-	@$(CC) -o $(NAME) $(OBJS) -pthread -fsanitize=thread 
+	@$(CC) -o $(NAME) $(OBJS) -pthread #-fsanitize=thread 
 	#@$(CC) -o $(NAME) $(OBJS) -pthread #-fsanitize=address
-	@clear
 	@echo $(GREEN)"$(NAME): ready to be executed"$(NONE)
 
 clean:
@@ -49,6 +48,8 @@ fclean: clean
 	@echo $(RED)"[Executable File Deleted]"$(NONE)
 
 re: fclean #$(NAME)
+	@sleep 2
+	@clear
 	@$(MAKE)	
 	
 .PHONY: all clean fclean re

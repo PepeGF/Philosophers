@@ -55,9 +55,6 @@ typedef struct s_philo
 	pthread_mutex_t	mutex2;
 	struct s_philo	*right;
 	struct s_philo	*left;
-	struct timeval	start;
-	struct timeval	end;
-	struct timeval	current;
 	struct s_args	*args;
 }	t_philo;
 
@@ -88,6 +85,8 @@ void	ft_free_philos(t_philo *lst_philo, t_args *args);
 /* Threads functions */
 int		ft_create_threads(t_philo *lst_philo, void *routine);
 int		ft_join_threads(t_philo *lst_philo, t_args *args);
+void	ft_create_mutex(t_philo *lst_philo, t_args *args);
+void	ft_destroy_mutex(t_philo *lst_philo, t_args *args);
 
 /* Action functions */
 int		ft_eating(t_philo *philo);
@@ -97,5 +96,6 @@ void	ft_thinking(t_philo *philo);
 /* Time functions */
 int		ft_get_timestamp(void);
 //void	ft_set_zero_time(t_args *args);
+
 
 #endif

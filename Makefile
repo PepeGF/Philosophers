@@ -34,8 +34,8 @@ bin/%.o: src/%.c
 
 $(NAME): $(OBJS)
 	@echo $(PURPLE)"[Creating philo]"$(NONE)
-	@$(CC) -o $(NAME) $(OBJS) -pthread #-fsanitize=thread 
-	#@$(CC) -o $(NAME) $(OBJS) -pthread #-fsanitize=address
+	#@$(CC) -o $(NAME) $(OBJS) -pthread -fsanitize=thread 
+	@$(CC) -o $(NAME) $(OBJS) -pthread #-fsanitize=address
 	@echo $(GREEN)"$(NAME): ready to be executed"$(NONE)
 
 clean:

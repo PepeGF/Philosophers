@@ -31,8 +31,8 @@ void	ft_create_mutex(t_philo *lst_philo, t_args *args)
 	{
 		if (pthread_mutex_init(&aux->fork, NULL))
 			printf("Problema creando el mutex fork nº %d\n", aux->id);
-		if (pthread_mutex_init(&aux->mutex2, NULL))
-			printf("Problema creando el mutex mutex2 nº %d\n", aux->id);
+		// if (pthread_mutex_init(&aux->mutex2, NULL))
+		// 	printf("Problema creando el mutex mutex2 nº %d\n", aux->id);
 		aux = aux->right;
 		i++;
 	}
@@ -49,11 +49,30 @@ void	ft_destroy_mutex(t_philo *lst_philo, t_args *args)
 	{
 		if (pthread_mutex_destroy(&lst_philo->fork))
 			printf("Problema destruyendo el mutex fork nº %d\n", lst_philo->id);
-		if (pthread_mutex_destroy(&lst_philo->mutex2))
-			printf("Problema destruyendo el mutex mutex2 nº %d\n", lst_philo->id);
+		// if (pthread_mutex_destroy(&lst_philo->mutex2))
+		// 	printf("Problema destruyendo el mutex mutex2 nº %d\n", lst_philo->id);
 		
 		lst_philo = lst_philo->right;
 		i++;
+	}
+}
+
+void	ft_check_death(t_philo *philo, t_args *args)
+{
+	t_philo	*aux;
+
+	aux = philo;
+	while (args->alive && args->hungry)
+	{
+		pthread_mutex_lock(&args->mutex_args);
+		if ((ft_get_timestamp() - aux->last_meal) / 1000 > args->t_die)
+		{
+			args->alive = false;
+			ft_print("is dead", aux);
+		}
+		pthread_mutex_unlock(&args->mutex_args);
+		aux = philo->right;
+		break ;
 	}
 }
 
@@ -77,6 +96,7 @@ int	main(int argc, char *argv[])
 	args->zero_time = ft_get_timestamp();
 	if (ft_create_threads(lst_philo, &routine))
 		return (1);
+	ft_check_death(lst_philo, args);
 	if (ft_join_threads(lst_philo, args))
 		return (1);
 	ft_destroy_mutex(lst_philo, args);

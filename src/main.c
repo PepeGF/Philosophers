@@ -17,27 +17,6 @@ void	leaks()
 	system("leaks philo");
 }
 
-void	*routine(void *philo)
-{
-	t_philo *ph;
-	t_args	*args;
-	
-	ph = (t_philo *)philo;
-	args = ph->args;
-	if (ph->id % 2 == 0)
-		usleep(1000); //si no funciona dejar un valor fijo
-	while (args->alive == true)
-	{
-		ft_eating(ph);
-		ft_sleeping(ph);
-		if (args->n_meal != 0 && ph->meals == args->n_meal)
-			break;
-		ft_thinking(ph);
-	}
-
-	return (NULL);
-}
-
 void	ft_check_status(t_philo *lst_philo, t_args *args)
 {
 	t_philo	*aux;
@@ -59,12 +38,34 @@ void	ft_check_status(t_philo *lst_philo, t_args *args)
 	}
 }
 
+void	ft_check_death(t_philo *philo, t_args *args)
+{
+	t_philo	*aux;
+int i = 0;
+	aux = philo;
+	while (args->alive && args->hungry && i < 200)
+	{
+		if (!pthread_mutex_lock(&args->mutex_args))
+			printf("\n%s\n\n", "\033[1;31mWOLOLO\033[0m");
+		if ((ft_get_timestamp() - aux->last_meal) / 1000 > args->t_die)
+		{//revisar esto xq nunca entra aquí
+			args->alive = false;
+			ft_print("is dead", aux);
+		}
+		if (!pthread_mutex_unlock(&args->mutex_args))
+			printf("\n%s\n\n", "\033[1;32mWOLOLO\033[0m");
+		aux = philo->right;
+		i++;
+		usleep(100);
+	}
+}
+
 int	main(int argc, char *argv[])
 {
 	t_args		*args;
 	t_philo		*lst_philo;
 
- atexit(leaks);
+ // atexit(leaks);
 	args = malloc(sizeof(t_args));
 	if (!args)
 		return (1);
@@ -78,7 +79,7 @@ int	main(int argc, char *argv[])
 	args->zero_time = ft_get_timestamp();
 	if (ft_create_threads(lst_philo, &routine))
 		return (1);
-//	ft_check_status(lst_philo, args);
+	ft_check_death(lst_philo, args);
 	if (ft_join_threads(lst_philo, args))
 		return (1);
 	ft_destroy_mutex(lst_philo, args);

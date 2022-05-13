@@ -21,15 +21,6 @@
 # include <stdbool.h>
 # include <limits.h>
 
-/*typedef enum status
-{
-	ALIVE,
-	DEAD,
-	EATING,
-	SLEEPING,
-	THINKING
-}	t_status;*/
-
 typedef struct s_args
 {
 	int				n_philo;
@@ -41,6 +32,7 @@ typedef struct s_args
 	bool			hungry;
 	int				zero_time;
 	pthread_mutex_t	mutex_args;
+	pthread_mutex_t	mutex_print;//puede que no sea necesario
 }	t_args;
 
 typedef struct s_philo
@@ -57,14 +49,6 @@ typedef struct s_philo
 	struct s_philo	*left;
 	struct s_args	*args;
 }	t_philo;
-
-/*
-struct timeval
-{
-	time_t		tv_sec;
-	suseconds_t	tv_usec;
-};
-*/
 
 /* Arguments manage */
 int		ft_atoi(const char *str);
@@ -89,6 +73,7 @@ void	ft_create_mutex(t_philo *lst_philo, t_args *args);
 void	ft_destroy_mutex(t_philo *lst_philo, t_args *args);
 
 /* Action functions */
+void	*routine(void *philo);
 int		ft_eating(t_philo *philo);
 void	ft_sleeping(t_philo *philo);
 void	ft_thinking(t_philo *philo);
@@ -97,5 +82,5 @@ void	ft_thinking(t_philo *philo);
 int		ft_get_timestamp(void);
 //void	ft_set_zero_time(t_args *args);
 
-
+void	ft_print(char *msg, t_philo *philo);
 #endif

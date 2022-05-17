@@ -2,6199 +2,1730 @@
 0 ms 1 has taken a LEFT fork
 0 ms 1 is eating
 0 ms 3 has taken a RIGHT fork
-0 ms 13 has taken a RIGHT fork
-0 ms 13 has taken a LEFT fork
-0 ms 13 is eating
 0 ms 11 has taken a RIGHT fork
 0 ms 11 has taken a LEFT fork
-0 ms 7 has taken a RIGHT fork
 0 ms 11 is eating
-0 ms 7 has taken a LEFT fork
-0 ms 7 is eating
 0 ms 5 has taken a RIGHT fork
+0 ms 3 has taken a LEFT fork
 0 ms 5 has taken a LEFT fork
 0 ms 5 is eating
-0 ms 3 has taken a LEFT fork
 0 ms 3 is eating
+0 ms 7 has taken a RIGHT fork
+0 ms 7 has taken a LEFT fork
+0 ms 7 is eating
+0 ms 9 has taken a RIGHT fork
+0 ms 9 has taken a LEFT fork
+0 ms 15 has taken a RIGHT fork
+0 ms 13 has taken a RIGHT fork
+0 ms 15 has taken a LEFT fork
 0 ms 17 has taken a RIGHT fork
+0 ms 15 is eating
+0 ms 9 is eating
+0 ms 13 has taken a LEFT fork
+0 ms 13 is eating
 0 ms 17 has taken a LEFT fork
 0 ms 17 is eating
-0 ms 9 has taken a RIGHT fork
 0 ms 19 has taken a RIGHT fork
 0 ms 19 has taken a LEFT fork
 0 ms 19 is eating
-0 ms 15 has taken a RIGHT fork
-0 ms 15 has taken a LEFT fork
-0 ms 15 is eating
-0 ms 9 has taken a LEFT fork
-0 ms 9 is eating
-0 ms 21 has taken a RIGHT fork
-0 ms 21 has taken a LEFT fork
-0 ms 21 is eating
-0 ms 23 has taken a RIGHT fork
-0 ms 23 has taken a LEFT fork
-0 ms 23 is eating
-0 ms 25 has taken a RIGHT fork
-0 ms 25 has taken a LEFT fork
-0 ms 25 is eating
-0 ms 27 has taken a RIGHT fork
-0 ms 27 has taken a LEFT fork
-0 ms 27 is eating
-0 ms 29 has taken a RIGHT fork
-0 ms 29 has taken a LEFT fork
-0 ms 29 is eating
-0 ms 31 has taken a RIGHT fork
-0 ms 31 has taken a LEFT fork
-0 ms 31 is eating
-0 ms 33 has taken a RIGHT fork
-0 ms 33 has taken a LEFT fork
-0 ms 33 is eating
-0 ms 35 has taken a RIGHT fork
-0 ms 35 has taken a LEFT fork
-0 ms 35 is eating
-0 ms 37 has taken a RIGHT fork
-0 ms 37 has taken a LEFT fork
-0 ms 37 is eating
-0 ms 39 has taken a RIGHT fork
-0 ms 39 has taken a LEFT fork
-0 ms 39 is eating
-0 ms 41 has taken a RIGHT fork
-0 ms 41 has taken a LEFT fork
-0 ms 41 is eating
-0 ms 43 has taken a RIGHT fork
-0 ms 43 has taken a LEFT fork
-0 ms 43 is eating
-1 ms 45 has taken a RIGHT fork
-1 ms 45 has taken a LEFT fork
-1 ms 45 is eating
-1 ms 47 has taken a RIGHT fork
-1 ms 47 has taken a LEFT fork
-1 ms 47 is eating
-1 ms 49 has taken a RIGHT fork
-1 ms 49 has taken a LEFT fork
-1 ms 49 is eating
-1 ms 51 has taken a RIGHT fork
-1 ms 51 has taken a LEFT fork
-1 ms 51 is eating
-1 ms 53 has taken a RIGHT fork
-1 ms 53 has taken a LEFT fork
-1 ms 53 is eating
-1 ms 55 has taken a RIGHT fork
-1 ms 55 has taken a LEFT fork
-1 ms 55 is eating
-1 ms 57 has taken a RIGHT fork
-1 ms 57 has taken a LEFT fork
-1 ms 57 is eating
-1 ms 59 has taken a RIGHT fork
-1 ms 59 has taken a LEFT fork
-1 ms 59 is eating
-1 ms 61 has taken a RIGHT fork
-1 ms 61 has taken a LEFT fork
-1 ms 61 is eating
-1 ms 63 has taken a RIGHT fork
-1 ms 63 has taken a LEFT fork
-1 ms 63 is eating
-1 ms 65 has taken a RIGHT fork
-1 ms 65 has taken a LEFT fork
-1 ms 65 is eating
-1 ms 67 has taken a RIGHT fork
-1 ms 67 has taken a LEFT fork
-1 ms 67 is eating
-1 ms 69 has taken a RIGHT fork
-1 ms 69 has taken a LEFT fork
-1 ms 69 is eating
-1 ms 71 has taken a RIGHT fork
-1 ms 71 has taken a LEFT fork
-1 ms 71 is eating
-1 ms 73 has taken a RIGHT fork
-1 ms 73 has taken a LEFT fork
-1 ms 73 is eating
-1 ms 75 has taken a RIGHT fork
-1 ms 75 has taken a LEFT fork
-1 ms 75 is eating
-1 ms 77 has taken a RIGHT fork
-1 ms 77 has taken a LEFT fork
-1 ms 77 is eating
-1 ms 79 has taken a RIGHT fork
-1 ms 79 has taken a LEFT fork
-1 ms 79 is eating
-1 ms 81 has taken a RIGHT fork
-1 ms 81 has taken a LEFT fork
-1 ms 81 is eating
-1 ms 83 has taken a RIGHT fork
-1 ms 83 has taken a LEFT fork
-1 ms 83 is eating
-1 ms 85 has taken a RIGHT fork
-1 ms 85 has taken a LEFT fork
-1 ms 85 is eating
-1 ms 87 has taken a RIGHT fork
-1 ms 87 has taken a LEFT fork
-1 ms 87 is eating
-1 ms 89 has taken a RIGHT fork
-1 ms 89 has taken a LEFT fork
-1 ms 89 is eating
-1 ms 91 has taken a RIGHT fork
-1 ms 91 has taken a LEFT fork
-1 ms 91 is eating
-1 ms 93 has taken a RIGHT fork
-1 ms 93 has taken a LEFT fork
-1 ms 93 is eating
-1 ms 95 has taken a RIGHT fork
-1 ms 95 has taken a LEFT fork
-1 ms 95 is eating
-1 ms 97 has taken a RIGHT fork
-1 ms 97 has taken a LEFT fork
-1 ms 97 is eating
-1 ms 99 has taken a RIGHT fork
-1 ms 99 has taken a LEFT fork
-1 ms 99 is eating
-1 ms 101 has taken a RIGHT fork
-1 ms 101 has taken a LEFT fork
-1 ms 101 is eating
-1 ms 103 has taken a RIGHT fork
-1 ms 103 has taken a LEFT fork
-1 ms 103 is eating
-1 ms 105 has taken a RIGHT fork
-1 ms 105 has taken a LEFT fork
-1 ms 105 is eating
-1 ms 107 has taken a RIGHT fork
-1 ms 107 has taken a LEFT fork
-1 ms 107 is eating
-1 ms 109 has taken a RIGHT fork
-1 ms 109 has taken a LEFT fork
-1 ms 109 is eating
-1 ms 111 has taken a RIGHT fork
-1 ms 111 has taken a LEFT fork
-1 ms 111 is eating
-1 ms 113 has taken a RIGHT fork
-1 ms 113 has taken a LEFT fork
-1 ms 113 is eating
-1 ms 115 has taken a RIGHT fork
-1 ms 115 has taken a LEFT fork
-1 ms 115 is eating
-1 ms 117 has taken a RIGHT fork
-1 ms 117 has taken a LEFT fork
-1 ms 117 is eating
-1 ms 119 has taken a RIGHT fork
-1 ms 119 has taken a LEFT fork
-1 ms 119 is eating
-1 ms 121 has taken a RIGHT fork
-1 ms 121 has taken a LEFT fork
-1 ms 121 is eating
-1 ms 123 has taken a RIGHT fork
-1 ms 123 has taken a LEFT fork
-1 ms 123 is eating
-1 ms 125 has taken a RIGHT fork
-1 ms 125 has taken a LEFT fork
-1 ms 125 is eating
-1 ms 127 has taken a RIGHT fork
-1 ms 127 has taken a LEFT fork
-1 ms 127 is eating
-1 ms 129 has taken a RIGHT fork
-1 ms 129 has taken a LEFT fork
-1 ms 129 is eating
-1 ms 131 has taken a RIGHT fork
-1 ms 131 has taken a LEFT fork
-1 ms 131 is eating
-1 ms 133 has taken a RIGHT fork
-1 ms 133 has taken a LEFT fork
-1 ms 133 is eating
-1 ms 135 has taken a RIGHT fork
-1 ms 135 has taken a LEFT fork
-1 ms 135 is eating
-1 ms 137 has taken a RIGHT fork
-1 ms 137 has taken a LEFT fork
-1 ms 137 is eating
-1 ms 139 has taken a RIGHT fork
-1 ms 139 has taken a LEFT fork
-1 ms 139 is eating
-1 ms 141 has taken a RIGHT fork
-1 ms 141 has taken a LEFT fork
-1 ms 141 is eating
-1 ms 143 has taken a RIGHT fork
-1 ms 143 has taken a LEFT fork
-1 ms 143 is eating
-1 ms 145 has taken a RIGHT fork
-1 ms 145 has taken a LEFT fork
-1 ms 145 is eating
-1 ms 147 has taken a RIGHT fork
-1 ms 147 has taken a LEFT fork
-1 ms 147 is eating
-1 ms 149 has taken a RIGHT fork
-1 ms 149 has taken a LEFT fork
-1 ms 149 is eating
-1 ms 151 has taken a RIGHT fork
-1 ms 151 has taken a LEFT fork
-1 ms 151 is eating
-1 ms 153 has taken a RIGHT fork
-1 ms 153 has taken a LEFT fork
-1 ms 153 is eating
-1 ms 155 has taken a RIGHT fork
-1 ms 155 has taken a LEFT fork
-1 ms 155 is eating
-1 ms 157 has taken a RIGHT fork
-1 ms 157 has taken a LEFT fork
-1 ms 157 is eating
-1 ms 159 has taken a RIGHT fork
-1 ms 159 has taken a LEFT fork
-1 ms 159 is eating
-1 ms 161 has taken a RIGHT fork
-1 ms 161 has taken a LEFT fork
-1 ms 161 is eating
-1 ms 163 has taken a RIGHT fork
-1 ms 163 has taken a LEFT fork
-1 ms 163 is eating
-1 ms 165 has taken a RIGHT fork
-1 ms 165 has taken a LEFT fork
-1 ms 165 is eating
-1 ms 167 has taken a RIGHT fork
-1 ms 167 has taken a LEFT fork
-1 ms 167 is eating
-1 ms 169 has taken a RIGHT fork
-1 ms 169 has taken a LEFT fork
-1 ms 169 is eating
-1 ms 171 has taken a RIGHT fork
-1 ms 171 has taken a LEFT fork
-1 ms 171 is eating
-1 ms 173 has taken a RIGHT fork
-1 ms 173 has taken a LEFT fork
-1 ms 173 is eating
-1 ms 175 has taken a RIGHT fork
-1 ms 175 has taken a LEFT fork
-1 ms 175 is eating
-1 ms 177 has taken a RIGHT fork
-1 ms 177 has taken a LEFT fork
-1 ms 177 is eating
-1 ms 179 has taken a RIGHT fork
-1 ms 179 has taken a LEFT fork
-1 ms 179 is eating
-1 ms 181 has taken a RIGHT fork
-1 ms 181 has taken a LEFT fork
-1 ms 181 is eating
-1 ms 183 has taken a RIGHT fork
-1 ms 183 has taken a LEFT fork
-1 ms 183 is eating
-1 ms 185 has taken a RIGHT fork
-1 ms 185 has taken a LEFT fork
-1 ms 185 is eating
-1 ms 187 has taken a RIGHT fork
-1 ms 187 has taken a LEFT fork
-1 ms 187 is eating
-1 ms 189 has taken a RIGHT fork
-1 ms 189 has taken a LEFT fork
-1 ms 189 is eating
-1 ms 191 has taken a RIGHT fork
-1 ms 191 has taken a LEFT fork
-1 ms 191 is eating
-1 ms 193 has taken a RIGHT fork
-1 ms 193 has taken a LEFT fork
-1 ms 193 is eating
-2 ms 195 has taken a RIGHT fork
-2 ms 195 has taken a LEFT fork
-2 ms 195 is eating
-2 ms 197 has taken a RIGHT fork
-2 ms 197 has taken a LEFT fork
-2 ms 197 is eating
-2 ms 199 has taken a RIGHT fork
-2 ms 199 has taken a LEFT fork
-2 ms 199 is eating
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-
-[1;31mWOLOLO[0m
-
-
-[1;32mWOLOLO[0m
-
-150 ms 7 is sleeping
-150 ms 27 is sleeping
-150 ms 31 is sleeping
-150 ms 1 is sleeping
-150 ms 19 is sleeping
-150 ms 6 has taken a RIGHT fork
-150 ms 9 is sleeping
-150 ms 33 is sleeping
-150 ms 43 is sleeping
-150 ms 26 has taken a RIGHT fork
-150 ms 15 is sleeping
-150 ms 22 has taken a RIGHT fork
-150 ms 22 has taken a LEFT fork
-150 ms 22 is eating
-150 ms 8 has taken a RIGHT fork
-150 ms 8 has taken a LEFT fork
-150 ms 8 is eating
-150 ms 200 has taken a RIGHT fork
-150 ms 18 has taken a RIGHT fork
-150 ms 18 has taken a LEFT fork
-150 ms 36 has taken a RIGHT fork
-150 ms 36 has taken a LEFT fork
-150 ms 37 is sleeping
-150 ms 13 is sleeping
-150 ms 16 has taken a RIGHT fork
-150 ms 16 has taken a LEFT fork
-150 ms 16 is eating
-150 ms 28 has taken a RIGHT fork
-150 ms 29 is sleeping
-150 ms 28 has taken a LEFT fork
-150 ms 4 has taken a RIGHT fork
-150 ms 2 has taken a RIGHT fork
-150 ms 4 has taken a LEFT fork
-150 ms 2 has taken a LEFT fork
-150 ms 4 is eating
-150 ms 20 has taken a RIGHT fork
-150 ms 14 has taken a RIGHT fork
-150 ms 2 is eating
-150 ms 14 has taken a LEFT fork
-150 ms 14 is eating
-150 ms 34 has taken a RIGHT fork
-150 ms 34 has taken a LEFT fork
-150 ms 12 has taken a RIGHT fork
-150 ms 40 has taken a RIGHT fork
-150 ms 12 has taken a LEFT fork
-150 ms 40 has taken a LEFT fork
-150 ms 12 is eating
-150 ms 40 is eating
-150 ms 24 has taken a RIGHT fork
-150 ms 26 has taken a LEFT fork
-150 ms 24 has taken a LEFT fork
-150 ms 39 is sleeping
-150 ms 26 is eating
-150 ms 24 is eating
-150 ms 18 is eating
-150 ms 32 has taken a RIGHT fork
-150 ms 42 has taken a RIGHT fork
-150 ms 28 is eating
-150 ms 32 has taken a LEFT fork
-150 ms 32 is eating
-150 ms 6 has taken a LEFT fork
-150 ms 3 is sleeping
-150 ms 6 is eating
-150 ms 30 has taken a RIGHT fork
-150 ms 30 has taken a LEFT fork
-150 ms 21 is sleeping
-150 ms 30 is eating
-150 ms 10 has taken a RIGHT fork
-150 ms 10 has taken a LEFT fork
-150 ms 10 is eating
-150 ms 23 is sleeping
-150 ms 41 is sleeping
-150 ms 17 is sleeping
-150 ms 20 has taken a LEFT fork
-150 ms 20 is eating
-150 ms 5 is sleeping
-150 ms 35 is sleeping
-150 ms 34 is eating
-150 ms 25 is sleeping
-150 ms 38 has taken a RIGHT fork
-150 ms 38 has taken a LEFT fork
-150 ms 38 is eating
-150 ms 36 is eating
-150 ms 11 is sleeping
-150 ms 42 has taken a LEFT fork
-150 ms 42 is eating
-151 ms 173 is sleeping
-151 ms 131 is sleeping
-151 ms 130 has taken a RIGHT fork
-151 ms 145 is sleeping
-151 ms 164 has taken a RIGHT fork
-151 ms 172 has taken a RIGHT fork
-151 ms 144 has taken a RIGHT fork
-151 ms 153 is sleeping
-151 ms 152 has taken a RIGHT fork
-151 ms 83 is sleeping
-151 ms 82 has taken a RIGHT fork
-151 ms 85 is sleeping
-151 ms 133 is sleeping
-151 ms 87 is sleeping
-151 ms 155 is sleeping
-151 ms 123 is sleeping
-151 ms 107 is sleeping
-151 ms 132 has taken a RIGHT fork
-151 ms 132 has taken a LEFT fork
-151 ms 146 has taken a RIGHT fork
-151 ms 132 is eating
-151 ms 146 has taken a LEFT fork
-151 ms 91 is sleeping
-151 ms 146 is eating
-151 ms 86 has taken a RIGHT fork
-151 ms 86 has taken a LEFT fork
-151 ms 86 is eating
-151 ms 154 has taken a RIGHT fork
-151 ms 141 is sleeping
-151 ms 189 is sleeping
-151 ms 154 has taken a LEFT fork
-151 ms 154 is eating
-151 ms 51 is sleeping
-151 ms 89 is sleeping
-151 ms 187 is sleeping
-151 ms 170 has taken a RIGHT fork
-151 ms 177 is sleeping
-151 ms 149 is sleeping
-151 ms 75 is sleeping
-151 ms 167 is sleeping
-151 ms 49 is sleeping
-151 ms 53 is sleeping
-151 ms 117 is sleeping
-151 ms 59 is sleeping
-151 ms 191 is sleeping
-151 ms 163 is sleeping
-151 ms 119 is sleeping
-151 ms 95 is sleeping
-151 ms 99 is sleeping
-151 ms 136 has taken a RIGHT fork
-151 ms 64 has taken a RIGHT fork
-151 ms 122 has taken a RIGHT fork
-151 ms 97 is sleeping
-151 ms 137 is sleeping
-151 ms 165 is sleeping
-151 ms 65 is sleeping
-151 ms 57 is sleeping
-151 ms 113 is sleeping
-151 ms 71 is sleeping
-151 ms 60 has taken a RIGHT fork
-151 ms 60 has taken a LEFT fork
-151 ms 93 is sleeping
-151 ms 60 is eating
-151 ms 181 is sleeping
-151 ms 159 is sleeping
-151 ms 140 has taken a RIGHT fork
-151 ms 120 has taken a RIGHT fork
-151 ms 120 has taken a LEFT fork
-151 ms 120 is eating
-151 ms 55 is sleeping
-151 ms 188 has taken a RIGHT fork
-151 ms 188 has taken a LEFT fork
-151 ms 188 is eating
-151 ms 135 is sleeping
-151 ms 69 is sleeping
-151 ms 127 is sleeping
-151 ms 63 is sleeping
-151 ms 50 has taken a RIGHT fork
-151 ms 121 is sleeping
-151 ms 186 has taken a RIGHT fork
-151 ms 67 is sleeping
-151 ms 46 has taken a RIGHT fork
-151 ms 186 has taken a LEFT fork
-151 ms 47 is sleeping
-151 ms 182 has taken a RIGHT fork
-151 ms 148 has taken a RIGHT fork
-151 ms 166 has taken a RIGHT fork
-151 ms 74 has taken a RIGHT fork
-151 ms 166 has taken a LEFT fork
-151 ms 81 is sleeping
-151 ms 166 is eating
-151 ms 101 is sleeping
-151 ms 44 has taken a RIGHT fork
-151 ms 52 has taken a RIGHT fork
-151 ms 52 has taken a LEFT fork
-151 ms 58 has taken a RIGHT fork
-151 ms 45 is sleeping
-151 ms 58 has taken a LEFT fork
-151 ms 110 has taken a RIGHT fork
-151 ms 58 is eating
-151 ms 105 is sleeping
-151 ms 110 has taken a LEFT fork
-151 ms 115 is sleeping
-151 ms 168 has taken a RIGHT fork
-151 ms 110 is eating
-151 ms 94 has taken a RIGHT fork
-151 ms 168 has taken a LEFT fork
-151 ms 142 has taken a RIGHT fork
-151 ms 98 has taken a RIGHT fork
-151 ms 142 has taken a LEFT fork
-151 ms 98 has taken a LEFT fork
-151 ms 142 is eating
-151 ms 111 is sleeping
-151 ms 168 is eating
-151 ms 96 has taken a RIGHT fork
-151 ms 96 has taken a LEFT fork
-151 ms 171 is sleeping
-151 ms 106 has taken a RIGHT fork
-151 ms 147 is sleeping
-151 ms 106 has taken a LEFT fork
-151 ms 56 has taken a RIGHT fork
-151 ms 106 is eating
-151 ms 84 has taken a RIGHT fork
-151 ms 151 is sleeping
-151 ms 84 has taken a LEFT fork
-151 ms 70 has taken a RIGHT fork
-151 ms 84 is eating
-151 ms 70 has taken a LEFT fork
-151 ms 129 is sleeping
-151 ms 68 has taken a RIGHT fork
-151 ms 66 has taken a RIGHT fork
-151 ms 68 has taken a LEFT fork
-151 ms 180 has taken a RIGHT fork
-151 ms 103 is sleeping
-151 ms 134 has taken a RIGHT fork
-151 ms 54 has taken a RIGHT fork
-151 ms 134 has taken a LEFT fork
-151 ms 140 has taken a LEFT fork
-151 ms 140 is eating
-151 ms 126 has taken a RIGHT fork
-151 ms 62 has taken a RIGHT fork
-151 ms 64 has taken a LEFT fork
-151 ms 62 has taken a LEFT fork
-151 ms 64 is eating
-151 ms 62 is eating
-151 ms 175 is sleeping
-151 ms 61 is sleeping
-151 ms 124 has taken a RIGHT fork
-151 ms 124 has taken a LEFT fork
-151 ms 50 has taken a LEFT fork
-151 ms 178 has taken a RIGHT fork
-151 ms 50 is eating
-151 ms 72 has taken a RIGHT fork
-151 ms 78 has taken a RIGHT fork
-151 ms 72 has taken a LEFT fork
-151 ms 178 has taken a LEFT fork
-151 ms 178 is eating
-151 ms 72 is eating
-151 ms 46 has taken a LEFT fork
-151 ms 46 is eating
-151 ms 77 is sleeping
-151 ms 179 is sleeping
-151 ms 82 has taken a LEFT fork
-151 ms 108 has taken a RIGHT fork
-151 ms 79 is sleeping
-151 ms 100 has taken a RIGHT fork
-151 ms 193 is sleeping
-151 ms 100 has taken a LEFT fork
-151 ms 88 has taken a RIGHT fork
-151 ms 100 is eating
-151 ms 186 is eating
-151 ms 88 has taken a LEFT fork
-151 ms 182 has taken a LEFT fork
-151 ms 88 is eating
-151 ms 182 is eating
-151 ms 104 has taken a RIGHT fork
-151 ms 183 is sleeping
-151 ms 109 is sleeping
-151 ms 48 has taken a RIGHT fork
-151 ms 48 has taken a LEFT fork
-151 ms 44 has taken a LEFT fork
-151 ms 48 is eating
-151 ms 44 is eating
-151 ms 114 has taken a RIGHT fork
-151 ms 162 has taken a RIGHT fork
-151 ms 114 has taken a LEFT fork
-151 ms 74 has taken a LEFT fork
-151 ms 114 is eating
-151 ms 190 has taken a RIGHT fork
-151 ms 190 has taken a LEFT fork
-151 ms 164 has taken a LEFT fork
-151 ms 52 is eating
-151 ms 118 has taken a RIGHT fork
-151 ms 118 has taken a LEFT fork
-151 ms 170 has taken a LEFT fork
-151 ms 161 is sleeping
-151 ms 170 is eating
-151 ms 144 has taken a LEFT fork
-151 ms 96 is eating
-151 ms 150 has taken a RIGHT fork
-151 ms 144 is eating
-151 ms 150 has taken a LEFT fork
-151 ms 150 is eating
-151 ms 112 has taken a RIGHT fork
-151 ms 128 has taken a RIGHT fork
-151 ms 90 has taken a RIGHT fork
-151 ms 56 has taken a LEFT fork
-151 ms 90 has taken a LEFT fork
-151 ms 70 is eating
-151 ms 102 has taken a RIGHT fork
-151 ms 68 is eating
-151 ms 102 has taken a LEFT fork
-151 ms 158 has taken a RIGHT fork
-151 ms 66 has taken a LEFT fork
-151 ms 66 is eating
-151 ms 180 has taken a LEFT fork
-151 ms 138 has taken a RIGHT fork
-151 ms 90 is eating
-151 ms 138 has taken a LEFT fork
-151 ms 138 is eating
-151 ms 102 is eating
-151 ms 56 is eating
-151 ms 136 has taken a LEFT fork
-151 ms 136 is eating
-151 ms 54 has taken a LEFT fork
-151 ms 54 is eating
-151 ms 139 is sleeping
-151 ms 73 is sleeping
-151 ms 116 has taken a RIGHT fork
-151 ms 82 is eating
-151 ms 116 has taken a LEFT fork
-151 ms 74 is eating
-151 ms 116 is eating
-151 ms 160 has taken a RIGHT fork
-151 ms 190 is eating
-151 ms 160 has taken a LEFT fork
-151 ms 162 has taken a LEFT fork
-151 ms 172 has taken a LEFT fork
-151 ms 162 is eating
-151 ms 118 is eating
-151 ms 172 is eating
-151 ms 98 is eating
-151 ms 122 has taken a LEFT fork
-151 ms 122 is eating
-151 ms 112 has taken a LEFT fork
-151 ms 112 is eating
-151 ms 180 is eating
-151 ms 134 is eating
-151 ms 125 is sleeping
-151 ms 156 has taken a RIGHT fork
-151 ms 184 has taken a RIGHT fork
-151 ms 156 has taken a LEFT fork
-151 ms 184 has taken a LEFT fork
-151 ms 156 is eating
-151 ms 157 is sleeping
-151 ms 184 is eating
-151 ms 76 has taken a RIGHT fork
-151 ms 76 has taken a LEFT fork
-151 ms 76 is eating
-151 ms 185 is sleeping
-151 ms 108 has taken a LEFT fork
-151 ms 126 has taken a LEFT fork
-151 ms 108 is eating
-151 ms 176 has taken a RIGHT fork
-151 ms 80 has taken a RIGHT fork
-151 ms 80 has taken a LEFT fork
-151 ms 80 is eating
-151 ms 164 is eating
-151 ms 143 is sleeping
-151 ms 92 has taken a RIGHT fork
-151 ms 92 has taken a LEFT fork
-151 ms 92 is eating
-151 ms 174 has taken a RIGHT fork
-151 ms 174 has taken a LEFT fork
-151 ms 174 is eating
-151 ms 192 has taken a RIGHT fork
-151 ms 192 has taken a LEFT fork
-151 ms 104 has taken a LEFT fork
-151 ms 104 is eating
-151 ms 78 has taken a LEFT fork
-151 ms 126 is eating
-151 ms 94 has taken a LEFT fork
-151 ms 169 is sleeping
-151 ms 94 is eating
-151 ms 124 is eating
-151 ms 176 has taken a LEFT fork
-151 ms 176 is eating
-151 ms 152 has taken a LEFT fork
-151 ms 130 has taken a LEFT fork
-151 ms 158 has taken a LEFT fork
-151 ms 160 is eating
-151 ms 158 is eating
-151 ms 148 has taken a LEFT fork
-151 ms 148 is eating
-151 ms 192 is eating
-151 ms 78 is eating
-151 ms 130 is eating
-151 ms 128 has taken a LEFT fork
-151 ms 128 is eating
-151 ms 152 is eating
-152 ms 195 is sleeping
-152 ms 194 has taken a RIGHT fork
-152 ms 194 has taken a LEFT fork
-152 ms 194 is eating
-152 ms 197 is sleeping
-152 ms 196 has taken a RIGHT fork
-152 ms 196 has taken a LEFT fork
-152 ms 196 is eating
-152 ms 199 is sleeping
-152 ms 200 has taken a LEFT fork
-152 ms 200 is eating
-152 ms 198 has taken a RIGHT fork
-152 ms 198 has taken a LEFT fork
-152 ms 198 is eating
-250 ms 21 is thinking
-250 ms 17 is thinking
-250 ms 19 is thinking
-250 ms 15 is thinking
-250 ms 41 is thinking
-250 ms 11 is thinking
-250 ms 43 is thinking
-250 ms 1 is thinking
-250 ms 7 is thinking
-250 ms 29 is thinking
-250 ms 39 is thinking
-250 ms 13 is thinking
-250 ms 35 is thinking
-250 ms 33 is thinking
-250 ms 9 is thinking
-250 ms 25 is thinking
-250 ms 5 is thinking
-250 ms 23 is thinking
-250 ms 3 is thinking
-250 ms 37 is thinking
-250 ms 27 is thinking
-250 ms 31 is thinking
-251 ms 61 is thinking
-251 ms 153 is thinking
-251 ms 151 is thinking
-251 ms 181 is thinking
-251 ms 103 is thinking
-251 ms 139 is thinking
-251 ms 53 is thinking
-251 ms 113 is thinking
-251 ms 185 is thinking
-251 ms 121 is thinking
-251 ms 149 is thinking
-251 ms 123 is thinking
-251 ms 137 is thinking
-251 ms 161 is thinking
-251 ms 163 is thinking
-251 ms 45 is thinking
-251 ms 87 is thinking
-251 ms 81 is thinking
-251 ms 77 is thinking
-251 ms 95 is thinking
-251 ms 93 is thinking
-251 ms 99 is thinking
-251 ms 129 is thinking
-251 ms 167 is thinking
-251 ms 127 is thinking
-251 ms 173 is thinking
-251 ms 141 is thinking
-251 ms 119 is thinking
-251 ms 187 is thinking
-251 ms 189 is thinking
-251 ms 57 is thinking
-251 ms 177 is thinking
-251 ms 85 is thinking
-251 ms 105 is thinking
-251 ms 143 is thinking
-251 ms 71 is thinking
-251 ms 55 is thinking
-251 ms 175 is thinking
-251 ms 73 is thinking
-251 ms 155 is thinking
-251 ms 169 is thinking
-251 ms 63 is thinking
-251 ms 69 is thinking
-251 ms 65 is thinking
-251 ms 97 is thinking
-251 ms 67 is thinking
-251 ms 111 is thinking
-251 ms 51 is thinking
-251 ms 101 is thinking
-251 ms 179 is thinking
-251 ms 107 is thinking
-251 ms 171 is thinking
-251 ms 165 is thinking
-251 ms 47 is thinking
-251 ms 147 is thinking
-251 ms 115 is thinking
-251 ms 135 is thinking
-251 ms 83 is thinking
-251 ms 89 is thinking
-251 ms 191 is thinking
-251 ms 145 is thinking
-251 ms 91 is thinking
-251 ms 49 is thinking
-251 ms 109 is thinking
-251 ms 133 is thinking
-251 ms 193 is thinking
-251 ms 157 is thinking
-251 ms 79 is thinking
-251 ms 159 is thinking
-251 ms 59 is thinking
-251 ms 131 is thinking
-251 ms 117 is thinking
-251 ms 183 is thinking
-251 ms 75 is thinking
-251 ms 125 is thinking
-252 ms 199 is thinking
-252 ms 197 is thinking
-252 ms 195 is thinking
-300 ms 4 is sleeping
-300 ms 18 is sleeping
-300 ms 10 is sleeping
-300 ms 3 has taken a RIGHT fork
-300 ms 26 is sleeping
-300 ms 17 has taken a RIGHT fork
-300 ms 28 is sleeping
-300 ms 32 is sleeping
-300 ms 9 has taken a RIGHT fork
-300 ms 42 is sleeping
-300 ms 25 has taken a RIGHT fork
-300 ms 12 is sleeping
-300 ms 27 has taken a RIGHT fork
-300 ms 27 has taken a LEFT fork
-300 ms 27 is eating
-300 ms 8 is sleeping
-300 ms 6 is sleeping
-300 ms 31 has taken a RIGHT fork
-300 ms 34 is sleeping
-300 ms 41 has taken a RIGHT fork
-300 ms 20 is sleeping
-300 ms 11 has taken a RIGHT fork
-300 ms 11 has taken a LEFT fork
-300 ms 11 is eating
-300 ms 24 is sleeping
-300 ms 7 has taken a RIGHT fork
-300 ms 7 has taken a LEFT fork
-300 ms 7 is eating
-300 ms 22 is sleeping
-300 ms 35 has taken a RIGHT fork
-300 ms 15 has taken a RIGHT fork
-300 ms 17 has taken a LEFT fork
-300 ms 33 has taken a RIGHT fork
-300 ms 17 is eating
-300 ms 16 is sleeping
-300 ms 25 has taken a LEFT fork
-300 ms 33 has taken a LEFT fork
-300 ms 1 has taken a RIGHT fork
-300 ms 33 is eating
-300 ms 30 is sleeping
-300 ms 3 has taken a LEFT fork
-300 ms 37 has taken a RIGHT fork
-300 ms 3 is eating
-300 ms 38 is sleeping
-300 ms 37 has taken a LEFT fork
-300 ms 2 is sleeping
-300 ms 37 is eating
-300 ms 35 has taken a LEFT fork
-300 ms 36 is sleeping
-300 ms 29 has taken a RIGHT fork
-300 ms 29 has taken a LEFT fork
-300 ms 25 is eating
-300 ms 29 is eating
-300 ms 9 has taken a LEFT fork
-300 ms 19 has taken a RIGHT fork
-300 ms 19 has taken a LEFT fork
-300 ms 9 is eating
-300 ms 19 is eating
-300 ms 23 has taken a RIGHT fork
-300 ms 31 has taken a LEFT fork
-300 ms 31 is eating
-300 ms 23 has taken a LEFT fork
-300 ms 23 is eating
-300 ms 35 is eating
-300 ms 21 has taken a RIGHT fork
-300 ms 21 has taken a LEFT fork
-300 ms 21 is eating
-300 ms 5 has taken a RIGHT fork
-300 ms 5 has taken a LEFT fork
-300 ms 5 is eating
-300 ms 40 is sleeping
-300 ms 14 is sleeping
-300 ms 39 has taken a RIGHT fork
-300 ms 39 has taken a LEFT fork
-300 ms 39 is eating
-300 ms 41 has taken a LEFT fork
-300 ms 41 is eating
-300 ms 13 has taken a RIGHT fork
-300 ms 13 has taken a LEFT fork
-300 ms 13 is eating
-300 ms 15 has taken a LEFT fork
-300 ms 15 is eating
-301 ms 66 is sleeping
-301 ms 78 is sleeping
-301 ms 132 is sleeping
-301 ms 134 is sleeping
-301 ms 52 is sleeping
-301 ms 188 is sleeping
-301 ms 176 is sleeping
-301 ms 64 is sleeping
-301 ms 154 is sleeping
-301 ms 166 is sleeping
-301 ms 114 is sleeping
-301 ms 150 is sleeping
-301 ms 118 is sleeping
-301 ms 136 is sleeping
-301 ms 184 is sleeping
-301 ms 104 is sleeping
-301 ms 68 is sleeping
-301 ms 172 is sleeping
-301 ms 98 is sleeping
-301 ms 90 is sleeping
-301 ms 182 is sleeping
-301 ms 65 has taken a RIGHT fork
-301 ms 110 is sleeping
-301 ms 65 has taken a LEFT fork
-301 ms 131 has taken a RIGHT fork
-301 ms 65 is eating
-301 ms 51 has taken a RIGHT fork
-301 ms 187 has taken a RIGHT fork
-301 ms 175 has taken a RIGHT fork
-301 ms 63 has taken a RIGHT fork
-301 ms 142 is sleeping
-301 ms 96 is sleeping
-301 ms 153 has taken a RIGHT fork
-301 ms 165 has taken a RIGHT fork
-301 ms 102 is sleeping
-301 ms 48 is sleeping
-301 ms 76 is sleeping
-301 ms 74 is sleeping
-301 ms 100 is sleeping
-301 ms 117 has taken a RIGHT fork
-301 ms 140 is sleeping
-301 ms 168 is sleeping
-301 ms 146 is sleeping
-301 ms 162 is sleeping
-301 ms 88 is sleeping
-301 ms 124 is sleeping
-301 ms 112 is sleeping
-301 ms 58 is sleeping
-301 ms 149 has taken a RIGHT fork
-301 ms 148 is sleeping
-301 ms 120 is sleeping
-301 ms 149 has taken a LEFT fork
-301 ms 149 is eating
-301 ms 186 is sleeping
-301 ms 174 is sleeping
-301 ms 158 is sleeping
-301 ms 106 is sleeping
-301 ms 44 is sleeping
-301 ms 50 is sleeping
-301 ms 89 has taken a RIGHT fork
-301 ms 89 has taken a LEFT fork
-301 ms 156 is sleeping
-301 ms 70 is sleeping
-301 ms 92 is sleeping
-301 ms 103 has taken a RIGHT fork
-301 ms 67 has taken a RIGHT fork
-301 ms 103 has taken a LEFT fork
-301 ms 192 is sleeping
-301 ms 103 is eating
-301 ms 171 has taken a RIGHT fork
-301 ms 171 has taken a LEFT fork
-301 ms 171 is eating
-301 ms 97 has taken a RIGHT fork
-301 ms 109 has taken a RIGHT fork
-301 ms 109 has taken a LEFT fork
-301 ms 164 is sleeping
-301 ms 179 has taken a RIGHT fork
-301 ms 95 has taken a RIGHT fork
-301 ms 179 has taken a LEFT fork
-301 ms 115 has taken a RIGHT fork
-301 ms 179 is eating
-301 ms 95 has taken a LEFT fork
-301 ms 47 has taken a RIGHT fork
-301 ms 95 is eating
-301 ms 75 has taken a RIGHT fork
-301 ms 107 has taken a RIGHT fork
-301 ms 75 has taken a LEFT fork
-301 ms 75 is eating
-301 ms 107 has taken a LEFT fork
-301 ms 108 is sleeping
-301 ms 165 has taken a LEFT fork
-301 ms 107 is eating
-301 ms 99 has taken a RIGHT fork
-301 ms 127 has taken a RIGHT fork
-301 ms 94 is sleeping
-301 ms 127 has taken a LEFT fork
-301 ms 139 has taken a RIGHT fork
-301 ms 127 is eating
-301 ms 167 has taken a RIGHT fork
-301 ms 63 has taken a LEFT fork
-301 ms 167 has taken a LEFT fork
-301 ms 63 is eating
-301 ms 128 is sleeping
-301 ms 167 is eating
-301 ms 85 has taken a RIGHT fork
-301 ms 145 has taken a RIGHT fork
-301 ms 145 has taken a LEFT fork
-301 ms 87 has taken a RIGHT fork
-301 ms 145 is eating
-301 ms 87 has taken a LEFT fork
-301 ms 85 has taken a LEFT fork
-301 ms 72 is sleeping
-301 ms 87 is eating
-301 ms 85 is eating
-301 ms 169 has taken a RIGHT fork
-301 ms 169 has taken a LEFT fork
-301 ms 169 is eating
-301 ms 111 has taken a RIGHT fork
-301 ms 62 is sleeping
-301 ms 86 is sleeping
-301 ms 147 has taken a RIGHT fork
-301 ms 119 has taken a RIGHT fork
-301 ms 113 has taken a RIGHT fork
-301 ms 187 has taken a LEFT fork
-301 ms 113 has taken a LEFT fork
-301 ms 187 is eating
-301 ms 125 has taken a RIGHT fork
-301 ms 157 has taken a RIGHT fork
-301 ms 125 has taken a LEFT fork
-301 ms 129 has taken a RIGHT fork
-301 ms 137 has taken a RIGHT fork
-301 ms 125 is eating
-301 ms 137 has taken a LEFT fork
-301 ms 189 has taken a RIGHT fork
-301 ms 131 has taken a LEFT fork
-301 ms 83 has taken a RIGHT fork
-301 ms 131 is eating
-301 ms 83 has taken a LEFT fork
-301 ms 59 has taken a RIGHT fork
-301 ms 151 has taken a RIGHT fork
-301 ms 153 has taken a LEFT fork
-301 ms 153 is eating
-301 ms 190 is sleeping
-301 ms 130 is sleeping
-301 ms 138 is sleeping
-301 ms 69 has taken a RIGHT fork
-301 ms 45 has taken a RIGHT fork
-301 ms 69 has taken a LEFT fork
-301 ms 45 has taken a LEFT fork
-301 ms 84 is sleeping
-301 ms 45 is eating
-301 ms 177 has taken a RIGHT fork
-301 ms 121 has taken a RIGHT fork
-301 ms 177 has taken a LEFT fork
-301 ms 121 has taken a LEFT fork
-301 ms 177 is eating
-301 ms 191 has taken a RIGHT fork
-301 ms 191 has taken a LEFT fork
-301 ms 178 is sleeping
-301 ms 191 is eating
-301 ms 46 is sleeping
-301 ms 80 is sleeping
-301 ms 181 has taken a RIGHT fork
-301 ms 181 has taken a LEFT fork
-301 ms 77 has taken a RIGHT fork
-301 ms 97 has taken a LEFT fork
-301 ms 77 has taken a LEFT fork
-301 ms 97 is eating
-301 ms 141 has taken a RIGHT fork
-301 ms 181 is eating
-301 ms 141 has taken a LEFT fork
-301 ms 163 has taken a RIGHT fork
-301 ms 109 is eating
-301 ms 67 has taken a LEFT fork
-301 ms 133 has taken a RIGHT fork
-301 ms 67 is eating
-301 ms 133 has taken a LEFT fork
-301 ms 47 has taken a LEFT fork
-301 ms 133 is eating
-301 ms 73 has taken a RIGHT fork
-301 ms 73 has taken a LEFT fork
-301 ms 55 has taken a RIGHT fork
-301 ms 165 is eating
-301 ms 55 has taken a LEFT fork
-301 ms 99 has taken a LEFT fork
-301 ms 55 is eating
-301 ms 99 is eating
-301 ms 143 has taken a RIGHT fork
-301 ms 143 has taken a LEFT fork
-301 ms 54 is sleeping
-301 ms 143 is eating
-301 ms 117 has taken a LEFT fork
-301 ms 117 is eating
-301 ms 159 has taken a RIGHT fork
-301 ms 123 has taken a RIGHT fork
-301 ms 111 has taken a LEFT fork
-301 ms 161 has taken a RIGHT fork
-301 ms 111 is eating
-301 ms 161 has taken a LEFT fork
-301 ms 173 has taken a RIGHT fork
-301 ms 105 has taken a RIGHT fork
-301 ms 189 has taken a LEFT fork
-301 ms 173 has taken a LEFT fork
-301 ms 189 is eating
-301 ms 173 is eating
-301 ms 51 has taken a LEFT fork
-301 ms 105 has taken a LEFT fork
-301 ms 81 has taken a RIGHT fork
-301 ms 151 has taken a LEFT fork
-301 ms 81 has taken a LEFT fork
-301 ms 81 is eating
-301 ms 151 is eating
-301 ms 135 has taken a RIGHT fork
-301 ms 79 has taken a RIGHT fork
-301 ms 91 has taken a RIGHT fork
-301 ms 79 has taken a LEFT fork
-301 ms 69 is eating
-301 ms 135 has taken a LEFT fork
-301 ms 79 is eating
-301 ms 91 has taken a LEFT fork
-301 ms 135 is eating
-301 ms 91 is eating
-301 ms 152 is sleeping
-301 ms 60 is sleeping
-301 ms 89 is eating
-301 ms 141 is eating
-301 ms 47 is eating
-301 ms 73 is eating
-301 ms 93 has taken a RIGHT fork
-301 ms 93 has taken a LEFT fork
-301 ms 71 has taken a RIGHT fork
-301 ms 93 is eating
-301 ms 56 is sleeping
-301 ms 159 has taken a LEFT fork
-301 ms 159 is eating
-301 ms 170 is sleeping
-301 ms 175 has taken a LEFT fork
-301 ms 160 is sleeping
-301 ms 175 is eating
-301 ms 161 is eating
-301 ms 126 is sleeping
-301 ms 185 has taken a RIGHT fork
-301 ms 43 has taken a RIGHT fork
-301 ms 185 has taken a LEFT fork
-301 ms 43 has taken a LEFT fork
-301 ms 157 has taken a LEFT fork
-301 ms 43 is eating
-301 ms 51 is eating
-301 ms 105 is eating
-301 ms 129 has taken a LEFT fork
-301 ms 83 is eating
-301 ms 129 is eating
-301 ms 82 is sleeping
-301 ms 122 is sleeping
-301 ms 163 has taken a LEFT fork
-301 ms 163 is eating
-301 ms 53 has taken a RIGHT fork
-301 ms 180 is sleeping
-301 ms 115 has taken a LEFT fork
-301 ms 139 has taken a LEFT fork
-301 ms 116 is sleeping
-301 ms 71 has taken a LEFT fork
-301 ms 115 is eating
-301 ms 71 is eating
-301 ms 144 is sleeping
-301 ms 61 has taken a RIGHT fork
-301 ms 61 has taken a LEFT fork
-301 ms 139 is eating
-301 ms 57 has taken a RIGHT fork
-301 ms 123 has taken a LEFT fork
-301 ms 119 has taken a LEFT fork
-301 ms 123 is eating
-301 ms 113 is eating
-301 ms 119 is eating
-301 ms 137 is eating
-301 ms 49 has taken a RIGHT fork
-301 ms 155 has taken a RIGHT fork
-301 ms 49 has taken a LEFT fork
-301 ms 155 has taken a LEFT fork
-301 ms 49 is eating
-301 ms 155 is eating
-301 ms 77 is eating
-301 ms 101 has taken a RIGHT fork
-301 ms 101 has taken a LEFT fork
-301 ms 53 has taken a LEFT fork
-301 ms 101 is eating
-301 ms 147 has taken a LEFT fork
-301 ms 147 is eating
-301 ms 53 is eating
-301 ms 185 is eating
-301 ms 157 is eating
-301 ms 121 is eating
-301 ms 183 has taken a RIGHT fork
-301 ms 183 has taken a LEFT fork
-301 ms 183 is eating
-301 ms 59 has taken a LEFT fork
-301 ms 59 is eating
-301 ms 57 has taken a LEFT fork
-301 ms 57 is eating
-301 ms 61 is eating
-302 ms 200 is sleeping
-302 ms 199 has taken a RIGHT fork
-302 ms 1 has taken a LEFT fork
-302 ms 1 is eating
-302 ms 198 is sleeping
-302 ms 199 has taken a LEFT fork
-302 ms 199 is eating
-302 ms 193 has taken a RIGHT fork
-302 ms 193 has taken a LEFT fork
-302 ms 193 is eating
-302 ms 197 has taken a RIGHT fork
-302 ms 194 is sleeping
-302 ms 197 has taken a LEFT fork
-302 ms 195 has taken a RIGHT fork
-302 ms 195 has taken a LEFT fork
-302 ms 195 is eating
-302 ms 197 is eating
-302 ms 196 is sleeping
-400 ms 20 is thinking
-400 ms 32 is thinking
-400 ms 8 is thinking
-400 ms 24 is thinking
-400 ms 16 is thinking
-400 ms 18 is thinking
-400 ms 10 is thinking
-400 ms 2 is thinking
-400 ms 30 is thinking
-400 ms 28 is thinking
-400 ms 4 is thinking
-400 ms 42 is thinking
-400 ms 36 is thinking
-400 ms 12 is thinking
-400 ms 14 is thinking
-400 ms 40 is thinking
-400 ms 26 is thinking
-400 ms 38 is thinking
-400 ms 22 is thinking
-400 ms 34 is thinking
-400 ms 6 is thinking
-401 ms 120 is thinking
-401 ms 184 is thinking
-401 ms 136 is thinking
-401 ms 152 is thinking
-401 ms 148 is thinking
-401 ms 58 is thinking
-401 ms 112 is thinking
-401 ms 164 is thinking
-401 ms 88 is thinking
-401 ms 186 is thinking
-401 ms 150 is thinking
-401 ms 146 is thinking
-401 ms 126 is thinking
-401 ms 172 is thinking
-401 ms 114 is thinking
-401 ms 100 is thinking
-401 ms 132 is thinking
-401 ms 156 is thinking
-401 ms 48 is thinking
-401 ms 74 is thinking
-401 ms 68 is thinking
-401 ms 192 is thinking
-401 ms 134 is thinking
-401 ms 46 is thinking
-401 ms 102 is thinking
-401 ms 80 is thinking
-401 ms 50 is thinking
-401 ms 188 is thinking
-401 ms 178 is thinking
-401 ms 144 is thinking
-401 ms 82 is thinking
-401 ms 94 is thinking
-401 ms 84 is thinking
-401 ms 162 is thinking
-401 ms 180 is thinking
-401 ms 140 is thinking
-401 ms 122 is thinking
-401 ms 154 is thinking
-401 ms 76 is thinking
-401 ms 170 is thinking
-401 ms 98 is thinking
-401 ms 104 is thinking
-401 ms 166 is thinking
-401 ms 160 is thinking
-401 ms 106 is thinking
-401 ms 92 is thinking
-401 ms 124 is thinking
-401 ms 64 is thinking
-401 ms 78 is thinking
-401 ms 62 is thinking
-401 ms 110 is thinking
-401 ms 96 is thinking
-401 ms 66 is thinking
-401 ms 108 is thinking
-401 ms 44 is thinking
-401 ms 86 is thinking
-401 ms 128 is thinking
-401 ms 116 is thinking
-401 ms 72 is thinking
-401 ms 158 is thinking
-401 ms 52 is thinking
-401 ms 70 is thinking
-401 ms 90 is thinking
-401 ms 168 is thinking
-401 ms 56 is thinking
-401 ms 182 is thinking
-401 ms 54 is thinking
-401 ms 142 is thinking
-401 ms 176 is thinking
-401 ms 130 is thinking
-401 ms 60 is thinking
-401 ms 118 is thinking
-401 ms 174 is thinking
-401 ms 138 is thinking
-401 ms 190 is thinking
-402 ms 194 is thinking
-402 ms 200 is thinking
-402 ms 198 is thinking
-402 ms 196 is thinking
-450 ms 17 is sleeping
-450 ms 19 is sleeping
-450 ms 15 is sleeping
-450 ms 16 has taken a RIGHT fork
-450 ms 16 has taken a LEFT fork
-450 ms 16 is eating
-450 ms 9 is sleeping
-450 ms 31 is sleeping
-450 ms 41 is sleeping
-450 ms 35 is sleeping
-450 ms 23 is sleeping
-450 ms 5 is sleeping
-450 ms 11 is sleeping
-450 ms 7 is sleeping
-450 ms 13 is sleeping
-450 ms 27 is sleeping
-450 ms 14 has taken a RIGHT fork
-450 ms 14 has taken a LEFT fork
-450 ms 14 is eating
-450 ms 29 is sleeping
-450 ms 32 has taken a RIGHT fork
-450 ms 3 is sleeping
-450 ms 32 has taken a LEFT fork
-450 ms 30 has taken a RIGHT fork
-450 ms 30 has taken a LEFT fork
-450 ms 30 is eating
-450 ms 32 is eating
-450 ms 40 has taken a RIGHT fork
-450 ms 25 is sleeping
-450 ms 22 has taken a RIGHT fork
-450 ms 22 has taken a LEFT fork
-450 ms 4 has taken a RIGHT fork
-450 ms 4 has taken a LEFT fork
-450 ms 34 has taken a RIGHT fork
-450 ms 39 is sleeping
-450 ms 4 is eating
-450 ms 36 has taken a RIGHT fork
-450 ms 36 has taken a LEFT fork
-450 ms 36 is eating
-450 ms 34 has taken a LEFT fork
-450 ms 20 has taken a RIGHT fork
-450 ms 6 has taken a RIGHT fork
-450 ms 26 has taken a RIGHT fork
-450 ms 6 has taken a LEFT fork
-450 ms 21 is sleeping
-450 ms 28 has taken a RIGHT fork
-450 ms 6 is eating
-450 ms 26 has taken a LEFT fork
-450 ms 20 has taken a LEFT fork
-450 ms 20 is eating
-450 ms 26 is eating
-450 ms 2 has taken a RIGHT fork
-450 ms 18 has taken a RIGHT fork
-450 ms 18 has taken a LEFT fork
-450 ms 40 has taken a LEFT fork
-450 ms 34 is eating
-450 ms 40 is eating
-450 ms 10 has taken a RIGHT fork
-450 ms 33 is sleeping
-450 ms 10 has taken a LEFT fork
-450 ms 10 is eating
-450 ms 37 is sleeping
-450 ms 28 has taken a LEFT fork
-450 ms 28 is eating
-450 ms 24 has taken a RIGHT fork
-450 ms 24 has taken a LEFT fork
-450 ms 24 is eating
-450 ms 22 is eating
-450 ms 18 is eating
-450 ms 38 has taken a RIGHT fork
-450 ms 8 has taken a RIGHT fork
-450 ms 12 has taken a RIGHT fork
-450 ms 12 has taken a LEFT fork
-450 ms 12 is eating
-450 ms 8 has taken a LEFT fork
-450 ms 8 is eating
-450 ms 38 has taken a LEFT fork
-450 ms 38 is eating
-451 ms 71 is sleeping
-451 ms 187 is sleeping
-451 ms 143 is sleeping
-451 ms 177 is sleeping
-451 ms 73 is sleeping
-451 ms 87 is sleeping
-451 ms 117 is sleeping
-451 ms 155 is sleeping
-451 ms 77 is sleeping
-451 ms 59 is sleeping
-451 ms 127 is sleeping
-451 ms 119 is sleeping
-451 ms 89 is sleeping
-451 ms 105 is sleeping
-451 ms 163 is sleeping
-451 ms 185 is sleeping
-451 ms 99 is sleeping
-451 ms 125 is sleeping
-451 ms 145 is sleeping
-451 ms 79 is sleeping
-451 ms 95 is sleeping
-451 ms 115 is sleeping
-451 ms 149 is sleeping
-451 ms 186 has taken a RIGHT fork
-451 ms 91 is sleeping
-451 ms 113 is sleeping
-451 ms 53 is sleeping
-451 ms 186 has taken a LEFT fork
-451 ms 55 is sleeping
-451 ms 186 is eating
-451 ms 154 has taken a RIGHT fork
-451 ms 76 has taken a RIGHT fork
-451 ms 69 is sleeping
-451 ms 154 has taken a LEFT fork
-451 ms 154 is eating
-451 ms 75 is sleeping
-451 ms 58 has taken a RIGHT fork
-451 ms 118 has taken a RIGHT fork
-451 ms 58 has taken a LEFT fork
-451 ms 133 is sleeping
-451 ms 118 has taken a LEFT fork
-451 ms 139 is sleeping
-451 ms 118 is eating
-451 ms 58 is eating
-451 ms 85 is sleeping
-451 ms 141 is sleeping
-451 ms 183 is sleeping
-451 ms 49 is sleeping
-451 ms 151 is sleeping
-451 ms 126 has taken a RIGHT fork
-451 ms 126 has taken a LEFT fork
-451 ms 126 is eating
-451 ms 88 has taken a RIGHT fork
-451 ms 98 has taken a RIGHT fork
-451 ms 88 has taken a LEFT fork
-451 ms 184 has taken a RIGHT fork
-451 ms 175 is sleeping
-451 ms 98 has taken a LEFT fork
-451 ms 98 is eating
-451 ms 184 has taken a LEFT fork
-451 ms 184 is eating
-451 ms 191 is sleeping
-451 ms 88 is eating
-451 ms 159 is sleeping
-451 ms 169 is sleeping
-451 ms 124 has taken a RIGHT fork
-451 ms 109 is sleeping
-451 ms 121 is sleeping
-451 ms 124 has taken a LEFT fork
-451 ms 124 is eating
-451 ms 144 has taken a RIGHT fork
-451 ms 137 is sleeping
-451 ms 61 is sleeping
-451 ms 45 is sleeping
-451 ms 144 has taken a LEFT fork
-451 ms 144 is eating
-451 ms 67 is sleeping
-451 ms 171 is sleeping
-451 ms 101 is sleeping
-451 ms 111 is sleeping
-451 ms 94 has taken a RIGHT fork
-451 ms 51 is sleeping
-451 ms 65 is sleeping
-451 ms 47 is sleeping
-451 ms 94 has taken a LEFT fork
-451 ms 94 is eating
-451 ms 63 is sleeping
-451 ms 135 is sleeping
-451 ms 107 is sleeping
-451 ms 157 is sleeping
-451 ms 148 has taken a RIGHT fork
-451 ms 122 has taken a RIGHT fork
-451 ms 148 has taken a LEFT fork
-451 ms 122 has taken a LEFT fork
-451 ms 122 is eating
-451 ms 70 has taken a RIGHT fork
-451 ms 112 has taken a RIGHT fork
-451 ms 112 has taken a LEFT fork
-451 ms 54 has taken a RIGHT fork
-451 ms 123 is sleeping
-451 ms 54 has taken a LEFT fork
-451 ms 97 is sleeping
-451 ms 130 has taken a RIGHT fork
-451 ms 164 has taken a RIGHT fork
-451 ms 130 has taken a LEFT fork
-451 ms 176 has taken a RIGHT fork
-451 ms 164 has taken a LEFT fork
-451 ms 176 has taken a LEFT fork
-451 ms 130 is eating
-451 ms 164 is eating
-451 ms 103 is sleeping
-451 ms 160 has taken a RIGHT fork
-451 ms 142 has taken a RIGHT fork
-451 ms 176 is eating
-451 ms 74 has taken a RIGHT fork
-451 ms 74 has taken a LEFT fork
-451 ms 74 is eating
-451 ms 72 has taken a RIGHT fork
-451 ms 142 has taken a LEFT fork
-451 ms 142 is eating
-451 ms 146 has taken a RIGHT fork
-451 ms 72 has taken a LEFT fork
-451 ms 146 has taken a LEFT fork
-451 ms 92 has taken a RIGHT fork
-451 ms 72 is eating
-451 ms 131 is sleeping
-451 ms 92 has taken a LEFT fork
-451 ms 57 is sleeping
-451 ms 132 has taken a RIGHT fork
-451 ms 180 has taken a RIGHT fork
-451 ms 132 has taken a LEFT fork
-451 ms 180 has taken a LEFT fork
-451 ms 153 is sleeping
-451 ms 180 is eating
-451 ms 132 is eating
-451 ms 147 is sleeping
-451 ms 178 has taken a RIGHT fork
-451 ms 84 has taken a RIGHT fork
-451 ms 140 has taken a RIGHT fork
-451 ms 182 has taken a RIGHT fork
-451 ms 84 has taken a LEFT fork
-451 ms 182 has taken a LEFT fork
-451 ms 84 is eating
-451 ms 179 is sleeping
-451 ms 182 is eating
-451 ms 48 has taken a RIGHT fork
-451 ms 128 has taken a RIGHT fork
-451 ms 48 has taken a LEFT fork
-451 ms 128 has taken a LEFT fork
-451 ms 128 is eating
-451 ms 129 is sleeping
-451 ms 43 is sleeping
-451 ms 174 has taken a RIGHT fork
-451 ms 104 has taken a RIGHT fork
-451 ms 174 has taken a LEFT fork
-451 ms 174 is eating
-451 ms 104 has taken a LEFT fork
-451 ms 104 is eating
-451 ms 162 has taken a RIGHT fork
-451 ms 162 has taken a LEFT fork
-451 ms 162 is eating
-451 ms 188 has taken a RIGHT fork
-451 ms 168 has taken a RIGHT fork
-451 ms 108 has taken a RIGHT fork
-451 ms 190 has taken a RIGHT fork
-451 ms 108 has taken a LEFT fork
-451 ms 190 has taken a LEFT fork
-451 ms 108 is eating
-451 ms 188 has taken a LEFT fork
-451 ms 188 is eating
-451 ms 190 is eating
-451 ms 158 has taken a RIGHT fork
-451 ms 120 has taken a RIGHT fork
-451 ms 168 has taken a LEFT fork
-451 ms 120 has taken a LEFT fork
-451 ms 168 is eating
-451 ms 120 is eating
-451 ms 80 has taken a RIGHT fork
-451 ms 167 is sleeping
-451 ms 80 has taken a LEFT fork
-451 ms 46 has taken a RIGHT fork
-451 ms 80 is eating
-451 ms 62 has taken a RIGHT fork
-451 ms 172 has taken a RIGHT fork
-451 ms 62 has taken a LEFT fork
-451 ms 172 has taken a LEFT fork
-451 ms 106 has taken a RIGHT fork
-451 ms 62 is eating
-451 ms 172 is eating
-451 ms 106 has taken a LEFT fork
-451 ms 114 has taken a RIGHT fork
-451 ms 106 is eating
-451 ms 114 has taken a LEFT fork
-451 ms 90 has taken a RIGHT fork
-451 ms 114 is eating
-451 ms 70 has taken a LEFT fork
-451 ms 90 has taken a LEFT fork
-451 ms 90 is eating
-451 ms 102 has taken a RIGHT fork
-451 ms 102 has taken a LEFT fork
-451 ms 102 is eating
-451 ms 112 is eating
-451 ms 56 has taken a RIGHT fork
-451 ms 56 has taken a LEFT fork
-451 ms 86 has taken a RIGHT fork
-451 ms 56 is eating
-451 ms 86 has taken a LEFT fork
-451 ms 86 is eating
-451 ms 160 has taken a LEFT fork
-451 ms 160 is eating
-451 ms 165 is sleeping
-451 ms 138 has taken a RIGHT fork
-451 ms 116 has taken a RIGHT fork
-451 ms 116 has taken a LEFT fork
-451 ms 76 has taken a LEFT fork
-451 ms 116 is eating
-451 ms 76 is eating
-451 ms 140 has taken a LEFT fork
-451 ms 178 has taken a LEFT fork
-451 ms 140 is eating
-451 ms 178 is eating
-451 ms 93 is sleeping
-451 ms 146 is eating
-451 ms 48 is eating
-451 ms 150 has taken a RIGHT fork
-451 ms 136 has taken a RIGHT fork
-451 ms 82 has taken a RIGHT fork
-451 ms 82 has taken a LEFT fork
-451 ms 136 has taken a LEFT fork
-451 ms 150 has taken a LEFT fork
-451 ms 60 has taken a RIGHT fork
-451 ms 150 is eating
-451 ms 136 is eating
-451 ms 60 has taken a LEFT fork
-451 ms 60 is eating
-451 ms 66 has taken a RIGHT fork
-451 ms 170 has taken a RIGHT fork
-451 ms 66 has taken a LEFT fork
-451 ms 170 has taken a LEFT fork
-451 ms 66 is eating
-451 ms 100 has taken a RIGHT fork
-451 ms 166 has taken a RIGHT fork
-451 ms 100 has taken a LEFT fork
-451 ms 78 has taken a RIGHT fork
-451 ms 100 is eating
-451 ms 110 has taken a RIGHT fork
-451 ms 78 has taken a LEFT fork
-451 ms 166 has taken a LEFT fork
-451 ms 166 is eating
-451 ms 170 is eating
-451 ms 78 is eating
-451 ms 50 has taken a RIGHT fork
-451 ms 189 is sleeping
-451 ms 81 is sleeping
-451 ms 46 has taken a LEFT fork
-451 ms 64 has taken a RIGHT fork
-451 ms 46 is eating
-451 ms 64 has taken a LEFT fork
-451 ms 110 has taken a LEFT fork
-451 ms 134 has taken a RIGHT fork
-451 ms 134 has taken a LEFT fork
-451 ms 134 is eating
-451 ms 64 is eating
-451 ms 52 has taken a RIGHT fork
-451 ms 96 has taken a RIGHT fork
-451 ms 96 has taken a LEFT fork
-451 ms 148 is eating
-451 ms 96 is eating
-451 ms 54 is eating
-451 ms 92 is eating
-451 ms 70 is eating
-451 ms 152 has taken a RIGHT fork
-451 ms 181 is sleeping
-451 ms 152 has taken a LEFT fork
-451 ms 42 has taken a RIGHT fork
-451 ms 152 is eating
-451 ms 42 has taken a LEFT fork
-451 ms 158 has taken a LEFT fork
-451 ms 44 has taken a RIGHT fork
-451 ms 83 is sleeping
-451 ms 44 has taken a LEFT fork
-451 ms 173 is sleeping
-451 ms 44 is eating
-451 ms 50 has taken a LEFT fork
-451 ms 50 is eating
-451 ms 68 has taken a RIGHT fork
-451 ms 138 has taken a LEFT fork
-451 ms 68 has taken a LEFT fork
-451 ms 161 is sleeping
-451 ms 68 is eating
-451 ms 42 is eating
-451 ms 156 has taken a RIGHT fork
-451 ms 156 has taken a LEFT fork
-451 ms 110 is eating
-451 ms 156 is eating
-451 ms 158 is eating
-451 ms 138 is eating
-451 ms 82 is eating
-451 ms 52 has taken a LEFT fork
-451 ms 52 is eating
-452 ms 1 is sleeping
-452 ms 197 is sleeping
-452 ms 2 has taken a LEFT fork
-452 ms 195 is sleeping
-452 ms 2 is eating
-452 ms 194 has taken a RIGHT fork
-452 ms 200 has taken a RIGHT fork
-452 ms 193 is sleeping
-452 ms 194 has taken a LEFT fork
-452 ms 194 is eating
-452 ms 196 has taken a RIGHT fork
-452 ms 196 has taken a LEFT fork
-452 ms 196 is eating
-452 ms 192 has taken a RIGHT fork
-452 ms 192 has taken a LEFT fork
-452 ms 192 is eating
-452 ms 199 is sleeping
-452 ms 198 has taken a RIGHT fork
-452 ms 198 has taken a LEFT fork
-452 ms 198 is eating
-452 ms 200 has taken a LEFT fork
-452 ms 200 is eating
-550 ms 7 is thinking
-550 ms 3 is thinking
-550 ms 39 is thinking
-550 ms 23 is thinking
-550 ms 41 is thinking
-550 ms 25 is thinking
-550 ms 27 is thinking
-550 ms 37 is thinking
-550 ms 33 is thinking
-550 ms 21 is thinking
-550 ms 11 is thinking
-550 ms 35 is thinking
-550 ms 17 is thinking
-550 ms 5 is thinking
-550 ms 29 is thinking
-550 ms 13 is thinking
-550 ms 19 is thinking
-550 ms 31 is thinking
-550 ms 9 is thinking
-550 ms 15 is thinking
-551 ms 117 is thinking
-551 ms 81 is thinking
-551 ms 119 is thinking
-551 ms 75 is thinking
-551 ms 143 is thinking
-551 ms 99 is thinking
-551 ms 175 is thinking
-551 ms 135 is thinking
-551 ms 93 is thinking
-551 ms 155 is thinking
-551 ms 169 is thinking
-551 ms 185 is thinking
-551 ms 181 is thinking
-551 ms 131 is thinking
-551 ms 49 is thinking
-551 ms 109 is thinking
-551 ms 165 is thinking
-551 ms 179 is thinking
-551 ms 133 is thinking
-551 ms 141 is thinking
-551 ms 89 is thinking
-551 ms 57 is thinking
-551 ms 115 is thinking
-551 ms 69 is thinking
-551 ms 163 is thinking
-551 ms 177 is thinking
-551 ms 95 is thinking
-551 ms 87 is thinking
-551 ms 151 is thinking
-551 ms 105 is thinking
-551 ms 113 is thinking
-551 ms 149 is thinking
-551 ms 167 is thinking
-551 ms 129 is thinking
-551 ms 187 is thinking
-551 ms 63 is thinking
-551 ms 73 is thinking
-551 ms 97 is thinking
-551 ms 51 is thinking
-551 ms 103 is thinking
-551 ms 91 is thinking
-551 ms 101 is thinking
-551 ms 121 is thinking
-551 ms 79 is thinking
-551 ms 127 is thinking
-551 ms 183 is thinking
-551 ms 173 is thinking
-551 ms 107 is thinking
-551 ms 43 is thinking
-551 ms 71 is thinking
-551 ms 125 is thinking
-551 ms 65 is thinking
-551 ms 191 is thinking
-551 ms 67 is thinking
-551 ms 145 is thinking
-551 ms 55 is thinking
-551 ms 147 is thinking
-551 ms 123 is thinking
-551 ms 77 is thinking
-551 ms 85 is thinking
-551 ms 157 is thinking
-551 ms 59 is thinking
-551 ms 61 is thinking
-551 ms 83 is thinking
-551 ms 189 is thinking
-551 ms 139 is thinking
-551 ms 53 is thinking
-551 ms 171 is thinking
-551 ms 47 is thinking
-551 ms 159 is thinking
-551 ms 45 is thinking
-551 ms 153 is thinking
-551 ms 161 is thinking
-551 ms 111 is thinking
-551 ms 137 is thinking
-552 ms 195 is thinking
-552 ms 197 is thinking
-552 ms 1 is thinking
-552 ms 199 is thinking
-552 ms 193 is thinking
-600 ms 32 is sleeping
-600 ms 8 is sleeping
-600 ms 16 is sleeping
-600 ms 30 is sleeping
-600 ms 38 is sleeping
-600 ms 14 is sleeping
-600 ms 28 is sleeping
-600 ms 18 is sleeping
-600 ms 12 is sleeping
-600 ms 7 has taken a RIGHT fork
-600 ms 4 is sleeping
-600 ms 22 is sleeping
-600 ms 40 is sleeping
-600 ms 19 has taken a RIGHT fork
-600 ms 15 has taken a RIGHT fork
-600 ms 33 has taken a RIGHT fork
-600 ms 15 has taken a LEFT fork
-600 ms 15 is eating
-600 ms 24 is sleeping
-600 ms 33 has taken a LEFT fork
-600 ms 33 is eating
-600 ms 37 has taken a RIGHT fork
-600 ms 34 is sleeping
-600 ms 37 has taken a LEFT fork
-600 ms 20 is sleeping
-600 ms 37 is eating
-600 ms 25 has taken a RIGHT fork
-600 ms 11 has taken a RIGHT fork
-600 ms 25 has taken a LEFT fork
-600 ms 31 has taken a RIGHT fork
-600 ms 25 is eating
-600 ms 11 has taken a LEFT fork
-600 ms 39 has taken a RIGHT fork
-600 ms 11 is eating
-600 ms 39 has taken a LEFT fork
-600 ms 7 has taken a LEFT fork
-600 ms 39 is eating
-600 ms 7 is eating
-600 ms 10 is sleeping
-600 ms 13 has taken a RIGHT fork
-600 ms 27 has taken a RIGHT fork
-600 ms 13 has taken a LEFT fork
-600 ms 27 has taken a LEFT fork
-600 ms 31 has taken a LEFT fork
-600 ms 3 has taken a RIGHT fork
-600 ms 26 is sleeping
-600 ms 35 has taken a RIGHT fork
-600 ms 21 has taken a RIGHT fork
-600 ms 35 has taken a LEFT fork
-600 ms 35 is eating
-600 ms 21 has taken a LEFT fork
-600 ms 23 has taken a RIGHT fork
-600 ms 9 has taken a RIGHT fork
-600 ms 23 has taken a LEFT fork
-600 ms 21 is eating
-600 ms 23 is eating
-600 ms 29 has taken a RIGHT fork
-600 ms 29 has taken a LEFT fork
-600 ms 17 has taken a RIGHT fork
-600 ms 29 is eating
-600 ms 13 is eating
-600 ms 36 is sleeping
-600 ms 27 is eating
-600 ms 9 has taken a LEFT fork
-600 ms 5 has taken a RIGHT fork
-600 ms 9 is eating
-600 ms 6 is sleeping
-600 ms 19 has taken a LEFT fork
-600 ms 19 is eating
-600 ms 31 is eating
-600 ms 5 has taken a LEFT fork
-600 ms 5 is eating
-600 ms 17 has taken a LEFT fork
-600 ms 17 is eating
-601 ms 88 is sleeping
-601 ms 100 is sleeping
-601 ms 148 is sleeping
-601 ms 87 has taken a RIGHT fork
-601 ms 161 has taken a RIGHT fork
-601 ms 147 has taken a RIGHT fork
-601 ms 74 is sleeping
-601 ms 189 has taken a RIGHT fork
-601 ms 91 has taken a RIGHT fork
-601 ms 78 is sleeping
-601 ms 172 is sleeping
-601 ms 43 has taken a RIGHT fork
-601 ms 182 is sleeping
-601 ms 112 is sleeping
-601 ms 136 is sleeping
-601 ms 114 is sleeping
-601 ms 44 is sleeping
-601 ms 92 is sleeping
-601 ms 190 is sleeping
-601 ms 56 is sleeping
-601 ms 126 is sleeping
-601 ms 46 is sleeping
-601 ms 80 is sleeping
-601 ms 70 is sleeping
-601 ms 174 is sleeping
-601 ms 62 is sleeping
-601 ms 188 is sleeping
-601 ms 158 is sleeping
-601 ms 94 is sleeping
-601 ms 72 is sleeping
-601 ms 52 is sleeping
-601 ms 111 has taken a RIGHT fork
-601 ms 170 is sleeping
-601 ms 60 is sleeping
-601 ms 178 is sleeping
-601 ms 77 has taken a RIGHT fork
-601 ms 76 is sleeping
-601 ms 66 is sleeping
-601 ms 99 has taken a RIGHT fork
-601 ms 132 is sleeping
-601 ms 84 is sleeping
-601 ms 124 is sleeping
-601 ms 154 is sleeping
-601 ms 152 is sleeping
-601 ms 140 is sleeping
-601 ms 143 has taken a RIGHT fork
-601 ms 171 has taken a RIGHT fork
-601 ms 186 is sleeping
-601 ms 135 has taken a RIGHT fork
-601 ms 90 is sleeping
-601 ms 108 is sleeping
-601 ms 144 is sleeping
-601 ms 113 has taken a RIGHT fork
-601 ms 113 has taken a LEFT fork
-601 ms 113 is eating
-601 ms 164 is sleeping
-601 ms 96 is sleeping
-601 ms 120 is sleeping
-601 ms 110 is sleeping
-601 ms 98 is sleeping
-601 ms 166 is sleeping
-601 ms 125 has taken a RIGHT fork
-601 ms 150 is sleeping
-601 ms 130 is sleeping
-601 ms 138 is sleeping
-601 ms 50 is sleeping
-601 ms 79 has taken a RIGHT fork
-601 ms 68 is sleeping
-601 ms 79 has taken a LEFT fork
-601 ms 86 is sleeping
-601 ms 79 is eating
-601 ms 173 has taken a RIGHT fork
-601 ms 61 has taken a RIGHT fork
-601 ms 189 has taken a LEFT fork
-601 ms 162 is sleeping
-601 ms 69 has taken a RIGHT fork
-601 ms 69 has taken a LEFT fork
-601 ms 115 has taken a RIGHT fork
-601 ms 176 is sleeping
-601 ms 189 is eating
-601 ms 61 has taken a LEFT fork
-601 ms 51 has taken a RIGHT fork
-601 ms 61 is eating
-601 ms 157 has taken a RIGHT fork
-601 ms 115 has taken a LEFT fork
-601 ms 173 has taken a LEFT fork
-601 ms 173 is eating
-601 ms 115 is eating
-601 ms 69 is eating
-601 ms 93 has taken a RIGHT fork
-601 ms 51 has taken a LEFT fork
-601 ms 116 is sleeping
-601 ms 93 has taken a LEFT fork
-601 ms 93 is eating
-601 ms 51 is eating
-601 ms 75 has taken a RIGHT fork
-601 ms 181 has taken a RIGHT fork
-601 ms 161 has taken a LEFT fork
-601 ms 161 is eating
-601 ms 59 has taken a RIGHT fork
-601 ms 59 has taken a LEFT fork
-601 ms 156 is sleeping
-601 ms 59 is eating
-601 ms 42 is sleeping
-601 ms 180 is sleeping
-601 ms 122 is sleeping
-601 ms 48 is sleeping
-601 ms 184 is sleeping
-601 ms 141 has taken a RIGHT fork
-601 ms 134 is sleeping
-601 ms 141 has taken a LEFT fork
-601 ms 131 has taken a RIGHT fork
-601 ms 83 has taken a RIGHT fork
-601 ms 131 has taken a LEFT fork
-601 ms 83 has taken a LEFT fork
-601 ms 131 is eating
-601 ms 83 is eating
-601 ms 160 is sleeping
-601 ms 153 has taken a RIGHT fork
-601 ms 139 has taken a RIGHT fork
-601 ms 127 has taken a RIGHT fork
-601 ms 139 has taken a LEFT fork
-601 ms 82 is sleeping
-601 ms 139 is eating
-601 ms 153 has taken a LEFT fork
-601 ms 185 has taken a RIGHT fork
-601 ms 127 has taken a LEFT fork
-601 ms 127 is eating
-601 ms 128 is sleeping
-601 ms 153 is eating
-601 ms 91 has taken a LEFT fork
-601 ms 91 is eating
-601 ms 53 has taken a RIGHT fork
-601 ms 143 has taken a LEFT fork
-601 ms 54 is sleeping
-601 ms 143 is eating
-601 ms 109 has taken a RIGHT fork
-601 ms 111 has taken a LEFT fork
-601 ms 111 is eating
-601 ms 97 has taken a RIGHT fork
-601 ms 99 has taken a LEFT fork
-601 ms 165 has taken a RIGHT fork
-601 ms 63 has taken a RIGHT fork
-601 ms 106 is sleeping
-601 ms 63 has taken a LEFT fork
-601 ms 63 is eating
-601 ms 49 has taken a RIGHT fork
-601 ms 45 has taken a RIGHT fork
-601 ms 85 has taken a RIGHT fork
-601 ms 45 has taken a LEFT fork
-601 ms 85 has taken a LEFT fork
-601 ms 67 has taken a RIGHT fork
-601 ms 71 has taken a RIGHT fork
-601 ms 168 is sleeping
-601 ms 71 has taken a LEFT fork
-601 ms 121 has taken a RIGHT fork
-601 ms 71 is eating
-601 ms 183 has taken a RIGHT fork
-601 ms 103 has taken a RIGHT fork
-601 ms 183 has taken a LEFT fork
-601 ms 133 has taken a RIGHT fork
-601 ms 135 has taken a LEFT fork
-601 ms 103 has taken a LEFT fork
-601 ms 133 has taken a LEFT fork
-601 ms 103 is eating
-601 ms 133 is eating
-601 ms 135 is eating
-601 ms 65 has taken a RIGHT fork
-601 ms 141 is eating
-601 ms 65 has taken a LEFT fork
-601 ms 81 has taken a RIGHT fork
-601 ms 65 is eating
-601 ms 81 has taken a LEFT fork
-601 ms 58 is sleeping
-601 ms 81 is eating
-601 ms 123 has taken a RIGHT fork
-601 ms 151 has taken a RIGHT fork
-601 ms 89 has taken a RIGHT fork
-601 ms 151 has taken a LEFT fork
-601 ms 53 has taken a LEFT fork
-601 ms 123 has taken a LEFT fork
-601 ms 89 has taken a LEFT fork
-601 ms 151 is eating
-601 ms 89 is eating
-601 ms 123 is eating
-601 ms 171 has taken a LEFT fork
-601 ms 171 is eating
-601 ms 53 is eating
-601 ms 109 has taken a LEFT fork
-601 ms 109 is eating
-601 ms 185 has taken a LEFT fork
-601 ms 97 has taken a LEFT fork
-601 ms 118 is sleeping
-601 ms 97 is eating
-601 ms 105 has taken a RIGHT fork
-601 ms 105 has taken a LEFT fork
-601 ms 119 has taken a RIGHT fork
-601 ms 105 is eating
-601 ms 129 has taken a RIGHT fork
-601 ms 119 has taken a LEFT fork
-601 ms 119 is eating
-601 ms 137 has taken a RIGHT fork
-601 ms 137 has taken a LEFT fork
-601 ms 129 has taken a LEFT fork
-601 ms 129 is eating
-601 ms 49 has taken a LEFT fork
-601 ms 137 is eating
-601 ms 45 is eating
-601 ms 49 is eating
-601 ms 73 has taken a RIGHT fork
-601 ms 175 has taken a RIGHT fork
-601 ms 73 has taken a LEFT fork
-601 ms 159 has taken a RIGHT fork
-601 ms 73 is eating
-601 ms 175 has taken a LEFT fork
-601 ms 155 has taken a RIGHT fork
-601 ms 155 has taken a LEFT fork
-601 ms 155 is eating
-601 ms 159 has taken a LEFT fork
-601 ms 41 has taken a RIGHT fork
-601 ms 157 has taken a LEFT fork
-601 ms 41 has taken a LEFT fork
-601 ms 159 is eating
-601 ms 43 has taken a LEFT fork
-601 ms 41 is eating
-601 ms 43 is eating
-601 ms 147 has taken a LEFT fork
-601 ms 147 is eating
-601 ms 67 has taken a LEFT fork
-601 ms 121 has taken a LEFT fork
-601 ms 169 has taken a RIGHT fork
-601 ms 146 is sleeping
-601 ms 169 has taken a LEFT fork
-601 ms 67 is eating
-601 ms 169 is eating
-601 ms 104 is sleeping
-601 ms 121 is eating
-601 ms 102 is sleeping
-601 ms 77 has taken a LEFT fork
-601 ms 107 has taken a RIGHT fork
-601 ms 57 has taken a RIGHT fork
-601 ms 163 has taken a RIGHT fork
-601 ms 77 is eating
-601 ms 163 has taken a LEFT fork
-601 ms 183 is eating
-601 ms 95 has taken a RIGHT fork
-601 ms 185 is eating
-601 ms 95 has taken a LEFT fork
-601 ms 55 has taken a RIGHT fork
-601 ms 165 has taken a LEFT fork
-601 ms 55 has taken a LEFT fork
-601 ms 99 is eating
-601 ms 165 is eating
-601 ms 55 is eating
-601 ms 117 has taken a RIGHT fork
-601 ms 125 has taken a LEFT fork
-601 ms 64 is sleeping
-601 ms 125 is eating
-601 ms 87 has taken a LEFT fork
-601 ms 187 has taken a RIGHT fork
-601 ms 87 is eating
-601 ms 177 has taken a RIGHT fork
-601 ms 177 has taken a LEFT fork
-601 ms 177 is eating
-601 ms 175 is eating
-601 ms 157 is eating
-601 ms 145 has taken a RIGHT fork
-601 ms 145 has taken a LEFT fork
-601 ms 145 is eating
-601 ms 187 has taken a LEFT fork
-601 ms 187 is eating
-601 ms 101 has taken a RIGHT fork
-601 ms 75 has taken a LEFT fork
-601 ms 47 has taken a RIGHT fork
-601 ms 75 is eating
-601 ms 179 has taken a RIGHT fork
-601 ms 47 has taken a LEFT fork
-601 ms 47 is eating
-601 ms 179 has taken a LEFT fork
-601 ms 179 is eating
-601 ms 57 has taken a LEFT fork
-601 ms 57 is eating
-601 ms 142 is sleeping
-601 ms 163 is eating
-601 ms 85 is eating
-601 ms 101 has taken a LEFT fork
-601 ms 181 has taken a LEFT fork
-601 ms 149 has taken a RIGHT fork
-601 ms 181 is eating
-601 ms 101 is eating
-601 ms 149 has taken a LEFT fork
-601 ms 107 has taken a LEFT fork
-601 ms 167 has taken a RIGHT fork
-601 ms 107 is eating
-601 ms 149 is eating
-601 ms 117 has taken a LEFT fork
-601 ms 95 is eating
-601 ms 117 is eating
-601 ms 167 has taken a LEFT fork
-601 ms 167 is eating
-602 ms 192 is sleeping
-602 ms 191 has taken a RIGHT fork
-602 ms 191 has taken a LEFT fork
-602 ms 191 is eating
-602 ms 196 is sleeping
-602 ms 195 has taken a RIGHT fork
-602 ms 199 has taken a RIGHT fork
-602 ms 1 has taken a RIGHT fork
-602 ms 2 is sleeping
-602 ms 3 has taken a LEFT fork
-602 ms 3 is eating
-602 ms 1 has taken a LEFT fork
-602 ms 1 is eating
-602 ms 200 is sleeping
-602 ms 198 is sleeping
-602 ms 199 has taken a LEFT fork
-602 ms 199 is eating
-602 ms 197 has taken a RIGHT fork
-602 ms 197 has taken a LEFT fork
-602 ms 197 is eating
-602 ms 194 is sleeping
-602 ms 193 has taken a RIGHT fork
-602 ms 193 has taken a LEFT fork
-602 ms 193 is eating
-602 ms 195 has taken a LEFT fork
-602 ms 195 is eating
-700 ms 38 is thinking
-700 ms 14 is thinking
-700 ms 6 is thinking
-700 ms 24 is thinking
-700 ms 30 is thinking
-700 ms 20 is thinking
-700 ms 22 is thinking
-700 ms 10 is thinking
-700 ms 4 is thinking
-700 ms 36 is thinking
-700 ms 8 is thinking
-700 ms 32 is thinking
-700 ms 34 is thinking
-700 ms 28 is thinking
-700 ms 16 is thinking
-700 ms 12 is thinking
-700 ms 40 is thinking
-700 ms 18 is thinking
-700 ms 26 is thinking
-701 ms 180 is thinking
-701 ms 138 is thinking
-701 ms 162 is thinking
-701 ms 176 is thinking
-701 ms 184 is thinking
-701 ms 190 is thinking
-701 ms 96 is thinking
-701 ms 158 is thinking
-701 ms 68 is thinking
-701 ms 156 is thinking
-701 ms 182 is thinking
-701 ms 72 is thinking
-701 ms 78 is thinking
-701 ms 62 is thinking
-701 ms 140 is thinking
-701 ms 86 is thinking
-701 ms 46 is thinking
-701 ms 160 is thinking
-701 ms 164 is thinking
-701 ms 170 is thinking
-701 ms 120 is thinking
-701 ms 80 is thinking
-701 ms 94 is thinking
-701 ms 108 is thinking
-701 ms 90 is thinking
-701 ms 52 is thinking
-701 ms 44 is thinking
-701 ms 172 is thinking
-701 ms 130 is thinking
-701 ms 102 is thinking
-701 ms 152 is thinking
-701 ms 126 is thinking
-701 ms 188 is thinking
-701 ms 56 is thinking
-701 ms 186 is thinking
-701 ms 64 is thinking
-701 ms 58 is thinking
-701 ms 136 is thinking
-701 ms 154 is thinking
-701 ms 116 is thinking
-701 ms 118 is thinking
-701 ms 122 is thinking
-701 ms 84 is thinking
-701 ms 92 is thinking
-701 ms 104 is thinking
-701 ms 112 is thinking
-701 ms 114 is thinking
-701 ms 142 is thinking
-701 ms 146 is thinking
-701 ms 150 is thinking
-701 ms 48 is thinking
-701 ms 82 is thinking
-701 ms 100 is thinking
-701 ms 50 is thinking
-701 ms 178 is thinking
-701 ms 54 is thinking
-701 ms 106 is thinking
-701 ms 166 is thinking
-701 ms 98 is thinking
-701 ms 66 is thinking
-701 ms 76 is thinking
-701 ms 144 is thinking
-701 ms 128 is thinking
-701 ms 110 is thinking
-701 ms 148 is thinking
-701 ms 70 is thinking
-701 ms 168 is thinking
-701 ms 88 is thinking
-701 ms 174 is thinking
-701 ms 60 is thinking
-701 ms 42 is thinking
-701 ms 74 is thinking
-701 ms 132 is thinking
-701 ms 134 is thinking
-701 ms 124 is thinking
-702 ms 198 is thinking
-702 ms 194 is thinking
-702 ms 192 is thinking
-702 ms 2 is thinking
-702 ms 200 is thinking
-702 ms 196 is thinking
-750 ms 13 is sleeping
-750 ms 27 is sleeping
-750 ms 21 is sleeping
-750 ms 12 has taken a RIGHT fork
-750 ms 39 is sleeping
-750 ms 23 is sleeping
-750 ms 16 has taken a RIGHT fork
-750 ms 25 is sleeping
-750 ms 37 is sleeping
-750 ms 34 has taken a RIGHT fork
-750 ms 26 has taken a RIGHT fork
-750 ms 26 has taken a LEFT fork
-750 ms 26 is eating
-750 ms 20 has taken a RIGHT fork
-750 ms 38 has taken a RIGHT fork
-750 ms 19 is sleeping
-750 ms 38 has taken a LEFT fork
-750 ms 6 has taken a RIGHT fork
-750 ms 7 is sleeping
-750 ms 6 has taken a LEFT fork
-750 ms 6 is eating
-750 ms 9 is sleeping
-750 ms 36 has taken a RIGHT fork
-750 ms 36 has taken a LEFT fork
-750 ms 17 is sleeping
-750 ms 11 is sleeping
-750 ms 28 has taken a RIGHT fork
-750 ms 20 has taken a LEFT fork
-750 ms 28 has taken a LEFT fork
-750 ms 30 has taken a RIGHT fork
-750 ms 4 has taken a RIGHT fork
-750 ms 38 is eating
-750 ms 31 is sleeping
-750 ms 8 has taken a RIGHT fork
-750 ms 24 has taken a RIGHT fork
-750 ms 32 has taken a RIGHT fork
-750 ms 14 has taken a RIGHT fork
-750 ms 10 has taken a RIGHT fork
-750 ms 16 has taken a LEFT fork
-750 ms 16 is eating
-750 ms 24 has taken a LEFT fork
-750 ms 8 has taken a LEFT fork
-750 ms 8 is eating
-750 ms 14 has taken a LEFT fork
-750 ms 32 has taken a LEFT fork
-750 ms 32 is eating
-750 ms 33 is sleeping
-750 ms 10 has taken a LEFT fork
-750 ms 10 is eating
-750 ms 18 has taken a RIGHT fork
-750 ms 36 is eating
-750 ms 18 has taken a LEFT fork
-750 ms 18 is eating
-750 ms 35 is sleeping
-750 ms 29 is sleeping
-750 ms 30 has taken a LEFT fork
-750 ms 30 is eating
-750 ms 5 is sleeping
-750 ms 34 has taken a LEFT fork
-750 ms 34 is eating
-750 ms 12 has taken a LEFT fork
-750 ms 15 is sleeping
-750 ms 12 is eating
-750 ms 22 has taken a RIGHT fork
-750 ms 22 has taken a LEFT fork
-750 ms 22 is eating
-750 ms 14 is eating
-750 ms 20 is eating
-750 ms 28 is eating
-750 ms 24 is eating
-751 ms 161 is sleeping
-751 ms 127 is sleeping
-751 ms 53 is sleeping
-751 ms 73 is sleeping
-751 ms 105 is sleeping
-751 ms 67 is sleeping
-751 ms 179 is sleeping
-751 ms 160 has taken a RIGHT fork
-751 ms 64 has taken a RIGHT fork
-751 ms 51 is sleeping
-751 ms 75 is sleeping
-751 ms 52 has taken a RIGHT fork
-751 ms 169 is sleeping
-751 ms 41 is sleeping
-751 ms 123 is sleeping
-751 ms 126 has taken a RIGHT fork
-751 ms 89 is sleeping
-751 ms 52 has taken a LEFT fork
-751 ms 52 is eating
-751 ms 115 is sleeping
-751 ms 121 is sleeping
-751 ms 111 is sleeping
-751 ms 72 has taken a RIGHT fork
-751 ms 72 has taken a LEFT fork
-751 ms 55 is sleeping
-751 ms 138 has taken a RIGHT fork
-751 ms 72 is eating
-751 ms 106 has taken a RIGHT fork
-751 ms 60 has taken a RIGHT fork
-751 ms 106 has taken a LEFT fork
-751 ms 106 is eating
-751 ms 104 has taken a RIGHT fork
-751 ms 175 is sleeping
-751 ms 147 is sleeping
-751 ms 178 has taken a RIGHT fork
-751 ms 173 is sleeping
-751 ms 85 is sleeping
-751 ms 131 is sleeping
-751 ms 129 is sleeping
-751 ms 59 is sleeping
-751 ms 143 is sleeping
-751 ms 107 is sleeping
-751 ms 69 is sleeping
-751 ms 96 has taken a RIGHT fork
-751 ms 139 is sleeping
-751 ms 137 is sleeping
-751 ms 163 is sleeping
-751 ms 40 has taken a RIGHT fork
-751 ms 61 is sleeping
-751 ms 165 is sleeping
-751 ms 181 is sleeping
-751 ms 168 has taken a RIGHT fork
-751 ms 185 is sleeping
-751 ms 101 is sleeping
-751 ms 99 is sleeping
-751 ms 133 is sleeping
-751 ms 83 is sleeping
-751 ms 87 is sleeping
-751 ms 122 has taken a RIGHT fork
-751 ms 122 has taken a LEFT fork
-751 ms 117 is sleeping
-751 ms 76 has taken a RIGHT fork
-751 ms 47 is sleeping
-751 ms 103 is sleeping
-751 ms 171 is sleeping
-751 ms 124 has taken a RIGHT fork
-751 ms 76 has taken a LEFT fork
-751 ms 124 has taken a LEFT fork
-751 ms 77 is sleeping
-751 ms 114 has taken a RIGHT fork
-751 ms 124 is eating
-751 ms 76 is eating
-751 ms 42 has taken a RIGHT fork
-751 ms 126 has taken a LEFT fork
-751 ms 126 is eating
-751 ms 188 has taken a RIGHT fork
-751 ms 110 has taken a RIGHT fork
-751 ms 43 is sleeping
-751 ms 188 has taken a LEFT fork
-751 ms 154 has taken a RIGHT fork
-751 ms 150 has taken a RIGHT fork
-751 ms 125 is sleeping
-751 ms 189 is sleeping
-751 ms 151 is sleeping
-751 ms 166 has taken a RIGHT fork
-751 ms 146 has taken a RIGHT fork
-751 ms 166 has taken a LEFT fork
-751 ms 172 has taken a RIGHT fork
-751 ms 166 is eating
-751 ms 167 is sleeping
-751 ms 112 has taken a RIGHT fork
-751 ms 90 has taken a RIGHT fork
-751 ms 128 has taken a RIGHT fork
-751 ms 90 has taken a LEFT fork
-751 ms 172 has taken a LEFT fork
-751 ms 128 has taken a LEFT fork
-751 ms 172 is eating
-751 ms 90 is eating
-751 ms 68 has taken a RIGHT fork
-751 ms 58 has taken a RIGHT fork
-751 ms 128 is eating
-751 ms 60 has taken a LEFT fork
-751 ms 60 is eating
-751 ms 142 has taken a RIGHT fork
-751 ms 58 has taken a LEFT fork
-751 ms 91 is sleeping
-751 ms 140 has taken a RIGHT fork
-751 ms 140 has taken a LEFT fork
-751 ms 160 has taken a LEFT fork
-751 ms 140 is eating
-751 ms 48 has taken a RIGHT fork
-751 ms 160 is eating
-751 ms 48 has taken a LEFT fork
-751 ms 136 has taken a RIGHT fork
-751 ms 182 has taken a RIGHT fork
-751 ms 141 is sleeping
-751 ms 108 has taken a RIGHT fork
-751 ms 48 is eating
-751 ms 108 has taken a LEFT fork
-751 ms 108 is eating
-751 ms 159 is sleeping
-751 ms 138 has taken a LEFT fork
-751 ms 180 has taken a RIGHT fork
-751 ms 184 has taken a RIGHT fork
-751 ms 180 has taken a LEFT fork
-751 ms 184 has taken a LEFT fork
-751 ms 93 is sleeping
-751 ms 180 is eating
-751 ms 40 has taken a LEFT fork
-751 ms 184 is eating
-751 ms 100 has taken a RIGHT fork
-751 ms 40 is eating
-751 ms 100 has taken a LEFT fork
-751 ms 45 is sleeping
-751 ms 132 has taken a RIGHT fork
-751 ms 82 has taken a RIGHT fork
-751 ms 187 is sleeping
-751 ms 94 has taken a RIGHT fork
-751 ms 86 has taken a RIGHT fork
-751 ms 96 has taken a LEFT fork
-751 ms 119 is sleeping
-751 ms 96 is eating
-751 ms 102 has taken a RIGHT fork
-751 ms 74 has taken a RIGHT fork
-751 ms 102 has taken a LEFT fork
-751 ms 88 has taken a RIGHT fork
-751 ms 74 has taken a LEFT fork
-751 ms 102 is eating
-751 ms 74 is eating
-751 ms 95 is sleeping
-751 ms 170 has taken a RIGHT fork
-751 ms 170 has taken a LEFT fork
-751 ms 170 is eating
-751 ms 70 has taken a RIGHT fork
-751 ms 70 has taken a LEFT fork
-751 ms 88 has taken a LEFT fork
-751 ms 120 has taken a RIGHT fork
-751 ms 88 is eating
-751 ms 54 has taken a RIGHT fork
-751 ms 120 has taken a LEFT fork
-751 ms 42 has taken a LEFT fork
-751 ms 54 has taken a LEFT fork
-751 ms 120 is eating
-751 ms 71 is sleeping
-751 ms 54 is eating
-751 ms 188 is eating
-751 ms 42 is eating
-751 ms 84 has taken a RIGHT fork
-751 ms 174 has taken a RIGHT fork
-751 ms 112 has taken a LEFT fork
-751 ms 174 has taken a LEFT fork
-751 ms 112 is eating
-751 ms 113 is sleeping
-751 ms 66 has taken a RIGHT fork
-751 ms 174 is eating
-751 ms 84 has taken a LEFT fork
-751 ms 84 is eating
-751 ms 66 has taken a LEFT fork
-751 ms 66 is eating
-751 ms 130 has taken a RIGHT fork
-751 ms 68 has taken a LEFT fork
-751 ms 130 has taken a LEFT fork
-751 ms 158 has taken a RIGHT fork
-751 ms 68 is eating
-751 ms 158 has taken a LEFT fork
-751 ms 158 is eating
-751 ms 64 has taken a LEFT fork
-751 ms 130 is eating
-751 ms 64 is eating
-751 ms 56 has taken a RIGHT fork
-751 ms 56 has taken a LEFT fork
-751 ms 109 is sleeping
-751 ms 56 is eating
-751 ms 136 has taken a LEFT fork
-751 ms 136 is eating
-751 ms 183 is sleeping
-751 ms 118 has taken a RIGHT fork
-751 ms 138 is eating
-751 ms 118 has taken a LEFT fork
-751 ms 134 has taken a RIGHT fork
-751 ms 118 is eating
-751 ms 97 is sleeping
-751 ms 134 has taken a LEFT fork
-751 ms 134 is eating
-751 ms 100 is eating
-751 ms 153 is sleeping
-751 ms 168 has taken a LEFT fork
-751 ms 104 has taken a LEFT fork
-751 ms 86 has taken a LEFT fork
-751 ms 104 is eating
-751 ms 122 is eating
-751 ms 86 is eating
-751 ms 168 is eating
-751 ms 70 is eating
-751 ms 110 has taken a LEFT fork
-751 ms 114 has taken a LEFT fork
-751 ms 114 is eating
-751 ms 62 has taken a RIGHT fork
-751 ms 110 is eating
-751 ms 177 is sleeping
-751 ms 142 has taken a LEFT fork
-751 ms 142 is eating
-751 ms 65 is sleeping
-751 ms 63 is sleeping
-751 ms 79 is sleeping
-751 ms 49 is sleeping
-751 ms 162 has taken a RIGHT fork
-751 ms 156 has taken a RIGHT fork
-751 ms 145 is sleeping
-751 ms 156 has taken a LEFT fork
-751 ms 157 is sleeping
-751 ms 44 has taken a RIGHT fork
-751 ms 44 has taken a LEFT fork
-751 ms 149 is sleeping
-751 ms 44 is eating
-751 ms 162 has taken a LEFT fork
-751 ms 164 has taken a RIGHT fork
-751 ms 132 has taken a LEFT fork
-751 ms 50 has taken a RIGHT fork
-751 ms 164 has taken a LEFT fork
-751 ms 50 has taken a LEFT fork
-751 ms 164 is eating
-751 ms 50 is eating
-751 ms 186 has taken a RIGHT fork
-751 ms 162 is eating
-751 ms 132 is eating
-751 ms 152 has taken a RIGHT fork
-751 ms 154 has taken a LEFT fork
-751 ms 152 has taken a LEFT fork
-751 ms 186 has taken a LEFT fork
-751 ms 186 is eating
-751 ms 135 is sleeping
-751 ms 116 has taken a RIGHT fork
-751 ms 116 has taken a LEFT fork
-751 ms 176 has taken a RIGHT fork
-751 ms 156 is eating
-751 ms 176 has taken a LEFT fork
-751 ms 152 is eating
-751 ms 176 is eating
-751 ms 94 has taken a LEFT fork
-751 ms 80 has taken a RIGHT fork
-751 ms 94 is eating
-751 ms 82 has taken a LEFT fork
-751 ms 178 has taken a LEFT fork
-751 ms 82 is eating
-751 ms 116 is eating
-751 ms 155 is sleeping
-751 ms 78 has taken a RIGHT fork
-751 ms 58 is eating
-751 ms 81 is sleeping
-751 ms 78 has taken a LEFT fork
-751 ms 78 is eating
-751 ms 178 is eating
-751 ms 148 has taken a RIGHT fork
-751 ms 182 has taken a LEFT fork
-751 ms 148 has taken a LEFT fork
-751 ms 182 is eating
-751 ms 148 is eating
-751 ms 150 has taken a LEFT fork
-751 ms 150 is eating
-751 ms 57 is sleeping
-751 ms 154 is eating
-751 ms 62 has taken a LEFT fork
-751 ms 62 is eating
-751 ms 46 has taken a RIGHT fork
-751 ms 46 has taken a LEFT fork
-751 ms 46 is eating
-751 ms 98 has taken a RIGHT fork
-751 ms 98 has taken a LEFT fork
-751 ms 98 is eating
-751 ms 80 has taken a LEFT fork
-751 ms 80 is eating
-751 ms 92 has taken a RIGHT fork
-751 ms 146 has taken a LEFT fork
-751 ms 146 is eating
-751 ms 92 has taken a LEFT fork
-751 ms 92 is eating
-751 ms 144 has taken a RIGHT fork
-751 ms 144 has taken a LEFT fork
-751 ms 144 is eating
-752 ms 199 is sleeping
-752 ms 198 has taken a RIGHT fork
-752 ms 1 is sleeping
-752 ms 192 has taken a RIGHT fork
-752 ms 195 is sleeping
-752 ms 200 has taken a RIGHT fork
-752 ms 200 has taken a LEFT fork
-752 ms 200 is eating
-752 ms 193 is sleeping
-752 ms 191 is sleeping
-752 ms 190 has taken a RIGHT fork
-752 ms 190 has taken a LEFT fork
-752 ms 190 is eating
-752 ms 194 has taken a RIGHT fork
-752 ms 194 has taken a LEFT fork
-752 ms 194 is eating
-752 ms 192 has taken a LEFT fork
-752 ms 192 is eating
-752 ms 3 is sleeping
-752 ms 2 has taken a RIGHT fork
-752 ms 2 has taken a LEFT fork
-752 ms 2 is eating
-752 ms 4 has taken a LEFT fork
-752 ms 4 is eating
-752 ms 197 is sleeping
-752 ms 196 has taken a RIGHT fork
-752 ms 196 has taken a LEFT fork
-752 ms 196 is eating
-752 ms 198 has taken a LEFT fork
-752 ms 198 is eating
-850 ms 17 is thinking
-850 ms 19 is thinking
-850 ms 21 is thinking
-850 ms 35 is thinking
-850 ms 31 is thinking
-850 ms 7 is thinking
-850 ms 13 is thinking
-850 ms 33 is thinking
-850 ms 25 is thinking
-850 ms 39 is thinking
-850 ms 37 is thinking
-850 ms 23 is thinking
-850 ms 15 is thinking
-850 ms 5 is thinking
-850 ms 29 is thinking
-850 ms 11 is thinking
-850 ms 9 is thinking
-850 ms 27 is thinking
-851 ms 53 is thinking
-851 ms 141 is thinking
-851 ms 85 is thinking
-851 ms 95 is thinking
-851 ms 43 is thinking
-851 ms 49 is thinking
-851 ms 67 is thinking
-851 ms 173 is thinking
-851 ms 169 is thinking
-851 ms 185 is thinking
-851 ms 137 is thinking
-851 ms 177 is thinking
-851 ms 147 is thinking
-851 ms 139 is thinking
-851 ms 189 is thinking
-851 ms 129 is thinking
-851 ms 83 is thinking
-851 ms 105 is thinking
-851 ms 65 is thinking
-851 ms 135 is thinking
-851 ms 109 is thinking
-851 ms 91 is thinking
-851 ms 113 is thinking
-851 ms 51 is thinking
-851 ms 77 is thinking
-851 ms 179 is thinking
-851 ms 41 is thinking
-851 ms 57 is thinking
-851 ms 187 is thinking
-851 ms 69 is thinking
-851 ms 59 is thinking
-851 ms 121 is thinking
-851 ms 119 is thinking
-851 ms 183 is thinking
-851 ms 87 is thinking
-851 ms 125 is thinking
-851 ms 61 is thinking
-851 ms 127 is thinking
-851 ms 111 is thinking
-851 ms 155 is thinking
-851 ms 161 is thinking
-851 ms 107 is thinking
-851 ms 89 is thinking
-851 ms 45 is thinking
-851 ms 117 is thinking
-851 ms 153 is thinking
-851 ms 47 is thinking
-851 ms 165 is thinking
-851 ms 149 is thinking
-851 ms 99 is thinking
-851 ms 103 is thinking
-851 ms 181 is thinking
-851 ms 71 is thinking
-851 ms 97 is thinking
-851 ms 101 is thinking
-851 ms 145 is thinking
-851 ms 123 is thinking
-851 ms 75 is thinking
-851 ms 133 is thinking
-851 ms 79 is thinking
-851 ms 63 is thinking
-851 ms 55 is thinking
-851 ms 167 is thinking
-851 ms 171 is thinking
-851 ms 73 is thinking
-851 ms 93 is thinking
-851 ms 151 is thinking
-851 ms 143 is thinking
-851 ms 163 is thinking
-851 ms 81 is thinking
-851 ms 159 is thinking
-851 ms 175 is thinking
-851 ms 115 is thinking
-851 ms 157 is thinking
-851 ms 131 is thinking
-852 ms 191 is thinking
-852 ms 199 is thinking
-852 ms 3 is thinking
-852 ms 197 is thinking
-852 ms 195 is thinking
-852 ms 1 is thinking
-852 ms 193 is thinking
-900 ms 36 is sleeping
-900 ms 26 is sleeping
-900 ms 38 is sleeping
-900 ms 25 has taken a RIGHT fork
-900 ms 32 is sleeping
-900 ms 20 is sleeping
-900 ms 10 is sleeping
-900 ms 27 has taken a RIGHT fork
-900 ms 27 has taken a LEFT fork
-900 ms 27 is eating
-900 ms 28 is sleeping
-900 ms 22 is sleeping
-900 ms 14 is sleeping
-900 ms 16 is sleeping
-900 ms 31 has taken a RIGHT fork
-900 ms 19 has taken a RIGHT fork
-900 ms 31 has taken a LEFT fork
-900 ms 31 is eating
-900 ms 19 has taken a LEFT fork
-900 ms 9 has taken a RIGHT fork
-900 ms 24 is sleeping
-900 ms 11 has taken a RIGHT fork
-900 ms 5 has taken a RIGHT fork
-900 ms 8 is sleeping
-900 ms 21 has taken a RIGHT fork
-900 ms 13 has taken a RIGHT fork
-900 ms 13 has taken a LEFT fork
-900 ms 13 is eating
-900 ms 11 has taken a LEFT fork
-900 ms 11 is eating
-900 ms 12 is sleeping
-900 ms 15 has taken a RIGHT fork
-900 ms 37 has taken a RIGHT fork
-900 ms 35 has taken a RIGHT fork
-900 ms 15 has taken a LEFT fork
-900 ms 15 is eating
-900 ms 33 has taken a RIGHT fork
-900 ms 6 is sleeping
-900 ms 33 has taken a LEFT fork
-900 ms 34 is sleeping
-900 ms 7 has taken a RIGHT fork
-900 ms 7 has taken a LEFT fork
-900 ms 21 has taken a LEFT fork
-900 ms 7 is eating
-900 ms 37 has taken a LEFT fork
-900 ms 35 has taken a LEFT fork
-900 ms 35 is eating
-900 ms 30 is sleeping
-900 ms 21 is eating
-900 ms 23 has taken a RIGHT fork
-900 ms 17 has taken a RIGHT fork
-900 ms 23 has taken a LEFT fork
-900 ms 9 has taken a LEFT fork
-900 ms 23 is eating
-900 ms 9 is eating
-900 ms 29 has taken a RIGHT fork
-900 ms 29 has taken a LEFT fork
-900 ms 18 is sleeping
-900 ms 29 is eating
-900 ms 37 is eating
-900 ms 33 is eating
-900 ms 19 is eating
-900 ms 17 has taken a LEFT fork
-900 ms 17 is eating
-900 ms 25 has taken a LEFT fork
-900 ms 25 is eating
-901 ms 74 is sleeping
-901 ms 48 is sleeping
-901 ms 114 is sleeping
-901 ms 182 is sleeping
-901 ms 156 is sleeping
-901 ms 130 is sleeping
-901 ms 116 is sleeping
-901 ms 187 has taken a RIGHT fork
-901 ms 47 has taken a RIGHT fork
-901 ms 113 has taken a RIGHT fork
-901 ms 76 is sleeping
-901 ms 140 is sleeping
-901 ms 181 has taken a RIGHT fork
-901 ms 155 has taken a RIGHT fork
-901 ms 50 is sleeping
-901 ms 112 is sleeping
-901 ms 104 is sleeping
-901 ms 168 is sleeping
-901 ms 176 is sleeping
-901 ms 144 is sleeping
-901 ms 129 has taken a RIGHT fork
-901 ms 115 has taken a RIGHT fork
-901 ms 152 is sleeping
-901 ms 115 has taken a LEFT fork
-901 ms 82 is sleeping
-901 ms 73 has taken a RIGHT fork
-901 ms 139 has taken a RIGHT fork
-901 ms 64 is sleeping
-901 ms 44 is sleeping
-901 ms 111 has taken a RIGHT fork
-901 ms 186 is sleeping
-901 ms 90 is sleeping
-901 ms 188 is sleeping
-901 ms 42 is sleeping
-901 ms 166 is sleeping
-901 ms 108 is sleeping
-901 ms 49 has taken a RIGHT fork
-901 ms 52 is sleeping
-901 ms 97 has taken a RIGHT fork
-901 ms 103 has taken a RIGHT fork
-901 ms 167 has taken a RIGHT fork
-901 ms 86 is sleeping
-901 ms 143 has taken a RIGHT fork
-901 ms 143 has taken a LEFT fork
-901 ms 55 has taken a RIGHT fork
-901 ms 138 is sleeping
-901 ms 126 is sleeping
-901 ms 158 is sleeping
-901 ms 164 is sleeping
-901 ms 128 is sleeping
-901 ms 115 is eating
-901 ms 54 is sleeping
-901 ms 65 has taken a RIGHT fork
-901 ms 134 is sleeping
-901 ms 154 is sleeping
-901 ms 63 has taken a RIGHT fork
-901 ms 56 is sleeping
-901 ms 170 is sleeping
-901 ms 148 is sleeping
-901 ms 180 is sleeping
-901 ms 162 is sleeping
-901 ms 96 is sleeping
-901 ms 120 is sleeping
-901 ms 110 is sleeping
-901 ms 62 is sleeping
-901 ms 160 is sleeping
-901 ms 43 has taken a RIGHT fork
-901 ms 92 is sleeping
-901 ms 43 has taken a LEFT fork
-901 ms 102 is sleeping
-901 ms 78 is sleeping
-901 ms 43 is eating
-901 ms 185 has taken a RIGHT fork
-901 ms 132 is sleeping
-901 ms 89 has taken a RIGHT fork
-901 ms 60 is sleeping
-901 ms 185 has taken a LEFT fork
-901 ms 72 is sleeping
-901 ms 185 is eating
-901 ms 45 has taken a RIGHT fork
-901 ms 118 is sleeping
-901 ms 47 has taken a LEFT fork
-901 ms 165 has taken a RIGHT fork
-901 ms 47 is eating
-901 ms 141 has taken a RIGHT fork
-901 ms 46 is sleeping
-901 ms 141 has taken a LEFT fork
-901 ms 57 has taken a RIGHT fork
-901 ms 141 is eating
-901 ms 105 has taken a RIGHT fork
-901 ms 105 has taken a LEFT fork
-901 ms 113 has taken a LEFT fork
-901 ms 58 is sleeping
-901 ms 49 has taken a LEFT fork
-901 ms 142 is sleeping
-901 ms 135 has taken a RIGHT fork
-901 ms 135 has taken a LEFT fork
-901 ms 157 has taken a RIGHT fork
-901 ms 163 has taken a RIGHT fork
-901 ms 135 is eating
-901 ms 157 has taken a LEFT fork
-901 ms 163 has taken a LEFT fork
-901 ms 69 has taken a RIGHT fork
-901 ms 67 has taken a RIGHT fork
-901 ms 69 has taken a LEFT fork
-901 ms 53 has taken a RIGHT fork
-901 ms 67 has taken a LEFT fork
-901 ms 55 has taken a LEFT fork
-901 ms 53 has taken a LEFT fork
-901 ms 55 is eating
-901 ms 67 is eating
-901 ms 53 is eating
-901 ms 68 is sleeping
-901 ms 121 has taken a RIGHT fork
-901 ms 133 has taken a RIGHT fork
-901 ms 93 has taken a RIGHT fork
-901 ms 133 has taken a LEFT fork
-901 ms 122 is sleeping
-901 ms 93 has taken a LEFT fork
-901 ms 133 is eating
-901 ms 93 is eating
-901 ms 79 has taken a RIGHT fork
-901 ms 155 has taken a LEFT fork
-901 ms 172 is sleeping
-901 ms 94 is sleeping
-901 ms 145 has taken a RIGHT fork
-901 ms 145 has taken a LEFT fork
-901 ms 169 has taken a RIGHT fork
-901 ms 155 is eating
-901 ms 169 has taken a LEFT fork
-901 ms 99 has taken a RIGHT fork
-901 ms 169 is eating
-901 ms 149 has taken a RIGHT fork
-901 ms 79 has taken a LEFT fork
-901 ms 99 has taken a LEFT fork
-901 ms 99 is eating
-901 ms 149 has taken a LEFT fork
-901 ms 145 is eating
-901 ms 149 is eating
-901 ms 179 has taken a RIGHT fork
-901 ms 79 is eating
-901 ms 80 is sleeping
-901 ms 181 has taken a LEFT fork
-901 ms 100 is sleeping
-901 ms 95 has taken a RIGHT fork
-901 ms 87 has taken a RIGHT fork
-901 ms 97 has taken a LEFT fork
-901 ms 109 has taken a RIGHT fork
-901 ms 111 has taken a LEFT fork
-901 ms 109 has taken a LEFT fork
-901 ms 173 has taken a RIGHT fork
-901 ms 63 has taken a LEFT fork
-901 ms 75 has taken a RIGHT fork
-901 ms 173 has taken a LEFT fork
-901 ms 75 has taken a LEFT fork
-901 ms 75 is eating
-901 ms 174 is sleeping
-901 ms 173 is eating
-901 ms 101 has taken a RIGHT fork
-901 ms 83 has taken a RIGHT fork
-901 ms 101 has taken a LEFT fork
-901 ms 83 has taken a LEFT fork
-901 ms 77 has taken a RIGHT fork
-901 ms 101 is eating
-901 ms 83 is eating
-901 ms 131 has taken a RIGHT fork
-901 ms 77 has taken a LEFT fork
-901 ms 131 has taken a LEFT fork
-901 ms 71 has taken a RIGHT fork
-901 ms 129 has taken a LEFT fork
-901 ms 71 has taken a LEFT fork
-901 ms 129 is eating
-901 ms 71 is eating
-901 ms 117 has taken a RIGHT fork
-901 ms 117 has taken a LEFT fork
-901 ms 117 is eating
-901 ms 89 has taken a LEFT fork
-901 ms 45 has taken a LEFT fork
-901 ms 123 has taken a RIGHT fork
-901 ms 45 is eating
-901 ms 89 is eating
-901 ms 123 has taken a LEFT fork
-901 ms 123 is eating
-901 ms 41 has taken a RIGHT fork
-901 ms 187 has taken a LEFT fork
-901 ms 178 is sleeping
-901 ms 187 is eating
-901 ms 107 has taken a RIGHT fork
-901 ms 107 has taken a LEFT fork
-901 ms 51 has taken a RIGHT fork
-901 ms 184 is sleeping
-901 ms 124 is sleeping
-901 ms 85 has taken a RIGHT fork
-901 ms 85 has taken a LEFT fork
-901 ms 113 is eating
-901 ms 85 is eating
-901 ms 175 has taken a RIGHT fork
-901 ms 98 is sleeping
-901 ms 175 has taken a LEFT fork
-901 ms 125 has taken a RIGHT fork
-901 ms 175 is eating
-901 ms 167 has taken a LEFT fork
-901 ms 81 has taken a RIGHT fork
-901 ms 125 has taken a LEFT fork
-901 ms 157 is eating
-901 ms 143 is eating
-901 ms 127 has taken a RIGHT fork
-901 ms 163 is eating
-901 ms 127 has taken a LEFT fork
-901 ms 121 has taken a LEFT fork
-901 ms 153 has taken a RIGHT fork
-901 ms 121 is eating
-901 ms 65 has taken a LEFT fork
-901 ms 179 has taken a LEFT fork
-901 ms 65 is eating
-901 ms 181 is eating
-901 ms 179 is eating
-901 ms 153 has taken a LEFT fork
-901 ms 146 is sleeping
-901 ms 150 is sleeping
-901 ms 119 has taken a RIGHT fork
-901 ms 119 has taken a LEFT fork
-901 ms 61 has taken a RIGHT fork
-901 ms 119 is eating
-901 ms 109 is eating
-901 ms 159 has taken a RIGHT fork
-901 ms 111 is eating
-901 ms 63 is eating
-901 ms 61 has taken a LEFT fork
-901 ms 103 has taken a LEFT fork
-901 ms 91 has taken a RIGHT fork
-901 ms 91 has taken a LEFT fork
-901 ms 91 is eating
-901 ms 159 has taken a LEFT fork
-901 ms 159 is eating
-901 ms 103 is eating
-901 ms 59 has taken a RIGHT fork
-901 ms 84 is sleeping
-901 ms 59 has taken a LEFT fork
-901 ms 59 is eating
-901 ms 131 is eating
-901 ms 51 has taken a LEFT fork
-901 ms 105 is eating
-901 ms 51 is eating
-901 ms 136 is sleeping
-901 ms 106 is sleeping
-901 ms 49 is eating
-901 ms 139 has taken a LEFT fork
-901 ms 151 has taken a RIGHT fork
-901 ms 139 is eating
-901 ms 151 has taken a LEFT fork
-901 ms 81 has taken a LEFT fork
-901 ms 81 is eating
-901 ms 70 is sleeping
-901 ms 69 is eating
-901 ms 171 has taken a RIGHT fork
-901 ms 95 has taken a LEFT fork
-901 ms 171 has taken a LEFT fork
-901 ms 95 is eating
-901 ms 87 has taken a LEFT fork
-901 ms 171 is eating
-901 ms 87 is eating
-901 ms 97 is eating
-901 ms 77 is eating
-901 ms 147 has taken a RIGHT fork
-901 ms 147 has taken a LEFT fork
-901 ms 177 has taken a RIGHT fork
-901 ms 107 is eating
-901 ms 177 has taken a LEFT fork
-901 ms 177 is eating
-901 ms 147 is eating
-901 ms 165 has taken a LEFT fork
-901 ms 165 is eating
-901 ms 41 has taken a LEFT fork
-901 ms 137 has taken a RIGHT fork
-901 ms 167 is eating
-901 ms 41 is eating
-901 ms 151 is eating
-901 ms 137 has taken a LEFT fork
-901 ms 40 is sleeping
-901 ms 125 is eating
-901 ms 61 is eating
-901 ms 153 is eating
-901 ms 73 has taken a LEFT fork
-901 ms 66 is sleeping
-901 ms 73 is eating
-901 ms 183 has taken a RIGHT fork
-901 ms 39 has taken a RIGHT fork
-901 ms 39 has taken a LEFT fork
-901 ms 137 is eating
-901 ms 39 is eating
-901 ms 161 has taken a RIGHT fork
-901 ms 161 has taken a LEFT fork
-901 ms 161 is eating
-901 ms 127 is eating
-901 ms 57 has taken a LEFT fork
-901 ms 57 is eating
-901 ms 88 is sleeping
-901 ms 183 has taken a LEFT fork
-901 ms 183 is eating
-902 ms 196 is sleeping
-902 ms 195 has taken a RIGHT fork
-902 ms 4 is sleeping
-902 ms 5 has taken a LEFT fork
-902 ms 5 is eating
-902 ms 3 has taken a RIGHT fork
-902 ms 194 is sleeping
-902 ms 195 has taken a LEFT fork
-902 ms 195 is eating
-902 ms 193 has taken a RIGHT fork
-902 ms 2 is sleeping
-902 ms 1 has taken a RIGHT fork
-902 ms 3 has taken a LEFT fork
-902 ms 3 is eating
-902 ms 190 is sleeping
-902 ms 189 has taken a RIGHT fork
-902 ms 189 has taken a LEFT fork
-902 ms 189 is eating
-902 ms 197 has taken a RIGHT fork
-902 ms 197 has taken a LEFT fork
-902 ms 197 is eating
-902 ms 198 is sleeping
-902 ms 192 is sleeping
-902 ms 191 has taken a RIGHT fork
-902 ms 199 has taken a RIGHT fork
-902 ms 199 has taken a LEFT fork
-902 ms 193 has taken a LEFT fork
-902 ms 1 has taken a LEFT fork
-902 ms 1 is eating
-902 ms 191 has taken a LEFT fork
-902 ms 191 is eating
-902 ms 199 is eating
-902 ms 200 is sleeping
-902 ms 193 is eating
-1000 ms 24 is thinking
-1000 ms 14 is thinking
-1000 ms 20 is thinking
-1000 ms 26 is thinking
+Philo 1 -> tiempo: 0
+Philo 20 -> tiempo: 1
+Philo 19 -> tiempo: 1
+Philo 18 -> tiempo: 2
+Philo 17 -> tiempo: 2
+Philo 16 -> tiempo: 3
+Philo 15 -> tiempo: 3
+Philo 14 -> tiempo: 3
+Philo 13 -> tiempo: 4
+Philo 12 -> tiempo: 4
+Philo 11 -> tiempo: 5
+Philo 10 -> tiempo: 5
+Philo 9 -> tiempo: 6
+Philo 8 -> tiempo: 6
+Philo 7 -> tiempo: 7
+Philo 6 -> tiempo: 7
+Philo 5 -> tiempo: 8
+Philo 4 -> tiempo: 8
+Philo 3 -> tiempo: 9
+Philo 2 -> tiempo: 9
+Philo 1 -> tiempo: 10
+Philo 20 -> tiempo: 10
+Philo 19 -> tiempo: 10
+Philo 18 -> tiempo: 11
+Philo 17 -> tiempo: 11
+Philo 16 -> tiempo: 12
+Philo 15 -> tiempo: 12
+Philo 14 -> tiempo: 13
+Philo 13 -> tiempo: 13
+Philo 12 -> tiempo: 14
+Philo 11 -> tiempo: 14
+Philo 10 -> tiempo: 14
+Philo 9 -> tiempo: 15
+Philo 8 -> tiempo: 15
+Philo 7 -> tiempo: 16
+Philo 6 -> tiempo: 16
+Philo 5 -> tiempo: 17
+Philo 4 -> tiempo: 17
+Philo 3 -> tiempo: 18
+Philo 2 -> tiempo: 18
+Philo 1 -> tiempo: 19
+Philo 20 -> tiempo: 19
+Philo 19 -> tiempo: 20
+Philo 18 -> tiempo: 20
+Philo 17 -> tiempo: 20
+Philo 16 -> tiempo: 21
+Philo 15 -> tiempo: 21
+Philo 14 -> tiempo: 22
+Philo 13 -> tiempo: 22
+Philo 12 -> tiempo: 23
+Philo 11 -> tiempo: 23
+Philo 10 -> tiempo: 24
+Philo 9 -> tiempo: 24
+Philo 8 -> tiempo: 25
+Philo 7 -> tiempo: 25
+Philo 6 -> tiempo: 26
+Philo 5 -> tiempo: 26
+Philo 4 -> tiempo: 27
+Philo 3 -> tiempo: 27
+Philo 2 -> tiempo: 28
+Philo 1 -> tiempo: 28
+Philo 20 -> tiempo: 29
+Philo 19 -> tiempo: 29
+Philo 18 -> tiempo: 30
+Philo 17 -> tiempo: 30
+Philo 16 -> tiempo: 31
+Philo 15 -> tiempo: 31
+Philo 14 -> tiempo: 32
+Philo 13 -> tiempo: 32
+Philo 12 -> tiempo: 33
+Philo 11 -> tiempo: 33
+Philo 10 -> tiempo: 34
+Philo 9 -> tiempo: 34
+Philo 8 -> tiempo: 35
+Philo 7 -> tiempo: 35
+Philo 6 -> tiempo: 36
+Philo 5 -> tiempo: 36
+Philo 4 -> tiempo: 37
+Philo 3 -> tiempo: 37
+Philo 2 -> tiempo: 38
+Philo 1 -> tiempo: 38
+Philo 20 -> tiempo: 38
+Philo 19 -> tiempo: 39
+Philo 18 -> tiempo: 39
+Philo 17 -> tiempo: 40
+Philo 16 -> tiempo: 40
+Philo 15 -> tiempo: 41
+Philo 14 -> tiempo: 42
+Philo 13 -> tiempo: 42
+Philo 12 -> tiempo: 42
+Philo 11 -> tiempo: 43
+Philo 10 -> tiempo: 43
+Philo 9 -> tiempo: 44
+Philo 8 -> tiempo: 44
+Philo 7 -> tiempo: 45
+Philo 6 -> tiempo: 45
+Philo 5 -> tiempo: 46
+Philo 4 -> tiempo: 46
+Philo 3 -> tiempo: 47
+Philo 2 -> tiempo: 47
+Philo 1 -> tiempo: 48
+Philo 20 -> tiempo: 48
+Philo 19 -> tiempo: 49
+Philo 18 -> tiempo: 49
+Philo 17 -> tiempo: 50
+Philo 16 -> tiempo: 50
+Philo 15 -> tiempo: 51
+Philo 14 -> tiempo: 52
+Philo 13 -> tiempo: 52
+Philo 12 -> tiempo: 52
+Philo 11 -> tiempo: 53
+Philo 10 -> tiempo: 54
+Philo 9 -> tiempo: 54
+Philo 8 -> tiempo: 55
+Philo 7 -> tiempo: 55
+Philo 6 -> tiempo: 56
+Philo 5 -> tiempo: 56
+Philo 4 -> tiempo: 57
+Philo 3 -> tiempo: 57
+Philo 2 -> tiempo: 58
+Philo 1 -> tiempo: 58
+Philo 20 -> tiempo: 59
+Philo 19 -> tiempo: 59
+Philo 18 -> tiempo: 59
+Philo 17 -> tiempo: 60
+Philo 16 -> tiempo: 60
+Philo 15 -> tiempo: 61
+Philo 14 -> tiempo: 61
+Philo 13 -> tiempo: 62
+Philo 12 -> tiempo: 62
+Philo 11 -> tiempo: 63
+Philo 10 -> tiempo: 63
+Philo 9 -> tiempo: 64
+Philo 8 -> tiempo: 64
+Philo 7 -> tiempo: 65
+Philo 6 -> tiempo: 65
+Philo 5 -> tiempo: 66
+Philo 4 -> tiempo: 66
+Philo 3 -> tiempo: 67
+Philo 2 -> tiempo: 67
+Philo 1 -> tiempo: 68
+Philo 20 -> tiempo: 68
+Philo 19 -> tiempo: 69
+Philo 18 -> tiempo: 69
+Philo 17 -> tiempo: 70
+Philo 16 -> tiempo: 70
+Philo 15 -> tiempo: 71
+Philo 14 -> tiempo: 71
+Philo 13 -> tiempo: 72
+Philo 12 -> tiempo: 72
+Philo 11 -> tiempo: 73
+Philo 10 -> tiempo: 73
+Philo 9 -> tiempo: 74
+Philo 8 -> tiempo: 74
+Philo 7 -> tiempo: 75
+Philo 6 -> tiempo: 75
+Philo 5 -> tiempo: 76
+Philo 4 -> tiempo: 76
+Philo 3 -> tiempo: 77
+Philo 2 -> tiempo: 77
+Philo 1 -> tiempo: 78
+Philo 20 -> tiempo: 78
+Philo 19 -> tiempo: 79
+Philo 18 -> tiempo: 79
+Philo 17 -> tiempo: 80
+Philo 16 -> tiempo: 80
+Philo 15 -> tiempo: 81
+Philo 14 -> tiempo: 81
+Philo 13 -> tiempo: 82
+Philo 12 -> tiempo: 82
+Philo 11 -> tiempo: 83
+Philo 10 -> tiempo: 83
+Philo 9 -> tiempo: 84
+Philo 8 -> tiempo: 84
+Philo 7 -> tiempo: 85
+Philo 6 -> tiempo: 85
+Philo 5 -> tiempo: 86
+Philo 4 -> tiempo: 86
+Philo 3 -> tiempo: 86
+Philo 2 -> tiempo: 87
+Philo 1 -> tiempo: 87
+Philo 20 -> tiempo: 88
+Philo 19 -> tiempo: 88
+Philo 18 -> tiempo: 89
+Philo 17 -> tiempo: 89
+Philo 16 -> tiempo: 90
+Philo 15 -> tiempo: 90
+Philo 14 -> tiempo: 91
+Philo 13 -> tiempo: 91
+Philo 12 -> tiempo: 92
+Philo 11 -> tiempo: 92
+Philo 10 -> tiempo: 93
+Philo 9 -> tiempo: 93
+Philo 8 -> tiempo: 94
+Philo 7 -> tiempo: 94
+Philo 6 -> tiempo: 95
+Philo 5 -> tiempo: 95
+Philo 4 -> tiempo: 96
+Philo 3 -> tiempo: 96
+Philo 2 -> tiempo: 97
+Philo 1 -> tiempo: 97
+Philo 20 -> tiempo: 98
+Philo 19 -> tiempo: 98
+Philo 18 -> tiempo: 99
+Philo 17 -> tiempo: 100
+Philo 16 -> tiempo: 100
+Philo 15 -> tiempo: 101
+Philo 14 -> tiempo: 101
+Philo 13 -> tiempo: 102
+Philo 12 -> tiempo: 102
+Philo 11 -> tiempo: 102
+Philo 10 -> tiempo: 103
+Philo 9 -> tiempo: 103
+Philo 8 -> tiempo: 104
+Philo 7 -> tiempo: 104
+Philo 6 -> tiempo: 105
+Philo 5 -> tiempo: 105
+Philo 4 -> tiempo: 106
+Philo 3 -> tiempo: 106
+Philo 2 -> tiempo: 107
+Philo 1 -> tiempo: 107
+Philo 20 -> tiempo: 108
+Philo 19 -> tiempo: 108
+Philo 18 -> tiempo: 109
+Philo 17 -> tiempo: 109
+Philo 16 -> tiempo: 110
+Philo 15 -> tiempo: 110
+Philo 14 -> tiempo: 110
+Philo 13 -> tiempo: 111
+Philo 12 -> tiempo: 111
+Philo 11 -> tiempo: 112
+Philo 10 -> tiempo: 112
+Philo 9 -> tiempo: 113
+Philo 8 -> tiempo: 113
+Philo 7 -> tiempo: 114
+Philo 6 -> tiempo: 114
+Philo 5 -> tiempo: 115
+Philo 4 -> tiempo: 115
+Philo 3 -> tiempo: 116
+Philo 2 -> tiempo: 116
+Philo 1 -> tiempo: 117
+Philo 20 -> tiempo: 117
+Philo 19 -> tiempo: 118
+Philo 18 -> tiempo: 118
+Philo 17 -> tiempo: 119
+Philo 16 -> tiempo: 119
+Philo 15 -> tiempo: 120
+Philo 14 -> tiempo: 120
+Philo 13 -> tiempo: 121
+Philo 12 -> tiempo: 121
+Philo 11 -> tiempo: 122
+Philo 10 -> tiempo: 122
+Philo 9 -> tiempo: 123
+Philo 8 -> tiempo: 123
+Philo 7 -> tiempo: 124
+Philo 6 -> tiempo: 124
+Philo 5 -> tiempo: 125
+Philo 4 -> tiempo: 125
+Philo 3 -> tiempo: 126
+Philo 2 -> tiempo: 126
+Philo 1 -> tiempo: 127
+Philo 20 -> tiempo: 127
+Philo 19 -> tiempo: 128
+Philo 18 -> tiempo: 128
+Philo 17 -> tiempo: 129
+Philo 16 -> tiempo: 129
+Philo 15 -> tiempo: 130
+Philo 14 -> tiempo: 130
+Philo 13 -> tiempo: 131
+Philo 12 -> tiempo: 131
+Philo 11 -> tiempo: 132
+Philo 10 -> tiempo: 132
+Philo 9 -> tiempo: 133
+Philo 8 -> tiempo: 133
+Philo 7 -> tiempo: 134
+Philo 6 -> tiempo: 134
+Philo 5 -> tiempo: 135
+Philo 4 -> tiempo: 135
+Philo 3 -> tiempo: 136
+Philo 2 -> tiempo: 136
+Philo 1 -> tiempo: 137
+Philo 20 -> tiempo: 137
+Philo 19 -> tiempo: 138
+Philo 18 -> tiempo: 138
+Philo 17 -> tiempo: 139
+Philo 16 -> tiempo: 139
+Philo 15 -> tiempo: 140
+Philo 14 -> tiempo: 140
+Philo 13 -> tiempo: 141
+Philo 12 -> tiempo: 141
+Philo 11 -> tiempo: 142
+Philo 10 -> tiempo: 142
+Philo 9 -> tiempo: 143
+Philo 8 -> tiempo: 143
+Philo 7 -> tiempo: 144
+Philo 6 -> tiempo: 144
+Philo 5 -> tiempo: 145
+Philo 4 -> tiempo: 145
+Philo 3 -> tiempo: 146
+Philo 2 -> tiempo: 146
+Philo 1 -> tiempo: 147
+Philo 20 -> tiempo: 147
+Philo 19 -> tiempo: 148
+Philo 18 -> tiempo: 148
+Philo 17 -> tiempo: 149
+Philo 16 -> tiempo: 149
+Philo 15 -> tiempo: 150
+Philo 14 -> tiempo: 150
+Philo 13 -> tiempo: 151
+Philo 12 -> tiempo: 151
+Philo 11 -> tiempo: 152
+Philo 10 -> tiempo: 152
+Philo 9 -> tiempo: 153
+Philo 8 -> tiempo: 153
+Philo 7 -> tiempo: 154
+Philo 6 -> tiempo: 154
+Philo 5 -> tiempo: 155
+Philo 4 -> tiempo: 155
+Philo 3 -> tiempo: 156
+Philo 2 -> tiempo: 156
+Philo 1 -> tiempo: 157
+Philo 20 -> tiempo: 157
+Philo 19 -> tiempo: 158
+Philo 18 -> tiempo: 158
+Philo 17 -> tiempo: 159
+Philo 16 -> tiempo: 159
+Philo 15 -> tiempo: 160
+Philo 14 -> tiempo: 160
+Philo 13 -> tiempo: 161
+Philo 12 -> tiempo: 161
+Philo 11 -> tiempo: 161
+Philo 10 -> tiempo: 162
+Philo 9 -> tiempo: 162
+Philo 8 -> tiempo: 163
+Philo 7 -> tiempo: 163
+Philo 6 -> tiempo: 164
+Philo 5 -> tiempo: 164
+Philo 4 -> tiempo: 165
+Philo 3 -> tiempo: 165
+Philo 2 -> tiempo: 166
+Philo 1 -> tiempo: 166
+Philo 20 -> tiempo: 167
+Philo 19 -> tiempo: 167
+Philo 18 -> tiempo: 168
+Philo 17 -> tiempo: 168
+Philo 16 -> tiempo: 169
+Philo 15 -> tiempo: 170
+Philo 14 -> tiempo: 170
+Philo 13 -> tiempo: 170
+Philo 12 -> tiempo: 171
+Philo 11 -> tiempo: 171
+Philo 10 -> tiempo: 172
+Philo 9 -> tiempo: 172
+Philo 8 -> tiempo: 173
+Philo 7 -> tiempo: 173
+Philo 6 -> tiempo: 174
+Philo 5 -> tiempo: 174
+Philo 4 -> tiempo: 175
+Philo 3 -> tiempo: 175
+Philo 2 -> tiempo: 176
+Philo 1 -> tiempo: 176
+Philo 20 -> tiempo: 177
+Philo 19 -> tiempo: 177
+Philo 18 -> tiempo: 178
+Philo 17 -> tiempo: 178
+Philo 16 -> tiempo: 179
+Philo 15 -> tiempo: 179
+Philo 14 -> tiempo: 180
+Philo 13 -> tiempo: 180
+Philo 12 -> tiempo: 181
+Philo 11 -> tiempo: 181
+Philo 10 -> tiempo: 182
+Philo 9 -> tiempo: 182
+Philo 8 -> tiempo: 183
+Philo 7 -> tiempo: 183
+Philo 6 -> tiempo: 184
+Philo 5 -> tiempo: 184
+Philo 4 -> tiempo: 185
+Philo 3 -> tiempo: 185
+Philo 2 -> tiempo: 186
+Philo 1 -> tiempo: 186
+Philo 20 -> tiempo: 187
+Philo 19 -> tiempo: 187
+Philo 18 -> tiempo: 187
+Philo 17 -> tiempo: 188
+Philo 16 -> tiempo: 188
+Philo 15 -> tiempo: 189
+Philo 14 -> tiempo: 189
+Philo 13 -> tiempo: 190
+Philo 12 -> tiempo: 190
+Philo 11 -> tiempo: 191
+Philo 10 -> tiempo: 191
+Philo 9 -> tiempo: 192
+Philo 8 -> tiempo: 192
+Philo 7 -> tiempo: 193
+Philo 6 -> tiempo: 193
+Philo 5 -> tiempo: 194
+Philo 4 -> tiempo: 194
+Philo 3 -> tiempo: 195
+Philo 2 -> tiempo: 195
+Philo 1 -> tiempo: 196
+Philo 20 -> tiempo: 196
+Philo 19 -> tiempo: 197
+Philo 18 -> tiempo: 197
+Philo 17 -> tiempo: 198
+Philo 16 -> tiempo: 198
+Philo 15 -> tiempo: 199
+Philo 14 -> tiempo: 199
+Philo 13 -> tiempo: 200
+200 ms 3 is sleeping
+200 ms 1 is sleeping
+200 ms 13 is sleeping
+200 ms 9 is sleeping
+200 ms 2 has taken a RIGHT fork
+200 ms 15 is sleeping
+200 ms 10 has taken a RIGHT fork
+200 ms 10 has taken a LEFT fork
+200 ms 8 has taken a RIGHT fork
+200 ms 10 is eating
+200 ms 18 has taken a RIGHT fork
+200 ms 8 has taken a LEFT fork
+200 ms 2 has taken a LEFT fork
+200 ms 18 has taken a LEFT fork
+200 ms 2 is eating
+200 ms 19 is sleeping
+200 ms 4 has taken a RIGHT fork
+200 ms 12 has taken a RIGHT fork
+200 ms 4 has taken a LEFT fork
+200 ms 12 has taken a LEFT fork
+200 ms 4 is eating
+200 ms 6 has taken a RIGHT fork
+200 ms 11 is sleeping
+200 ms 6 has taken a LEFT fork
+200 ms 6 is eating
+200 ms 7 is sleeping
+200 ms 18 is eating
+200 ms 20 has taken a RIGHT fork
+200 ms 14 has taken a RIGHT fork
+200 ms 20 has taken a LEFT fork
+200 ms 14 has taken a LEFT fork
+200 ms 20 is eating
+200 ms 16 has taken a RIGHT fork
+200 ms 14 is eating
+200 ms 8 is eating
+200 ms 16 has taken a LEFT fork
+200 ms 16 is eating
+200 ms 12 is eating
+200 ms 5 is sleeping
+200 ms 17 is sleeping
+Philo 12 -> tiempo: 0
+Philo 11 -> tiempo: 201
+Philo 10 -> tiempo: 1
+Philo 9 -> tiempo: 202
+Philo 8 -> tiempo: 2
+Philo 7 -> tiempo: 203
+Philo 6 -> tiempo: 3
+Philo 5 -> tiempo: 204
+Philo 4 -> tiempo: 4
+Philo 3 -> tiempo: 205
+Philo 2 -> tiempo: 5
+Philo 1 -> tiempo: 205
+Philo 20 -> tiempo: 6
+Philo 19 -> tiempo: 206
+Philo 18 -> tiempo: 7
+Philo 17 -> tiempo: 207
+Philo 16 -> tiempo: 8
+Philo 15 -> tiempo: 208
+Philo 14 -> tiempo: 9
+Philo 13 -> tiempo: 210
+Philo 12 -> tiempo: 10
+Philo 11 -> tiempo: 211
+Philo 10 -> tiempo: 11
+Philo 9 -> tiempo: 212
+Philo 8 -> tiempo: 12
+Philo 7 -> tiempo: 213
+Philo 6 -> tiempo: 13
+Philo 5 -> tiempo: 214
+Philo 4 -> tiempo: 14
+Philo 3 -> tiempo: 215
+Philo 2 -> tiempo: 15
+Philo 1 -> tiempo: 216
+Philo 20 -> tiempo: 16
+Philo 19 -> tiempo: 217
+Philo 18 -> tiempo: 17
+Philo 17 -> tiempo: 218
+Philo 16 -> tiempo: 18
+Philo 15 -> tiempo: 219
+Philo 14 -> tiempo: 19
+Philo 13 -> tiempo: 220
+Philo 12 -> tiempo: 20
+Philo 11 -> tiempo: 220
+Philo 10 -> tiempo: 21
+Philo 9 -> tiempo: 221
+Philo 8 -> tiempo: 22
+Philo 7 -> tiempo: 222
+Philo 6 -> tiempo: 22
+Philo 5 -> tiempo: 223
+Philo 4 -> tiempo: 23
+Philo 3 -> tiempo: 224
+Philo 2 -> tiempo: 24
+Philo 1 -> tiempo: 225
+Philo 20 -> tiempo: 25
+Philo 19 -> tiempo: 226
+Philo 18 -> tiempo: 26
+Philo 17 -> tiempo: 227
+Philo 16 -> tiempo: 27
+Philo 15 -> tiempo: 228
+Philo 14 -> tiempo: 28
+Philo 13 -> tiempo: 229
+Philo 12 -> tiempo: 29
+Philo 11 -> tiempo: 229
+Philo 10 -> tiempo: 30
+Philo 9 -> tiempo: 230
+Philo 8 -> tiempo: 31
+Philo 7 -> tiempo: 231
+Philo 6 -> tiempo: 31
+Philo 5 -> tiempo: 232
+Philo 4 -> tiempo: 32
+Philo 3 -> tiempo: 233
+Philo 2 -> tiempo: 33
+Philo 1 -> tiempo: 233
+Philo 20 -> tiempo: 34
+Philo 19 -> tiempo: 234
+Philo 18 -> tiempo: 35
+Philo 17 -> tiempo: 235
+Philo 16 -> tiempo: 35
+Philo 15 -> tiempo: 236
+Philo 14 -> tiempo: 36
+Philo 13 -> tiempo: 237
+Philo 12 -> tiempo: 37
+Philo 11 -> tiempo: 237
+Philo 10 -> tiempo: 38
+Philo 9 -> tiempo: 238
+Philo 8 -> tiempo: 38
+Philo 7 -> tiempo: 239
+Philo 6 -> tiempo: 39
+Philo 5 -> tiempo: 239
+Philo 4 -> tiempo: 40
+Philo 3 -> tiempo: 240
+Philo 2 -> tiempo: 40
+Philo 1 -> tiempo: 241
+Philo 20 -> tiempo: 41
+Philo 19 -> tiempo: 242
+Philo 18 -> tiempo: 42
+Philo 17 -> tiempo: 242
+Philo 16 -> tiempo: 43
+Philo 15 -> tiempo: 243
+Philo 14 -> tiempo: 43
+Philo 13 -> tiempo: 244
+Philo 12 -> tiempo: 44
+Philo 11 -> tiempo: 244
+Philo 10 -> tiempo: 45
+Philo 9 -> tiempo: 245
+Philo 8 -> tiempo: 46
+Philo 7 -> tiempo: 246
+Philo 6 -> tiempo: 46
+Philo 5 -> tiempo: 247
+Philo 4 -> tiempo: 47
+Philo 3 -> tiempo: 247
+Philo 2 -> tiempo: 48
+Philo 1 -> tiempo: 248
+Philo 20 -> tiempo: 48
+Philo 19 -> tiempo: 249
+Philo 18 -> tiempo: 49
+Philo 17 -> tiempo: 250
+Philo 16 -> tiempo: 50
+Philo 15 -> tiempo: 250
+Philo 14 -> tiempo: 51
+Philo 13 -> tiempo: 251
+Philo 12 -> tiempo: 51
+Philo 11 -> tiempo: 252
+Philo 10 -> tiempo: 52
+Philo 9 -> tiempo: 253
+Philo 8 -> tiempo: 53
+Philo 7 -> tiempo: 253
+Philo 6 -> tiempo: 54
+Philo 5 -> tiempo: 254
+Philo 4 -> tiempo: 54
+Philo 3 -> tiempo: 255
+Philo 2 -> tiempo: 55
+Philo 1 -> tiempo: 256
+Philo 20 -> tiempo: 56
+Philo 19 -> tiempo: 256
+Philo 18 -> tiempo: 57
+Philo 17 -> tiempo: 257
+Philo 16 -> tiempo: 57
+Philo 15 -> tiempo: 258
+Philo 14 -> tiempo: 58
+Philo 13 -> tiempo: 259
+Philo 12 -> tiempo: 59
+Philo 11 -> tiempo: 259
+Philo 10 -> tiempo: 60
+Philo 9 -> tiempo: 260
+Philo 8 -> tiempo: 60
+Philo 7 -> tiempo: 261
+Philo 6 -> tiempo: 61
+Philo 5 -> tiempo: 262
+Philo 4 -> tiempo: 62
+Philo 3 -> tiempo: 262
+Philo 2 -> tiempo: 63
+Philo 1 -> tiempo: 263
+Philo 20 -> tiempo: 64
+Philo 19 -> tiempo: 264
+Philo 18 -> tiempo: 64
+Philo 17 -> tiempo: 265
+Philo 16 -> tiempo: 65
+Philo 15 -> tiempo: 265
+Philo 14 -> tiempo: 66
+Philo 13 -> tiempo: 266
+Philo 12 -> tiempo: 66
+Philo 11 -> tiempo: 267
+Philo 10 -> tiempo: 67
+Philo 9 -> tiempo: 268
+Philo 8 -> tiempo: 68
+Philo 7 -> tiempo: 268
+Philo 6 -> tiempo: 69
+Philo 5 -> tiempo: 269
+Philo 4 -> tiempo: 70
+Philo 3 -> tiempo: 270
+Philo 2 -> tiempo: 70
+Philo 1 -> tiempo: 271
+Philo 20 -> tiempo: 71
+Philo 19 -> tiempo: 271
+Philo 18 -> tiempo: 72
+Philo 17 -> tiempo: 272
+Philo 16 -> tiempo: 73
+Philo 15 -> tiempo: 273
+Philo 14 -> tiempo: 73
+Philo 13 -> tiempo: 274
+Philo 12 -> tiempo: 74
+Philo 11 -> tiempo: 274
+Philo 10 -> tiempo: 75
+Philo 9 -> tiempo: 275
+Philo 8 -> tiempo: 76
+Philo 7 -> tiempo: 276
+Philo 6 -> tiempo: 76
+Philo 5 -> tiempo: 277
+Philo 4 -> tiempo: 77
+Philo 3 -> tiempo: 277
+Philo 2 -> tiempo: 78
+Philo 1 -> tiempo: 278
+Philo 20 -> tiempo: 79
+Philo 19 -> tiempo: 279
+Philo 18 -> tiempo: 79
+Philo 17 -> tiempo: 280
+Philo 16 -> tiempo: 80
+Philo 15 -> tiempo: 280
+Philo 14 -> tiempo: 81
+Philo 13 -> tiempo: 281
+Philo 12 -> tiempo: 82
+Philo 11 -> tiempo: 282
+Philo 10 -> tiempo: 82
+Philo 9 -> tiempo: 283
+Philo 8 -> tiempo: 83
+Philo 7 -> tiempo: 284
+Philo 6 -> tiempo: 84
+Philo 5 -> tiempo: 284
+Philo 4 -> tiempo: 85
+Philo 3 -> tiempo: 285
+Philo 2 -> tiempo: 85
+Philo 1 -> tiempo: 286
+Philo 20 -> tiempo: 86
+Philo 19 -> tiempo: 287
+Philo 18 -> tiempo: 87
+Philo 17 -> tiempo: 287
+Philo 16 -> tiempo: 88
+Philo 15 -> tiempo: 288
+Philo 14 -> tiempo: 89
+Philo 13 -> tiempo: 289
+Philo 12 -> tiempo: 89
+Philo 11 -> tiempo: 290
+Philo 10 -> tiempo: 90
+Philo 9 -> tiempo: 290
+Philo 8 -> tiempo: 91
+Philo 7 -> tiempo: 291
+Philo 6 -> tiempo: 92
+Philo 5 -> tiempo: 292
+Philo 4 -> tiempo: 92
+Philo 3 -> tiempo: 293
+Philo 2 -> tiempo: 93
+Philo 1 -> tiempo: 293
+Philo 20 -> tiempo: 94
+Philo 19 -> tiempo: 294
+Philo 18 -> tiempo: 95
+Philo 17 -> tiempo: 295
+Philo 16 -> tiempo: 95
+Philo 15 -> tiempo: 296
+Philo 14 -> tiempo: 96
+Philo 13 -> tiempo: 296
+Philo 12 -> tiempo: 97
+Philo 11 -> tiempo: 297
+Philo 10 -> tiempo: 97
+Philo 9 -> tiempo: 298
+Philo 8 -> tiempo: 98
+Philo 7 -> tiempo: 298
+Philo 6 -> tiempo: 99
+Philo 5 -> tiempo: 299
+Philo 4 -> tiempo: 99
+Philo 3 -> tiempo: 300
+Philo 2 -> tiempo: 100
+Philo 1 -> tiempo: 301
+400 ms 9 is thinking
+400 ms 19 is thinking
+400 ms 13 is thinking
+400 ms 15 is thinking
+400 ms 5 is thinking
+400 ms 3 is thinking
+400 ms 11 is thinking
+400 ms 1 is thinking
+400 ms 12 is sleeping
+400 ms 6 is sleeping
+400 ms 10 is sleeping
+400 ms 14 is sleeping
+400 ms 18 is sleeping
+400 ms 4 is sleeping
+400 ms 16 is sleeping
+400 ms 1 has taken a RIGHT fork
+400 ms 5 has taken a RIGHT fork
+400 ms 9 has taken a RIGHT fork
+400 ms 2 is sleeping
+400 ms 9 has taken a LEFT fork
+400 ms 1 has taken a LEFT fork
+400 ms 9 is eating
+400 ms 3 has taken a RIGHT fork
+400 ms 20 is sleeping
+400 ms 3 has taken a LEFT fork
+400 ms 3 is eating
+400 ms 8 is sleeping
+400 ms 19 has taken a RIGHT fork
+400 ms 15 has taken a RIGHT fork
+400 ms 19 has taken a LEFT fork
+400 ms 1 is eating
+400 ms 19 is eating
+400 ms 13 has taken a RIGHT fork
+400 ms 13 has taken a LEFT fork
+400 ms 13 is eating
+400 ms 5 has taken a LEFT fork
+400 ms 15 has taken a LEFT fork
+400 ms 15 is eating
+400 ms 5 is eating
+400 ms 11 has taken a RIGHT fork
+400 ms 11 has taken a LEFT fork
+400 ms 11 is eating
+400 ms 17 is thinking
+400 ms 17 has taken a RIGHT fork
+400 ms 17 has taken a LEFT fork
+400 ms 17 is eating
+400 ms 7 is thinking
+400 ms 7 has taken a RIGHT fork
+400 ms 7 has taken a LEFT fork
+400 ms 7 is eating
+600 ms 13 is sleeping
+600 ms 15 is sleeping
+600 ms 3 is sleeping
+600 ms 8 is thinking
+600 ms 16 is thinking
+600 ms 4 is thinking
+600 ms 16 has taken a RIGHT fork
+600 ms 19 is sleeping
+600 ms 4 has taken a RIGHT fork
+600 ms 9 is sleeping
+600 ms 16 has taken a LEFT fork
+600 ms 1 is sleeping
+600 ms 16 is eating
+600 ms 4 has taken a LEFT fork
+600 ms 7 is sleeping
+600 ms 14 is thinking
+600 ms 4 is eating
+600 ms 5 is sleeping
+600 ms 14 has taken a RIGHT fork
+600 ms 11 is sleeping
+600 ms 18 is thinking
+600 ms 8 has taken a RIGHT fork
+600 ms 18 has taken a RIGHT fork
+600 ms 6 is thinking
+600 ms 18 has taken a LEFT fork
+600 ms 8 has taken a LEFT fork
+600 ms 6 has taken a RIGHT fork
+600 ms 17 is sleeping
+600 ms 8 is eating
+600 ms 14 has taken a LEFT fork
+600 ms 14 is eating
+600 ms 6 has taken a LEFT fork
+600 ms 2 is thinking
+600 ms 2 has taken a RIGHT fork
+600 ms 2 has taken a LEFT fork
+600 ms 2 is eating
+600 ms 6 is eating
+600 ms 18 is eating
+600 ms 12 is thinking
+600 ms 12 has taken a RIGHT fork
+600 ms 12 has taken a LEFT fork
+600 ms 12 is eating
+600 ms 20 is thinking
+600 ms 20 has taken a RIGHT fork
+600 ms 20 has taken a LEFT fork
+600 ms 20 is eating
+600 ms 10 is thinking
+600 ms 10 has taken a RIGHT fork
+600 ms 10 has taken a LEFT fork
+600 ms 10 is eating
+800 ms 15 is thinking
+800 ms 13 is thinking
+800 ms 7 is thinking
+800 ms 5 is thinking
+800 ms 4 is sleeping
+800 ms 10 is sleeping
+800 ms 12 is sleeping
+800 ms 2 is sleeping
+800 ms 14 is sleeping
+800 ms 3 is thinking
+800 ms 17 is thinking
+800 ms 9 is thinking
+800 ms 17 has taken a RIGHT fork
+800 ms 9 has taken a RIGHT fork
+800 ms 17 has taken a LEFT fork
+800 ms 7 has taken a RIGHT fork
+800 ms 17 is eating
+800 ms 9 has taken a LEFT fork
+800 ms 8 is sleeping
+800 ms 7 has taken a LEFT fork
+800 ms 7 is eating
+800 ms 9 is eating
+800 ms 20 is sleeping
+800 ms 18 is sleeping
+800 ms 3 has taken a RIGHT fork
+800 ms 5 has taken a RIGHT fork
+800 ms 19 is thinking
+800 ms 5 has taken a LEFT fork
+800 ms 6 is sleeping
+800 ms 5 is eating
+800 ms 15 has taken a RIGHT fork
+800 ms 3 has taken a LEFT fork
+800 ms 15 has taken a LEFT fork
+800 ms 1 is thinking
+800 ms 15 is eating
+800 ms 3 is eating
+800 ms 1 has taken a RIGHT fork
+800 ms 1 has taken a LEFT fork
+800 ms 1 is eating
+800 ms 11 is thinking
+800 ms 11 has taken a RIGHT fork
+800 ms 11 has taken a LEFT fork
+800 ms 11 is eating
+800 ms 13 has taken a RIGHT fork
+800 ms 13 has taken a LEFT fork
+800 ms 13 is eating
+800 ms 16 is sleeping
+800 ms 19 has taken a RIGHT fork
+800 ms 19 has taken a LEFT fork
+800 ms 19 is eating
 1000 ms 10 is thinking
-1000 ms 34 is thinking
-1000 ms 18 is thinking
-1000 ms 6 is thinking
-1000 ms 8 is thinking
-1000 ms 22 is thinking
-1000 ms 12 is thinking
-1000 ms 38 is thinking
-1000 ms 32 is thinking
-1000 ms 30 is thinking
-1000 ms 28 is thinking
-1000 ms 36 is thinking
+1000 ms 20 is thinking
 1000 ms 16 is thinking
-1001 ms 102 is thinking
-1001 ms 68 is thinking
-1001 ms 130 is thinking
-1001 ms 182 is thinking
-1001 ms 40 is thinking
-1001 ms 188 is thinking
-1001 ms 124 is thinking
-1001 ms 172 is thinking
-1001 ms 64 is thinking
-1001 ms 174 is thinking
-1001 ms 120 is thinking
-1001 ms 118 is thinking
-1001 ms 52 is thinking
-1001 ms 180 is thinking
-1001 ms 66 is thinking
-1001 ms 184 is thinking
-1001 ms 154 is thinking
-1001 ms 144 is thinking
-1001 ms 48 is thinking
-1001 ms 86 is thinking
-1001 ms 98 is thinking
-1001 ms 108 is thinking
-1001 ms 100 is thinking
-1001 ms 56 is thinking
-1001 ms 110 is thinking
-1001 ms 122 is thinking
-1001 ms 82 is thinking
-1001 ms 94 is thinking
-1001 ms 76 is thinking
-1001 ms 90 is thinking
-1001 ms 136 is thinking
-1001 ms 170 is thinking
-1001 ms 150 is thinking
-1001 ms 88 is thinking
-1001 ms 58 is thinking
-1001 ms 162 is thinking
-1001 ms 178 is thinking
-1001 ms 128 is thinking
-1001 ms 148 is thinking
-1001 ms 186 is thinking
-1001 ms 168 is thinking
-1001 ms 44 is thinking
-1001 ms 70 is thinking
-1001 ms 80 is thinking
-1001 ms 158 is thinking
-1001 ms 156 is thinking
-1001 ms 132 is thinking
-1001 ms 62 is thinking
-1001 ms 46 is thinking
-1001 ms 114 is thinking
-1001 ms 134 is thinking
-1001 ms 152 is thinking
-1001 ms 176 is thinking
-1001 ms 78 is thinking
-1001 ms 106 is thinking
-1001 ms 142 is thinking
-1001 ms 84 is thinking
-1001 ms 54 is thinking
-1001 ms 146 is thinking
-1001 ms 50 is thinking
-1001 ms 112 is thinking
-1001 ms 116 is thinking
-1001 ms 104 is thinking
-1001 ms 96 is thinking
-1001 ms 166 is thinking
-1001 ms 126 is thinking
-1001 ms 42 is thinking
-1001 ms 74 is thinking
-1001 ms 92 is thinking
-1001 ms 138 is thinking
-1001 ms 140 is thinking
-1001 ms 160 is thinking
-1001 ms 60 is thinking
-1001 ms 164 is thinking
-1001 ms 72 is thinking
-1002 ms 194 is thinking
-1002 ms 196 is thinking
-1002 ms 198 is thinking
-1002 ms 200 is thinking
-1002 ms 4 is thinking
-1002 ms 190 is thinking
-1002 ms 2 is thinking
-1002 ms 192 is thinking
-1050 ms 21 is sleeping
-1050 ms 13 is sleeping
-1050 ms 15 is sleeping
-1050 ms 11 is sleeping
-1050 ms 20 has taken a RIGHT fork
-1050 ms 30 has taken a RIGHT fork
-1050 ms 31 is sleeping
-1050 ms 12 has taken a RIGHT fork
-1050 ms 12 has taken a LEFT fork
-1050 ms 12 is eating
-1050 ms 33 is sleeping
-1050 ms 7 is sleeping
-1050 ms 27 is sleeping
-1050 ms 19 is sleeping
-1050 ms 14 has taken a RIGHT fork
-1050 ms 14 has taken a LEFT fork
-1050 ms 14 is eating
-1050 ms 35 is sleeping
-1050 ms 23 is sleeping
-1050 ms 10 has taken a RIGHT fork
-1050 ms 17 is sleeping
-1050 ms 25 is sleeping
-1050 ms 29 is sleeping
-1050 ms 9 is sleeping
-1050 ms 37 is sleeping
-1050 ms 32 has taken a RIGHT fork
-1050 ms 6 has taken a RIGHT fork
-1050 ms 34 has taken a RIGHT fork
-1050 ms 18 has taken a RIGHT fork
-1050 ms 22 has taken a RIGHT fork
-1050 ms 18 has taken a LEFT fork
-1050 ms 20 has taken a LEFT fork
-1050 ms 24 has taken a RIGHT fork
-1050 ms 28 has taken a RIGHT fork
-1050 ms 24 has taken a LEFT fork
-1050 ms 8 has taken a RIGHT fork
-1050 ms 24 is eating
-1050 ms 36 has taken a RIGHT fork
-1050 ms 22 has taken a LEFT fork
-1050 ms 36 has taken a LEFT fork
-1050 ms 32 has taken a LEFT fork
-1050 ms 36 is eating
-1050 ms 32 is eating
-1050 ms 34 has taken a LEFT fork
-1050 ms 34 is eating
-1050 ms 18 is eating
-1050 ms 16 has taken a RIGHT fork
-1050 ms 8 has taken a LEFT fork
-1050 ms 8 is eating
-1050 ms 22 is eating
-1050 ms 20 is eating
-1050 ms 16 has taken a LEFT fork
-1050 ms 10 has taken a LEFT fork
-1050 ms 16 is eating
-1050 ms 10 is eating
-1050 ms 26 has taken a RIGHT fork
-1050 ms 26 has taken a LEFT fork
-1050 ms 26 is eating
-1050 ms 28 has taken a LEFT fork
-1050 ms 28 is eating
-1050 ms 30 has taken a LEFT fork
-1050 ms 30 is eating
-1051 ms 135 is sleeping
-1051 ms 183 is sleeping
-1051 ms 91 is sleeping
-1051 ms 95 is sleeping
-1051 ms 113 is sleeping
-1051 ms 117 is sleeping
-1051 ms 65 is sleeping
-1051 ms 59 is sleeping
-1051 ms 134 has taken a RIGHT fork
-1051 ms 153 is sleeping
-1051 ms 87 is sleeping
-1051 ms 137 is sleeping
-1051 ms 141 is sleeping
-1051 ms 90 has taken a RIGHT fork
-1051 ms 182 has taken a RIGHT fork
-1051 ms 159 is sleeping
-1051 ms 73 is sleeping
-1051 ms 112 has taken a RIGHT fork
-1051 ms 94 has taken a RIGHT fork
-1051 ms 107 is sleeping
-1051 ms 169 is sleeping
-1051 ms 155 is sleeping
-1051 ms 125 is sleeping
-1051 ms 151 is sleeping
-1051 ms 97 is sleeping
-1051 ms 49 is sleeping
-1051 ms 161 is sleeping
-1051 ms 58 has taken a RIGHT fork
-1051 ms 64 has taken a RIGHT fork
-1051 ms 140 has taken a RIGHT fork
-1051 ms 152 has taken a RIGHT fork
-1051 ms 71 is sleeping
-1051 ms 136 has taken a RIGHT fork
-1051 ms 152 has taken a LEFT fork
-1051 ms 152 is eating
-1051 ms 140 has taken a LEFT fork
-1051 ms 140 is eating
-1051 ms 136 has taken a LEFT fork
-1051 ms 136 is eating
-1051 ms 61 is sleeping
-1051 ms 165 is sleeping
-1051 ms 81 is sleeping
-1051 ms 109 is sleeping
-1051 ms 63 is sleeping
-1051 ms 105 is sleeping
-1051 ms 69 is sleeping
-1051 ms 55 is sleeping
-1051 ms 111 is sleeping
-1051 ms 175 is sleeping
-1051 ms 119 is sleeping
-1051 ms 185 is sleeping
-1051 ms 127 is sleeping
-1051 ms 123 is sleeping
-1051 ms 47 is sleeping
-1051 ms 145 is sleeping
-1051 ms 167 is sleeping
-1051 ms 158 has taken a RIGHT fork
-1051 ms 75 is sleeping
-1051 ms 158 has taken a LEFT fork
-1051 ms 121 is sleeping
-1051 ms 67 is sleeping
-1051 ms 179 is sleeping
-1051 ms 148 has taken a RIGHT fork
-1051 ms 148 has taken a LEFT fork
-1051 ms 101 is sleeping
-1051 ms 143 is sleeping
-1051 ms 148 is eating
-1051 ms 43 is sleeping
-1051 ms 149 is sleeping
-1051 ms 154 has taken a RIGHT fork
-1051 ms 124 has taken a RIGHT fork
-1051 ms 96 has taken a RIGHT fork
-1051 ms 124 has taken a LEFT fork
-1051 ms 96 has taken a LEFT fork
-1051 ms 124 is eating
-1051 ms 76 has taken a RIGHT fork
-1051 ms 96 is eating
-1051 ms 82 has taken a RIGHT fork
-1051 ms 186 has taken a RIGHT fork
-1051 ms 82 has taken a LEFT fork
-1051 ms 160 has taken a RIGHT fork
-1051 ms 172 has taken a RIGHT fork
-1051 ms 160 has taken a LEFT fork
-1051 ms 139 is sleeping
-1051 ms 160 is eating
-1051 ms 172 has taken a LEFT fork
-1051 ms 82 is eating
-1051 ms 172 is eating
-1051 ms 77 is sleeping
-1051 ms 187 is sleeping
-1051 ms 116 has taken a RIGHT fork
-1051 ms 86 has taken a RIGHT fork
-1051 ms 116 has taken a LEFT fork
-1051 ms 164 has taken a RIGHT fork
-1051 ms 116 is eating
-1051 ms 80 has taken a RIGHT fork
-1051 ms 38 has taken a RIGHT fork
-1051 ms 58 has taken a LEFT fork
-1051 ms 38 has taken a LEFT fork
-1051 ms 58 is eating
-1051 ms 38 is eating
-1051 ms 39 is sleeping
-1051 ms 68 has taken a RIGHT fork
-1051 ms 110 has taken a RIGHT fork
-1051 ms 54 has taken a RIGHT fork
-1051 ms 110 has taken a LEFT fork
-1051 ms 110 is eating
-1051 ms 112 has taken a LEFT fork
-1051 ms 174 has taken a RIGHT fork
-1051 ms 68 has taken a LEFT fork
-1051 ms 174 has taken a LEFT fork
-1051 ms 118 has taken a RIGHT fork
-1051 ms 174 is eating
-1051 ms 54 has taken a LEFT fork
-1051 ms 118 has taken a LEFT fork
-1051 ms 54 is eating
-1051 ms 112 is eating
-1051 ms 102 has taken a RIGHT fork
-1051 ms 45 is sleeping
-1051 ms 102 has taken a LEFT fork
-1051 ms 88 has taken a RIGHT fork
-1051 ms 176 has taken a RIGHT fork
-1051 ms 176 has taken a LEFT fork
-1051 ms 176 is eating
-1051 ms 122 has taken a RIGHT fork
-1051 ms 102 is eating
-1051 ms 180 has taken a RIGHT fork
-1051 ms 180 has taken a LEFT fork
-1051 ms 144 has taken a RIGHT fork
-1051 ms 180 is eating
-1051 ms 144 has taken a LEFT fork
-1051 ms 182 has taken a LEFT fork
-1051 ms 74 has taken a RIGHT fork
-1051 ms 182 is eating
-1051 ms 89 is sleeping
-1051 ms 74 has taken a LEFT fork
-1051 ms 74 is eating
-1051 ms 114 has taken a RIGHT fork
-1051 ms 120 has taken a RIGHT fork
-1051 ms 114 has taken a LEFT fork
-1051 ms 120 has taken a LEFT fork
-1051 ms 114 is eating
-1051 ms 115 is sleeping
-1051 ms 52 has taken a RIGHT fork
-1051 ms 158 is eating
-1051 ms 92 has taken a RIGHT fork
-1051 ms 134 has taken a LEFT fork
-1051 ms 92 has taken a LEFT fork
-1051 ms 92 is eating
-1051 ms 132 has taken a RIGHT fork
-1051 ms 134 is eating
-1051 ms 94 has taken a LEFT fork
-1051 ms 128 has taken a RIGHT fork
-1051 ms 52 has taken a LEFT fork
-1051 ms 128 has taken a LEFT fork
-1051 ms 98 has taken a RIGHT fork
-1051 ms 52 is eating
-1051 ms 98 has taken a LEFT fork
-1051 ms 98 is eating
-1051 ms 50 has taken a RIGHT fork
-1051 ms 142 has taken a RIGHT fork
-1051 ms 42 has taken a RIGHT fork
-1051 ms 100 has taken a RIGHT fork
-1051 ms 100 has taken a LEFT fork
-1051 ms 85 is sleeping
-1051 ms 129 is sleeping
-1051 ms 93 is sleeping
-1051 ms 171 is sleeping
-1051 ms 79 is sleeping
-1051 ms 146 has taken a RIGHT fork
-1051 ms 138 has taken a RIGHT fork
-1051 ms 146 has taken a LEFT fork
-1051 ms 150 has taken a RIGHT fork
-1051 ms 138 has taken a LEFT fork
-1051 ms 150 has taken a LEFT fork
-1051 ms 138 is eating
-1051 ms 150 is eating
-1051 ms 76 has taken a LEFT fork
-1051 ms 76 is eating
-1051 ms 156 has taken a RIGHT fork
-1051 ms 83 is sleeping
-1051 ms 156 has taken a LEFT fork
-1051 ms 70 has taken a RIGHT fork
-1051 ms 157 is sleeping
-1051 ms 156 is eating
-1051 ms 62 has taken a RIGHT fork
-1051 ms 64 has taken a LEFT fork
-1051 ms 62 has taken a LEFT fork
-1051 ms 56 has taken a RIGHT fork
-1051 ms 62 is eating
-1051 ms 80 has taken a LEFT fork
-1051 ms 56 has taken a LEFT fork
-1051 ms 56 is eating
-1051 ms 80 is eating
-1051 ms 86 has taken a LEFT fork
-1051 ms 104 has taken a RIGHT fork
-1051 ms 68 is eating
-1051 ms 126 has taken a RIGHT fork
-1051 ms 118 is eating
-1051 ms 126 has taken a LEFT fork
-1051 ms 46 has taken a RIGHT fork
-1051 ms 126 is eating
-1051 ms 178 has taken a RIGHT fork
-1051 ms 178 has taken a LEFT fork
-1051 ms 178 is eating
-1051 ms 72 has taken a RIGHT fork
-1051 ms 132 has taken a LEFT fork
-1051 ms 72 has taken a LEFT fork
-1051 ms 132 is eating
-1051 ms 94 is eating
-1051 ms 72 is eating
-1051 ms 78 has taken a RIGHT fork
-1051 ms 41 is sleeping
-1051 ms 78 has taken a LEFT fork
-1051 ms 142 has taken a LEFT fork
-1051 ms 78 is eating
-1051 ms 142 is eating
-1051 ms 100 is eating
-1051 ms 51 is sleeping
-1051 ms 99 is sleeping
-1051 ms 168 has taken a RIGHT fork
-1051 ms 168 has taken a LEFT fork
-1051 ms 168 is eating
-1051 ms 60 has taken a RIGHT fork
-1051 ms 60 has taken a LEFT fork
-1051 ms 70 has taken a LEFT fork
-1051 ms 60 is eating
-1051 ms 70 is eating
-1051 ms 86 is eating
-1051 ms 57 is sleeping
-1051 ms 108 has taken a RIGHT fork
-1051 ms 108 has taken a LEFT fork
-1051 ms 46 has taken a LEFT fork
-1051 ms 108 is eating
-1051 ms 46 is eating
-1051 ms 177 is sleeping
-1051 ms 162 has taken a RIGHT fork
-1051 ms 122 has taken a LEFT fork
-1051 ms 162 has taken a LEFT fork
-1051 ms 122 is eating
-1051 ms 131 is sleeping
-1051 ms 162 is eating
-1051 ms 166 has taken a RIGHT fork
-1051 ms 40 has taken a RIGHT fork
-1051 ms 166 has taken a LEFT fork
-1051 ms 163 is sleeping
-1051 ms 40 has taken a LEFT fork
-1051 ms 166 is eating
-1051 ms 40 is eating
-1051 ms 84 has taken a RIGHT fork
-1051 ms 120 is eating
-1051 ms 53 is sleeping
-1051 ms 42 has taken a LEFT fork
-1051 ms 42 is eating
-1051 ms 128 is eating
-1051 ms 154 has taken a LEFT fork
-1051 ms 146 is eating
-1051 ms 48 has taken a RIGHT fork
-1051 ms 64 is eating
-1051 ms 48 has taken a LEFT fork
-1051 ms 186 has taken a LEFT fork
-1051 ms 186 is eating
-1051 ms 48 is eating
-1051 ms 104 has taken a LEFT fork
-1051 ms 130 has taken a RIGHT fork
-1051 ms 104 is eating
-1051 ms 130 has taken a LEFT fork
-1051 ms 130 is eating
-1051 ms 103 is sleeping
-1051 ms 144 is eating
-1051 ms 90 has taken a LEFT fork
-1051 ms 170 has taken a RIGHT fork
-1051 ms 90 is eating
-1051 ms 170 has taken a LEFT fork
-1051 ms 66 has taken a RIGHT fork
-1051 ms 50 has taken a LEFT fork
-1051 ms 50 is eating
-1051 ms 170 is eating
-1051 ms 133 is sleeping
-1051 ms 106 has taken a RIGHT fork
-1051 ms 164 has taken a LEFT fork
-1051 ms 173 is sleeping
-1051 ms 164 is eating
-1051 ms 88 has taken a LEFT fork
-1051 ms 88 is eating
-1051 ms 44 has taken a RIGHT fork
-1051 ms 184 has taken a RIGHT fork
-1051 ms 44 has taken a LEFT fork
-1051 ms 184 has taken a LEFT fork
-1051 ms 44 is eating
-1051 ms 154 is eating
-1051 ms 66 has taken a LEFT fork
-1051 ms 184 is eating
-1051 ms 106 has taken a LEFT fork
-1051 ms 106 is eating
-1051 ms 66 is eating
-1051 ms 181 is sleeping
-1051 ms 84 has taken a LEFT fork
-1051 ms 84 is eating
-1051 ms 147 is sleeping
-1052 ms 1 is sleeping
-1052 ms 200 has taken a RIGHT fork
-1052 ms 3 is sleeping
-1052 ms 2 has taken a RIGHT fork
-1052 ms 2 has taken a LEFT fork
-1052 ms 2 is eating
-1052 ms 195 is sleeping
-1052 ms 194 has taken a RIGHT fork
-1052 ms 5 is sleeping
-1052 ms 6 has taken a LEFT fork
-1052 ms 6 is eating
-1052 ms 4 has taken a RIGHT fork
-1052 ms 196 has taken a RIGHT fork
-1052 ms 192 has taken a RIGHT fork
-1052 ms 4 has taken a LEFT fork
-1052 ms 192 has taken a LEFT fork
-1052 ms 4 is eating
-1052 ms 192 is eating
-1052 ms 190 has taken a RIGHT fork
-1052 ms 197 is sleeping
-1052 ms 191 is sleeping
-1052 ms 199 is sleeping
-1052 ms 193 is sleeping
-1052 ms 189 is sleeping
-1052 ms 198 has taken a RIGHT fork
-1052 ms 198 has taken a LEFT fork
-1052 ms 198 is eating
-1052 ms 190 has taken a LEFT fork
-1052 ms 190 is eating
-1052 ms 200 has taken a LEFT fork
-1052 ms 196 has taken a LEFT fork
-1052 ms 196 is eating
-1052 ms 188 has taken a RIGHT fork
-1052 ms 188 has taken a LEFT fork
-1052 ms 188 is eating
-1052 ms 200 is eating
-1052 ms 194 has taken a LEFT fork
-1052 ms 194 is eating
-1150 ms 37 is thinking
-1150 ms 11 is thinking
-1150 ms 9 is thinking
-1150 ms 25 is thinking
-1150 ms 21 is thinking
-1150 ms 17 is thinking
-1150 ms 19 is thinking
-1150 ms 23 is thinking
-1150 ms 7 is thinking
-1150 ms 13 is thinking
-1150 ms 15 is thinking
-1150 ms 27 is thinking
-1150 ms 29 is thinking
-1150 ms 35 is thinking
-1150 ms 31 is thinking
-1150 ms 33 is thinking
-1151 ms 167 is thinking
-1151 ms 51 is thinking
-1151 ms 137 is thinking
-1151 ms 171 is thinking
-1151 ms 157 is thinking
-1151 ms 45 is thinking
-1151 ms 105 is thinking
-1151 ms 75 is thinking
-1151 ms 59 is thinking
-1151 ms 55 is thinking
-1151 ms 129 is thinking
-1151 ms 115 is thinking
-1151 ms 133 is thinking
-1151 ms 163 is thinking
-1151 ms 147 is thinking
-1151 ms 93 is thinking
-1151 ms 47 is thinking
-1151 ms 39 is thinking
-1151 ms 95 is thinking
-1151 ms 187 is thinking
-1151 ms 143 is thinking
-1151 ms 101 is thinking
-1151 ms 149 is thinking
-1151 ms 175 is thinking
-1151 ms 107 is thinking
-1151 ms 177 is thinking
-1151 ms 97 is thinking
-1151 ms 159 is thinking
-1151 ms 153 is thinking
-1151 ms 145 is thinking
-1151 ms 125 is thinking
-1151 ms 77 is thinking
-1151 ms 41 is thinking
-1151 ms 71 is thinking
-1151 ms 173 is thinking
-1151 ms 111 is thinking
-1151 ms 165 is thinking
-1151 ms 91 is thinking
-1151 ms 141 is thinking
-1151 ms 69 is thinking
-1151 ms 139 is thinking
-1151 ms 43 is thinking
-1151 ms 123 is thinking
-1151 ms 61 is thinking
-1151 ms 131 is thinking
-1151 ms 183 is thinking
-1151 ms 161 is thinking
-1151 ms 179 is thinking
-1151 ms 185 is thinking
-1151 ms 85 is thinking
-1151 ms 181 is thinking
-1151 ms 109 is thinking
-1151 ms 53 is thinking
-1151 ms 83 is thinking
-1151 ms 67 is thinking
-1151 ms 135 is thinking
-1151 ms 87 is thinking
-1151 ms 57 is thinking
-1151 ms 151 is thinking
-1151 ms 73 is thinking
-1151 ms 103 is thinking
-1151 ms 81 is thinking
-1151 ms 119 is thinking
-1151 ms 63 is thinking
-1151 ms 113 is thinking
-1151 ms 121 is thinking
-1151 ms 155 is thinking
-1151 ms 127 is thinking
-1151 ms 65 is thinking
-1151 ms 89 is thinking
-1151 ms 99 is thinking
-1151 ms 79 is thinking
-1151 ms 117 is thinking
-1151 ms 49 is thinking
-1151 ms 169 is thinking
-1152 ms 197 is thinking
-1152 ms 195 is thinking
-1152 ms 5 is thinking
-1152 ms 191 is thinking
-1152 ms 3 is thinking
-1152 ms 1 is thinking
-1152 ms 193 is thinking
-1152 ms 189 is thinking
-1152 ms 199 is thinking
-1200 ms 24 is sleeping
-1200 ms 26 is sleeping
-1200 ms 21 has taken a RIGHT fork
-1200 ms 28 is sleeping
-1200 ms 12 is sleeping
-1200 ms 36 is sleeping
-1200 ms 10 is sleeping
-1200 ms 20 is sleeping
-1200 ms 18 is sleeping
-1200 ms 16 is sleeping
-1200 ms 8 is sleeping
-1200 ms 25 has taken a RIGHT fork
-1200 ms 27 has taken a RIGHT fork
-1200 ms 11 has taken a RIGHT fork
-1200 ms 35 has taken a RIGHT fork
-1200 ms 11 has taken a LEFT fork
-1200 ms 35 has taken a LEFT fork
-1200 ms 21 has taken a LEFT fork
-1200 ms 15 has taken a RIGHT fork
-1200 ms 21 is eating
-1200 ms 15 has taken a LEFT fork
-1200 ms 31 has taken a RIGHT fork
-1200 ms 33 has taken a RIGHT fork
-1200 ms 31 has taken a LEFT fork
-1200 ms 22 is sleeping
-1200 ms 33 has taken a LEFT fork
-1200 ms 31 is eating
-1200 ms 33 is eating
-1200 ms 32 is sleeping
-1200 ms 23 has taken a RIGHT fork
-1200 ms 27 has taken a LEFT fork
-1200 ms 23 has taken a LEFT fork
-1200 ms 23 is eating
-1200 ms 30 is sleeping
-1200 ms 27 is eating
-1200 ms 19 has taken a RIGHT fork
+1000 ms 6 is thinking
+1000 ms 18 is thinking
+1000 ms 9 is sleeping
+1000 ms 13 is sleeping
+1000 ms 3 is sleeping
+1000 ms 6 has taken a RIGHT fork
+1000 ms 11 is sleeping
+1000 ms 6 has taken a LEFT fork
+1000 ms 20 has taken a RIGHT fork
+1000 ms 16 has taken a RIGHT fork
+1000 ms 10 has taken a RIGHT fork
+1000 ms 12 is thinking
+1000 ms 10 has taken a LEFT fork
+1000 ms 12 has taken a RIGHT fork
+1000 ms 18 has taken a RIGHT fork
+1000 ms 10 is eating
+1000 ms 18 has taken a LEFT fork
+1000 ms 12 has taken a LEFT fork
+1000 ms 18 is eating
+1000 ms 17 is sleeping
+1000 ms 6 is eating
+1000 ms 20 has taken a LEFT fork
+1000 ms 1 is sleeping
+1000 ms 20 is eating
+1000 ms 5 is sleeping
+1000 ms 7 is sleeping
+1000 ms 4 is thinking
+1000 ms 4 has taken a RIGHT fork
+1000 ms 4 has taken a LEFT fork
+1000 ms 12 is eating
+1000 ms 15 is sleeping
+1000 ms 16 has taken a LEFT fork
+1000 ms 19 is sleeping
+1000 ms 16 is eating
+1000 ms 4 is eating
+1000 ms 14 is thinking
+1000 ms 14 has taken a RIGHT fork
+1000 ms 14 has taken a LEFT fork
+1000 ms 14 is eating
+1000 ms 2 is thinking
+1000 ms 2 has taken a RIGHT fork
+1000 ms 2 has taken a LEFT fork
+1000 ms 2 is eating
+1000 ms 8 is thinking
+1000 ms 8 has taken a RIGHT fork
+1000 ms 8 has taken a LEFT fork
+1000 ms 8 is eating
 1200 ms 14 is sleeping
-1200 ms 19 has taken a LEFT fork
-1200 ms 17 has taken a RIGHT fork
-1200 ms 25 has taken a LEFT fork
-1200 ms 17 has taken a LEFT fork
-1200 ms 19 is eating
-1200 ms 17 is eating
-1200 ms 25 is eating
-1200 ms 13 has taken a RIGHT fork
-1200 ms 34 is sleeping
-1200 ms 13 has taken a LEFT fork
-1200 ms 13 is eating
-1200 ms 7 has taken a RIGHT fork
-1200 ms 15 is eating
+1200 ms 2 is sleeping
+1200 ms 12 is sleeping
+1200 ms 20 is sleeping
+1200 ms 6 is sleeping
+1200 ms 4 is sleeping
+1200 ms 10 is sleeping
+1200 ms 16 is sleeping
+1200 ms 18 is sleeping
+1200 ms 8 is sleeping
+1200 ms 1 is thinking
+1200 ms 19 is thinking
+1200 ms 3 is thinking
+1200 ms 5 is thinking
+1200 ms 9 is thinking
+1200 ms 7 is thinking
 1200 ms 9 has taken a RIGHT fork
+1200 ms 15 is thinking
 1200 ms 9 has taken a LEFT fork
-1200 ms 35 is eating
-1200 ms 9 is eating
-1200 ms 29 has taken a RIGHT fork
+1200 ms 7 has taken a RIGHT fork
+1200 ms 19 has taken a RIGHT fork
+1200 ms 15 has taken a RIGHT fork
+1200 ms 7 has taken a LEFT fork
+1200 ms 7 is eating
+1200 ms 15 has taken a LEFT fork
+1200 ms 11 is thinking
+1200 ms 15 is eating
+1200 ms 19 has taken a LEFT fork
+1200 ms 11 has taken a RIGHT fork
+1200 ms 13 is thinking
+1200 ms 19 is eating
+1200 ms 13 has taken a RIGHT fork
+1200 ms 11 has taken a LEFT fork
+1200 ms 13 has taken a LEFT fork
 1200 ms 11 is eating
-1200 ms 29 has taken a LEFT fork
-1200 ms 29 is eating
-1201 ms 44 is sleeping
-1201 ms 43 has taken a RIGHT fork
-1201 ms 74 is sleeping
-1201 ms 108 is sleeping
-1201 ms 142 is sleeping
-1201 ms 186 is sleeping
-1201 ms 110 is sleeping
-1201 ms 60 is sleeping
-1201 ms 160 is sleeping
-1201 ms 154 is sleeping
-1201 ms 107 has taken a RIGHT fork
-1201 ms 54 is sleeping
-1201 ms 136 is sleeping
-1201 ms 72 is sleeping
-1201 ms 112 is sleeping
-1201 ms 50 is sleeping
-1201 ms 58 is sleeping
-1201 ms 46 is sleeping
-1201 ms 38 is sleeping
-1201 ms 40 is sleeping
-1201 ms 109 has taken a RIGHT fork
-1201 ms 68 is sleeping
-1201 ms 98 is sleeping
-1201 ms 80 is sleeping
-1201 ms 59 has taken a RIGHT fork
-1201 ms 59 has taken a LEFT fork
-1201 ms 159 has taken a RIGHT fork
-1201 ms 42 is sleeping
-1201 ms 146 is sleeping
-1201 ms 150 is sleeping
-1201 ms 180 is sleeping
-1201 ms 82 is sleeping
-1201 ms 73 has taken a RIGHT fork
-1201 ms 114 is sleeping
-1201 ms 94 is sleeping
-1201 ms 73 has taken a LEFT fork
-1201 ms 140 is sleeping
-1201 ms 73 is eating
-1201 ms 104 is sleeping
-1201 ms 120 is sleeping
-1201 ms 92 is sleeping
-1201 ms 100 is sleeping
-1201 ms 56 is sleeping
-1201 ms 132 is sleeping
-1201 ms 96 is sleeping
-1201 ms 126 is sleeping
-1201 ms 111 has taken a RIGHT fork
-1201 ms 57 has taken a RIGHT fork
-1201 ms 111 has taken a LEFT fork
-1201 ms 57 has taken a LEFT fork
-1201 ms 111 is eating
-1201 ms 57 is eating
-1201 ms 48 is sleeping
-1201 ms 102 is sleeping
-1201 ms 127 has taken a RIGHT fork
-1201 ms 178 is sleeping
-1201 ms 127 has taken a LEFT fork
-1201 ms 163 has taken a RIGHT fork
-1201 ms 127 is eating
-1201 ms 63 has taken a RIGHT fork
-1201 ms 63 has taken a LEFT fork
-1201 ms 183 has taken a RIGHT fork
-1201 ms 69 has taken a RIGHT fork
-1201 ms 183 has taken a LEFT fork
-1201 ms 69 has taken a LEFT fork
-1201 ms 183 is eating
-1201 ms 117 has taken a RIGHT fork
-1201 ms 37 has taken a RIGHT fork
-1201 ms 83 has taken a RIGHT fork
-1201 ms 37 has taken a LEFT fork
-1201 ms 164 is sleeping
-1201 ms 83 has taken a LEFT fork
-1201 ms 37 is eating
-1201 ms 39 has taken a RIGHT fork
-1201 ms 117 has taken a LEFT fork
-1201 ms 39 has taken a LEFT fork
-1201 ms 117 is eating
-1201 ms 133 has taken a RIGHT fork
-1201 ms 64 is sleeping
-1201 ms 39 is eating
-1201 ms 128 is sleeping
-1201 ms 67 has taken a RIGHT fork
-1201 ms 147 has taken a RIGHT fork
-1201 ms 161 has taken a RIGHT fork
-1201 ms 168 is sleeping
-1201 ms 161 has taken a LEFT fork
-1201 ms 97 has taken a RIGHT fork
-1201 ms 97 has taken a LEFT fork
-1201 ms 97 is eating
-1201 ms 79 has taken a RIGHT fork
-1201 ms 175 has taken a RIGHT fork
-1201 ms 79 has taken a LEFT fork
-1201 ms 169 has taken a RIGHT fork
-1201 ms 79 is eating
-1201 ms 41 has taken a RIGHT fork
-1201 ms 66 is sleeping
-1201 ms 143 has taken a RIGHT fork
-1201 ms 106 is sleeping
-1201 ms 118 is sleeping
-1201 ms 145 has taken a RIGHT fork
-1201 ms 153 has taken a RIGHT fork
-1201 ms 145 has taken a LEFT fork
-1201 ms 149 has taken a RIGHT fork
-1201 ms 145 is eating
-1201 ms 149 has taken a LEFT fork
-1201 ms 153 has taken a LEFT fork
-1201 ms 149 is eating
-1201 ms 179 has taken a RIGHT fork
-1201 ms 84 is sleeping
-1201 ms 179 has taken a LEFT fork
-1201 ms 81 has taken a RIGHT fork
-1201 ms 81 has taken a LEFT fork
-1201 ms 81 is eating
-1201 ms 113 has taken a RIGHT fork
-1201 ms 113 has taken a LEFT fork
-1201 ms 148 is sleeping
-1201 ms 139 has taken a RIGHT fork
-1201 ms 139 has taken a LEFT fork
-1201 ms 173 has taken a RIGHT fork
-1201 ms 139 is eating
-1201 ms 173 has taken a LEFT fork
-1201 ms 134 is sleeping
-1201 ms 173 is eating
-1201 ms 176 is sleeping
-1201 ms 91 has taken a RIGHT fork
-1201 ms 85 has taken a RIGHT fork
-1201 ms 85 has taken a LEFT fork
-1201 ms 85 is eating
-1201 ms 170 is sleeping
-1201 ms 99 has taken a RIGHT fork
-1201 ms 59 is eating
-1201 ms 99 has taken a LEFT fork
-1201 ms 122 is sleeping
-1201 ms 88 is sleeping
-1201 ms 55 has taken a RIGHT fork
-1201 ms 55 has taken a LEFT fork
-1201 ms 131 has taken a RIGHT fork
-1201 ms 144 is sleeping
-1201 ms 53 has taken a RIGHT fork
-1201 ms 125 has taken a RIGHT fork
-1201 ms 53 has taken a LEFT fork
-1201 ms 116 is sleeping
-1201 ms 53 is eating
-1201 ms 172 is sleeping
-1201 ms 75 has taken a RIGHT fork
-1201 ms 174 is sleeping
-1201 ms 47 has taken a RIGHT fork
-1201 ms 62 is sleeping
-1201 ms 47 has taken a LEFT fork
-1201 ms 181 has taken a RIGHT fork
-1201 ms 181 has taken a LEFT fork
-1201 ms 137 has taken a RIGHT fork
-1201 ms 181 is eating
-1201 ms 137 has taken a LEFT fork
-1201 ms 101 has taken a RIGHT fork
-1201 ms 49 has taken a RIGHT fork
-1201 ms 90 is sleeping
-1201 ms 137 is eating
-1201 ms 76 is sleeping
-1201 ms 177 has taken a RIGHT fork
-1201 ms 105 has taken a RIGHT fork
-1201 ms 177 has taken a LEFT fork
-1201 ms 69 is eating
-1201 ms 177 is eating
-1201 ms 105 has taken a LEFT fork
-1201 ms 105 is eating
-1201 ms 83 is eating
-1201 ms 147 has taken a LEFT fork
-1201 ms 121 has taken a RIGHT fork
-1201 ms 147 is eating
-1201 ms 121 has taken a LEFT fork
-1201 ms 121 is eating
-1201 ms 41 has taken a LEFT fork
-1201 ms 169 has taken a LEFT fork
-1201 ms 41 is eating
-1201 ms 169 is eating
-1201 ms 87 has taken a RIGHT fork
-1201 ms 141 has taken a RIGHT fork
-1201 ms 87 has taken a LEFT fork
-1201 ms 171 has taken a RIGHT fork
-1201 ms 141 has taken a LEFT fork
-1201 ms 87 is eating
-1201 ms 171 has taken a LEFT fork
-1201 ms 141 is eating
-1201 ms 171 is eating
-1201 ms 179 is eating
-1201 ms 166 is sleeping
-1201 ms 162 is sleeping
-1201 ms 93 has taken a RIGHT fork
-1201 ms 103 has taken a RIGHT fork
-1201 ms 93 has taken a LEFT fork
-1201 ms 61 has taken a RIGHT fork
-1201 ms 91 has taken a LEFT fork
-1201 ms 99 is eating
-1201 ms 151 has taken a RIGHT fork
-1201 ms 95 has taken a RIGHT fork
-1201 ms 151 has taken a LEFT fork
-1201 ms 95 has taken a LEFT fork
-1201 ms 91 is eating
-1201 ms 95 is eating
-1201 ms 151 is eating
-1201 ms 123 has taken a RIGHT fork
-1201 ms 86 is sleeping
-1201 ms 123 has taken a LEFT fork
-1201 ms 75 has taken a LEFT fork
-1201 ms 123 is eating
-1201 ms 152 is sleeping
-1201 ms 75 is eating
-1201 ms 157 has taken a RIGHT fork
-1201 ms 129 has taken a RIGHT fork
-1201 ms 157 has taken a LEFT fork
-1201 ms 129 has taken a LEFT fork
-1201 ms 129 is eating
-1201 ms 157 is eating
-1201 ms 124 is sleeping
-1201 ms 101 has taken a LEFT fork
-1201 ms 158 is sleeping
-1201 ms 101 is eating
-1201 ms 130 is sleeping
-1201 ms 138 is sleeping
-1201 ms 45 has taken a RIGHT fork
-1201 ms 182 is sleeping
-1201 ms 163 has taken a LEFT fork
-1201 ms 163 is eating
-1201 ms 167 has taken a RIGHT fork
-1201 ms 78 is sleeping
-1201 ms 167 has taken a LEFT fork
-1201 ms 167 is eating
-1201 ms 65 has taken a RIGHT fork
-1201 ms 65 has taken a LEFT fork
-1201 ms 165 has taken a RIGHT fork
-1201 ms 161 is eating
-1201 ms 165 has taken a LEFT fork
-1201 ms 133 has taken a LEFT fork
-1201 ms 175 has taken a LEFT fork
-1201 ms 133 is eating
-1201 ms 175 is eating
-1201 ms 67 has taken a LEFT fork
-1201 ms 67 is eating
-1201 ms 52 is sleeping
-1201 ms 185 has taken a RIGHT fork
-1201 ms 119 has taken a RIGHT fork
-1201 ms 185 has taken a LEFT fork
-1201 ms 185 is eating
-1201 ms 119 has taken a LEFT fork
-1201 ms 119 is eating
-1201 ms 93 is eating
-1201 ms 103 has taken a LEFT fork
-1201 ms 89 has taken a RIGHT fork
-1201 ms 103 is eating
-1201 ms 131 has taken a LEFT fork
-1201 ms 71 has taken a RIGHT fork
-1201 ms 71 has taken a LEFT fork
-1201 ms 71 is eating
-1201 ms 89 has taken a LEFT fork
-1201 ms 47 is eating
-1201 ms 49 has taken a LEFT fork
-1201 ms 155 has taken a RIGHT fork
-1201 ms 49 is eating
-1201 ms 45 has taken a LEFT fork
-1201 ms 45 is eating
-1201 ms 155 has taken a LEFT fork
-1201 ms 155 is eating
-1201 ms 156 is sleeping
-1201 ms 65 is eating
-1201 ms 63 is eating
-1201 ms 184 is sleeping
-1201 ms 43 has taken a LEFT fork
-1201 ms 43 is eating
-1201 ms 153 is eating
-1201 ms 113 is eating
-1201 ms 115 has taken a RIGHT fork
-1201 ms 70 is sleeping
-1201 ms 115 has taken a LEFT fork
-1201 ms 125 has taken a LEFT fork
-1201 ms 115 is eating
-1201 ms 61 has taken a LEFT fork
-1201 ms 55 is eating
-1201 ms 61 is eating
-1201 ms 131 is eating
-1201 ms 89 is eating
-1201 ms 77 has taken a RIGHT fork
-1201 ms 135 has taken a RIGHT fork
-1201 ms 159 has taken a LEFT fork
-1201 ms 135 has taken a LEFT fork
-1201 ms 159 is eating
-1201 ms 143 has taken a LEFT fork
-1201 ms 143 is eating
-1201 ms 135 is eating
-1201 ms 125 is eating
-1201 ms 107 has taken a LEFT fork
-1201 ms 165 is eating
-1201 ms 109 has taken a LEFT fork
-1201 ms 109 is eating
-1201 ms 51 has taken a RIGHT fork
-1201 ms 77 has taken a LEFT fork
-1201 ms 51 has taken a LEFT fork
-1201 ms 51 is eating
-1201 ms 107 is eating
-1201 ms 77 is eating
-1202 ms 194 is sleeping
-1202 ms 196 is sleeping
-1202 ms 2 is sleeping
-1202 ms 188 is sleeping
-1202 ms 190 is sleeping
-1202 ms 192 is sleeping
-1202 ms 191 has taken a RIGHT fork
-1202 ms 191 has taken a LEFT fork
-1202 ms 193 has taken a RIGHT fork
-1202 ms 191 is eating
-1202 ms 193 has taken a LEFT fork
-1202 ms 193 is eating
-1202 ms 1 has taken a RIGHT fork
-1202 ms 187 has taken a RIGHT fork
-1202 ms 187 has taken a LEFT fork
-1202 ms 187 is eating
-1202 ms 189 has taken a RIGHT fork
-1202 ms 189 has taken a LEFT fork
-1202 ms 189 is eating
-1202 ms 195 has taken a RIGHT fork
-1202 ms 195 has taken a LEFT fork
-1202 ms 195 is eating
-1202 ms 198 is sleeping
-1202 ms 6 is sleeping
-1202 ms 197 has taken a RIGHT fork
-1202 ms 199 has taken a RIGHT fork
-1202 ms 197 has taken a LEFT fork
-1202 ms 197 is eating
-1202 ms 7 has taken a LEFT fork
-1202 ms 7 is eating
-1202 ms 200 is sleeping
-1202 ms 5 has taken a RIGHT fork
-1202 ms 199 has taken a LEFT fork
-1202 ms 199 is eating
-1202 ms 1 has taken a LEFT fork
-1202 ms 1 is eating
-1202 ms 3 has taken a RIGHT fork
-1202 ms 5 has taken a LEFT fork
-1202 ms 5 is eating
-1202 ms 3 has taken a LEFT fork
-1202 ms 3 is eating
-1202 ms 4 is sleeping
-1300 ms 32 is thinking
-1300 ms 8 is thinking
-1300 ms 22 is thinking
-1300 ms 30 is thinking
-1300 ms 24 is thinking
-1300 ms 18 is thinking
-1300 ms 10 is thinking
-1300 ms 26 is thinking
-1300 ms 12 is thinking
-1300 ms 20 is thinking
-1300 ms 16 is thinking
-1300 ms 14 is thinking
-1300 ms 34 is thinking
-1300 ms 36 is thinking
-1300 ms 28 is thinking
-1301 ms 180 is thinking
-1301 ms 174 is thinking
-1301 ms 128 is thinking
-1301 ms 86 is thinking
-1301 ms 106 is thinking
-1301 ms 176 is thinking
-1301 ms 82 is thinking
-1301 ms 100 is thinking
-1301 ms 154 is thinking
-1301 ms 112 is thinking
-1301 ms 132 is thinking
-1301 ms 54 is thinking
-1301 ms 116 is thinking
-1301 ms 80 is thinking
-1301 ms 42 is thinking
-1301 ms 64 is thinking
-1301 ms 136 is thinking
-1301 ms 162 is thinking
-1301 ms 144 is thinking
-1301 ms 62 is thinking
-1301 ms 114 is thinking
-1301 ms 184 is thinking
-1301 ms 92 is thinking
-1301 ms 110 is thinking
-1301 ms 74 is thinking
-1301 ms 52 is thinking
-1301 ms 38 is thinking
-1301 ms 138 is thinking
-1301 ms 140 is thinking
-1301 ms 170 is thinking
-1301 ms 104 is thinking
-1301 ms 66 is thinking
-1301 ms 142 is thinking
-1301 ms 150 is thinking
-1301 ms 160 is thinking
-1301 ms 152 is thinking
-1301 ms 72 is thinking
-1301 ms 56 is thinking
-1301 ms 158 is thinking
-1301 ms 122 is thinking
-1301 ms 46 is thinking
-1301 ms 164 is thinking
-1301 ms 76 is thinking
-1301 ms 40 is thinking
-1301 ms 108 is thinking
-1301 ms 126 is thinking
-1301 ms 148 is thinking
-1301 ms 124 is thinking
-1301 ms 146 is thinking
-1301 ms 130 is thinking
-1301 ms 58 is thinking
-1301 ms 88 is thinking
-1301 ms 48 is thinking
-1301 ms 60 is thinking
-1301 ms 70 is thinking
-1301 ms 182 is thinking
-1301 ms 134 is thinking
-1301 ms 102 is thinking
-1301 ms 166 is thinking
-1301 ms 68 is thinking
-1301 ms 98 is thinking
-1301 ms 172 is thinking
-1301 ms 94 is thinking
-1301 ms 50 is thinking
-1301 ms 156 is thinking
-1301 ms 118 is thinking
-1301 ms 168 is thinking
-1301 ms 84 is thinking
-1301 ms 120 is thinking
-1301 ms 90 is thinking
-1301 ms 78 is thinking
-1301 ms 186 is thinking
-1301 ms 96 is thinking
-1301 ms 178 is thinking
-1301 ms 44 is thinking
-1302 ms 200 is thinking
-1302 ms 4 is thinking
-1302 ms 2 is thinking
-1302 ms 190 is thinking
-1302 ms 192 is thinking
-1302 ms 194 is thinking
-1302 ms 198 is thinking
-1302 ms 6 is thinking
-1302 ms 196 is thinking
-1302 ms 188 is thinking
-1350 ms 33 is sleeping
-1350 ms 19 is sleeping
-1350 ms 11 is sleeping
-1350 ms 32 has taken a RIGHT fork
-1350 ms 17 is sleeping
-1350 ms 31 is sleeping
-1350 ms 23 is sleeping
-1350 ms 9 is sleeping
-1350 ms 15 is sleeping
-1350 ms 18 has taken a RIGHT fork
-1350 ms 18 has taken a LEFT fork
-1350 ms 18 is eating
-1350 ms 25 is sleeping
-1350 ms 35 is sleeping
-1350 ms 27 is sleeping
-1350 ms 10 has taken a RIGHT fork
-1350 ms 10 has taken a LEFT fork
-1350 ms 10 is eating
-1350 ms 30 has taken a RIGHT fork
-1350 ms 32 has taken a LEFT fork
-1350 ms 32 is eating
-1350 ms 8 has taken a RIGHT fork
-1350 ms 22 has taken a RIGHT fork
-1350 ms 24 has taken a RIGHT fork
-1350 ms 34 has taken a RIGHT fork
-1350 ms 12 has taken a RIGHT fork
-1350 ms 12 has taken a LEFT fork
-1350 ms 12 is eating
-1350 ms 26 has taken a RIGHT fork
-1350 ms 26 has taken a LEFT fork
-1350 ms 26 is eating
-1350 ms 24 has taken a LEFT fork
-1350 ms 24 is eating
-1350 ms 34 has taken a LEFT fork
-1350 ms 20 has taken a RIGHT fork
-1350 ms 34 is eating
-1350 ms 20 has taken a LEFT fork
-1350 ms 20 is eating
-1350 ms 30 has taken a LEFT fork
-1350 ms 21 is sleeping
-1350 ms 30 is eating
-1350 ms 13 is sleeping
-1350 ms 28 has taken a RIGHT fork
-1350 ms 28 has taken a LEFT fork
-1350 ms 28 is eating
-1350 ms 14 has taken a RIGHT fork
-1350 ms 22 has taken a LEFT fork
-1350 ms 22 is eating
-1350 ms 14 has taken a LEFT fork
-1350 ms 14 is eating
-1350 ms 16 has taken a RIGHT fork
-1350 ms 16 has taken a LEFT fork
-1350 ms 16 is eating
-1350 ms 29 is sleeping
-1351 ms 137 is sleeping
-1351 ms 37 is sleeping
-1351 ms 129 is sleeping
-1351 ms 47 is sleeping
-1351 ms 105 is sleeping
-1351 ms 57 is sleeping
-1351 ms 77 is sleeping
-1351 ms 145 is sleeping
-1351 ms 51 is sleeping
-1351 ms 175 is sleeping
-1351 ms 141 is sleeping
-1351 ms 73 is sleeping
-1351 ms 83 is sleeping
-1351 ms 167 is sleeping
-1351 ms 153 is sleeping
-1351 ms 136 has taken a RIGHT fork
-1351 ms 181 is sleeping
-1351 ms 111 is sleeping
-1351 ms 177 is sleeping
-1351 ms 117 is sleeping
-1351 ms 147 is sleeping
-1351 ms 39 is sleeping
-1351 ms 91 is sleeping
-1351 ms 173 is sleeping
-1351 ms 36 has taken a RIGHT fork
-1351 ms 55 is sleeping
-1351 ms 107 is sleeping
-1351 ms 36 has taken a LEFT fork
-1351 ms 36 is eating
-1351 ms 165 is sleeping
-1351 ms 99 is sleeping
-1351 ms 119 is sleeping
-1351 ms 71 is sleeping
-1351 ms 63 is sleeping
-1351 ms 95 is sleeping
-1351 ms 41 is sleeping
-1351 ms 79 is sleeping
-1351 ms 46 has taken a RIGHT fork
-1351 ms 159 is sleeping
-1351 ms 85 is sleeping
-1351 ms 161 is sleeping
-1351 ms 179 is sleeping
-1351 ms 56 has taken a RIGHT fork
-1351 ms 61 is sleeping
-1351 ms 56 has taken a LEFT fork
-1351 ms 65 is sleeping
-1351 ms 113 is sleeping
-1351 ms 101 is sleeping
-1351 ms 140 has taken a RIGHT fork
-1351 ms 174 has taken a RIGHT fork
-1351 ms 82 has taken a RIGHT fork
-1351 ms 146 has taken a RIGHT fork
-1351 ms 180 has taken a RIGHT fork
-1351 ms 176 has taken a RIGHT fork
-1351 ms 90 has taken a RIGHT fork
-1351 ms 176 has taken a LEFT fork
-1351 ms 184 has taken a RIGHT fork
-1351 ms 90 has taken a LEFT fork
-1351 ms 176 is eating
-1351 ms 54 has taken a RIGHT fork
-1351 ms 90 is eating
-1351 ms 38 has taken a RIGHT fork
-1351 ms 54 has taken a LEFT fork
-1351 ms 38 has taken a LEFT fork
-1351 ms 38 is eating
-1351 ms 54 is eating
-1351 ms 106 has taken a RIGHT fork
-1351 ms 106 has taken a LEFT fork
-1351 ms 185 is sleeping
-1351 ms 106 is eating
-1351 ms 118 has taken a RIGHT fork
-1351 ms 70 has taken a RIGHT fork
-1351 ms 118 has taken a LEFT fork
-1351 ms 118 is eating
-1351 ms 92 has taken a RIGHT fork
-1351 ms 158 has taken a RIGHT fork
-1351 ms 53 is sleeping
-1351 ms 84 has taken a RIGHT fork
-1351 ms 84 has taken a LEFT fork
-1351 ms 93 is sleeping
-1351 ms 58 has taken a RIGHT fork
-1351 ms 178 has taken a RIGHT fork
-1351 ms 58 has taken a LEFT fork
-1351 ms 114 has taken a RIGHT fork
-1351 ms 143 is sleeping
-1351 ms 178 has taken a LEFT fork
-1351 ms 114 has taken a LEFT fork
-1351 ms 60 has taken a RIGHT fork
-1351 ms 114 is eating
-1351 ms 60 has taken a LEFT fork
-1351 ms 109 is sleeping
-1351 ms 112 has taken a RIGHT fork
-1351 ms 100 has taken a RIGHT fork
-1351 ms 76 has taken a RIGHT fork
-1351 ms 100 has taken a LEFT fork
-1351 ms 56 is eating
-1351 ms 144 has taken a RIGHT fork
-1351 ms 115 is sleeping
-1351 ms 144 has taken a LEFT fork
-1351 ms 100 is eating
-1351 ms 72 has taken a RIGHT fork
-1351 ms 174 has taken a LEFT fork
-1351 ms 72 has taken a LEFT fork
-1351 ms 89 is sleeping
-1351 ms 174 is eating
-1351 ms 72 is eating
-1351 ms 146 has taken a LEFT fork
-1351 ms 131 is sleeping
-1351 ms 146 is eating
-1351 ms 180 has taken a LEFT fork
-1351 ms 152 has taken a RIGHT fork
-1351 ms 164 has taken a RIGHT fork
-1351 ms 98 has taken a RIGHT fork
-1351 ms 62 has taken a RIGHT fork
-1351 ms 110 has taken a RIGHT fork
-1351 ms 62 has taken a LEFT fork
-1351 ms 62 is eating
-1351 ms 110 has taken a LEFT fork
-1351 ms 58 is eating
-1351 ms 110 is eating
-1351 ms 178 is eating
-1351 ms 64 has taken a RIGHT fork
-1351 ms 88 has taken a RIGHT fork
-1351 ms 112 has taken a LEFT fork
-1351 ms 50 has taken a RIGHT fork
-1351 ms 112 is eating
-1351 ms 130 has taken a RIGHT fork
-1351 ms 166 has taken a RIGHT fork
-1351 ms 130 has taken a LEFT fork
-1351 ms 166 has taken a LEFT fork
-1351 ms 130 is eating
-1351 ms 116 has taken a RIGHT fork
-1351 ms 166 is eating
-1351 ms 116 has taken a LEFT fork
-1351 ms 127 is sleeping
-1351 ms 116 is eating
-1351 ms 40 has taken a RIGHT fork
-1351 ms 40 has taken a LEFT fork
-1351 ms 92 has taken a LEFT fork
-1351 ms 40 is eating
-1351 ms 42 has taken a RIGHT fork
-1351 ms 160 has taken a RIGHT fork
-1351 ms 42 has taken a LEFT fork
-1351 ms 43 is sleeping
-1351 ms 160 has taken a LEFT fork
-1351 ms 42 is eating
-1351 ms 160 is eating
-1351 ms 108 has taken a RIGHT fork
-1351 ms 108 has taken a LEFT fork
-1351 ms 64 has taken a LEFT fork
-1351 ms 108 is eating
-1351 ms 64 is eating
-1351 ms 172 has taken a RIGHT fork
-1351 ms 180 is eating
-1351 ms 52 has taken a RIGHT fork
-1351 ms 52 has taken a LEFT fork
-1351 ms 52 is eating
-1351 ms 84 is eating
-1351 ms 92 is eating
-1351 ms 142 has taken a RIGHT fork
-1351 ms 104 has taken a RIGHT fork
-1351 ms 142 has taken a LEFT fork
-1351 ms 144 is eating
-1351 ms 59 is sleeping
-1351 ms 142 is eating
-1351 ms 126 has taken a RIGHT fork
-1351 ms 128 has taken a RIGHT fork
-1351 ms 128 has taken a LEFT fork
-1351 ms 128 is eating
-1351 ms 169 is sleeping
-1351 ms 103 is sleeping
-1351 ms 139 is sleeping
-1351 ms 121 is sleeping
-1351 ms 78 has taken a RIGHT fork
-1351 ms 168 has taken a RIGHT fork
-1351 ms 78 has taken a LEFT fork
-1351 ms 168 has taken a LEFT fork
-1351 ms 94 has taken a RIGHT fork
-1351 ms 133 is sleeping
-1351 ms 94 has taken a LEFT fork
-1351 ms 102 has taken a RIGHT fork
-1351 ms 94 is eating
-1351 ms 102 has taken a LEFT fork
-1351 ms 102 is eating
-1351 ms 60 is eating
-1351 ms 155 is sleeping
-1351 ms 168 is eating
-1351 ms 49 is sleeping
-1351 ms 151 is sleeping
-1351 ms 69 is sleeping
-1351 ms 135 is sleeping
-1351 ms 171 is sleeping
-1351 ms 97 is sleeping
-1351 ms 138 has taken a RIGHT fork
-1351 ms 87 is sleeping
-1351 ms 138 has taken a LEFT fork
-1351 ms 183 is sleeping
-1351 ms 80 has taken a RIGHT fork
-1351 ms 75 is sleeping
-1351 ms 46 has taken a LEFT fork
-1351 ms 46 is eating
-1351 ms 80 has taken a LEFT fork
-1351 ms 140 has taken a LEFT fork
-1351 ms 82 has taken a LEFT fork
-1351 ms 140 is eating
-1351 ms 66 has taken a RIGHT fork
-1351 ms 148 has taken a RIGHT fork
-1351 ms 66 has taken a LEFT fork
-1351 ms 125 is sleeping
-1351 ms 66 is eating
-1351 ms 149 is sleeping
-1351 ms 132 has taken a RIGHT fork
-1351 ms 132 has taken a LEFT fork
-1351 ms 132 is eating
-1351 ms 78 is eating
-1351 ms 154 has taken a RIGHT fork
-1351 ms 154 has taken a LEFT fork
-1351 ms 152 has taken a LEFT fork
-1351 ms 154 is eating
-1351 ms 96 has taken a RIGHT fork
-1351 ms 134 has taken a RIGHT fork
-1351 ms 170 has taken a RIGHT fork
-1351 ms 134 has taken a LEFT fork
-1351 ms 170 has taken a LEFT fork
-1351 ms 164 has taken a LEFT fork
-1351 ms 134 is eating
-1351 ms 164 is eating
-1351 ms 172 has taken a LEFT fork
-1351 ms 98 has taken a LEFT fork
-1351 ms 122 has taken a RIGHT fork
-1351 ms 172 is eating
-1351 ms 122 has taken a LEFT fork
-1351 ms 162 has taken a RIGHT fork
-1351 ms 86 has taken a RIGHT fork
-1351 ms 156 has taken a RIGHT fork
-1351 ms 88 has taken a LEFT fork
-1351 ms 86 has taken a LEFT fork
-1351 ms 122 is eating
-1351 ms 88 is eating
-1351 ms 158 has taken a LEFT fork
-1351 ms 158 is eating
-1351 ms 123 is sleeping
-1351 ms 184 has taken a LEFT fork
-1351 ms 163 is sleeping
-1351 ms 182 has taken a RIGHT fork
-1351 ms 157 is sleeping
-1351 ms 182 has taken a LEFT fork
-1351 ms 80 is eating
-1351 ms 76 has taken a LEFT fork
-1351 ms 124 has taken a RIGHT fork
-1351 ms 182 is eating
-1351 ms 124 has taken a LEFT fork
-1351 ms 124 is eating
-1351 ms 126 has taken a LEFT fork
-1351 ms 126 is eating
-1351 ms 76 is eating
-1351 ms 82 is eating
-1351 ms 45 is sleeping
-1351 ms 148 has taken a LEFT fork
-1351 ms 67 is sleeping
-1351 ms 184 is eating
-1351 ms 138 is eating
-1351 ms 120 has taken a RIGHT fork
-1351 ms 120 has taken a LEFT fork
-1351 ms 120 is eating
-1351 ms 68 has taken a RIGHT fork
-1351 ms 148 is eating
-1351 ms 70 has taken a LEFT fork
-1351 ms 70 is eating
-1351 ms 50 has taken a LEFT fork
-1351 ms 152 is eating
-1351 ms 50 is eating
-1351 ms 136 has taken a LEFT fork
-1351 ms 136 is eating
-1351 ms 170 is eating
-1351 ms 156 has taken a LEFT fork
-1351 ms 156 is eating
-1351 ms 162 has taken a LEFT fork
-1351 ms 162 is eating
-1351 ms 86 is eating
-1351 ms 81 is sleeping
-1351 ms 48 has taken a RIGHT fork
-1351 ms 48 has taken a LEFT fork
-1351 ms 48 is eating
-1351 ms 44 has taken a RIGHT fork
-1351 ms 96 has taken a LEFT fork
-1351 ms 98 is eating
-1351 ms 96 is eating
-1351 ms 74 has taken a RIGHT fork
-1351 ms 74 has taken a LEFT fork
-1351 ms 74 is eating
-1351 ms 44 has taken a LEFT fork
-1351 ms 68 has taken a LEFT fork
-1351 ms 68 is eating
-1351 ms 104 has taken a LEFT fork
-1351 ms 104 is eating
-1351 ms 44 is eating
-1351 ms 150 has taken a RIGHT fork
-1351 ms 150 has taken a LEFT fork
-1351 ms 150 is eating
-1352 ms 5 is sleeping
-1352 ms 4 has taken a RIGHT fork
-1352 ms 193 is sleeping
-1352 ms 192 has taken a RIGHT fork
-1352 ms 187 is sleeping
-1352 ms 186 has taken a RIGHT fork
-1352 ms 188 has taken a RIGHT fork
-1352 ms 188 has taken a LEFT fork
-1352 ms 188 is eating
-1352 ms 190 has taken a RIGHT fork
-1352 ms 191 is sleeping
-1352 ms 192 has taken a LEFT fork
-1352 ms 189 is sleeping
-1352 ms 190 has taken a LEFT fork
-1352 ms 190 is eating
-1352 ms 186 has taken a LEFT fork
-1352 ms 186 is eating
-1352 ms 192 is eating
-1352 ms 195 is sleeping
-1352 ms 199 is sleeping
-1352 ms 194 has taken a RIGHT fork
-1352 ms 194 has taken a LEFT fork
-1352 ms 194 is eating
-1352 ms 1 is sleeping
-1352 ms 200 has taken a RIGHT fork
-1352 ms 200 has taken a LEFT fork
-1352 ms 200 is eating
-1352 ms 7 is sleeping
-1352 ms 198 has taken a RIGHT fork
-1352 ms 8 has taken a LEFT fork
-1352 ms 8 is eating
-1352 ms 6 has taken a RIGHT fork
-1352 ms 6 has taken a LEFT fork
-1352 ms 6 is eating
-1352 ms 2 has taken a RIGHT fork
-1352 ms 2 has taken a LEFT fork
-1352 ms 2 is eating
-1352 ms 4 has taken a LEFT fork
-1352 ms 4 is eating
-1352 ms 3 is sleeping
-1352 ms 196 has taken a RIGHT fork
-1352 ms 198 has taken a LEFT fork
-1352 ms 198 is eating
-1352 ms 197 is sleeping
-1352 ms 196 has taken a LEFT fork
-1352 ms 196 is eating
-1450 ms 11 is thinking
-1450 ms 23 is thinking
-1450 ms 19 is thinking
-1450 ms 27 is thinking
-1450 ms 17 is thinking
-1450 ms 21 is thinking
-1450 ms 33 is thinking
-1450 ms 9 is thinking
-1450 ms 35 is thinking
-1450 ms 13 is thinking
-1450 ms 29 is thinking
-1450 ms 31 is thinking
-1450 ms 15 is thinking
-1450 ms 25 is thinking
-1451 ms 141 is thinking
-1451 ms 97 is thinking
-1451 ms 55 is thinking
-1451 ms 145 is thinking
-1451 ms 115 is thinking
-1451 ms 113 is thinking
-1451 ms 181 is thinking
-1451 ms 87 is thinking
-1451 ms 161 is thinking
-1451 ms 163 is thinking
-1451 ms 105 is thinking
-1451 ms 91 is thinking
-1451 ms 119 is thinking
-1451 ms 39 is thinking
-1451 ms 101 is thinking
-1451 ms 63 is thinking
-1451 ms 171 is thinking
-1451 ms 45 is thinking
-1451 ms 49 is thinking
-1451 ms 81 is thinking
-1451 ms 125 is thinking
-1451 ms 65 is thinking
-1451 ms 159 is thinking
-1451 ms 69 is thinking
-1451 ms 83 is thinking
-1451 ms 107 is thinking
-1451 ms 75 is thinking
-1451 ms 37 is thinking
-1451 ms 53 is thinking
-1451 ms 173 is thinking
-1451 ms 177 is thinking
-1451 ms 79 is thinking
-1451 ms 185 is thinking
-1451 ms 139 is thinking
-1451 ms 109 is thinking
-1451 ms 157 is thinking
-1451 ms 147 is thinking
-1451 ms 175 is thinking
-1451 ms 183 is thinking
-1451 ms 123 is thinking
-1451 ms 73 is thinking
-1451 ms 57 is thinking
-1451 ms 77 is thinking
-1451 ms 151 is thinking
-1451 ms 153 is thinking
-1451 ms 103 is thinking
-1451 ms 133 is thinking
-1451 ms 137 is thinking
-1451 ms 129 is thinking
-1451 ms 89 is thinking
-1451 ms 93 is thinking
-1451 ms 179 is thinking
-1451 ms 71 is thinking
-1451 ms 135 is thinking
-1451 ms 67 is thinking
-1451 ms 155 is thinking
-1451 ms 41 is thinking
-1451 ms 111 is thinking
-1451 ms 121 is thinking
-1451 ms 51 is thinking
-1451 ms 143 is thinking
-1451 ms 127 is thinking
-1451 ms 167 is thinking
-1451 ms 61 is thinking
-1451 ms 99 is thinking
-1451 ms 85 is thinking
-1451 ms 117 is thinking
-1451 ms 47 is thinking
-1451 ms 165 is thinking
-1451 ms 59 is thinking
-1451 ms 169 is thinking
-1451 ms 95 is thinking
-1451 ms 149 is thinking
-1451 ms 131 is thinking
-1451 ms 43 is thinking
-1452 ms 189 is thinking
-1452 ms 1 is thinking
-1452 ms 195 is thinking
-1452 ms 193 is thinking
-1452 ms 199 is thinking
-1452 ms 7 is thinking
-1452 ms 3 is thinking
-1452 ms 187 is thinking
-1452 ms 197 is thinking
-1452 ms 5 is thinking
-1452 ms 191 is thinking
-1500 ms 12 is sleeping
-1500 ms 34 is sleeping
-1500 ms 16 is sleeping
-1500 ms 30 is sleeping
-1500 ms 20 is sleeping
-1500 ms 24 is sleeping
-1500 ms 26 is sleeping
-1500 ms 10 is sleeping
-1500 ms 32 is sleeping
-1500 ms 22 is sleeping
-1500 ms 14 is sleeping
-1500 ms 18 is sleeping
-1500 ms 28 is sleeping
-1501 ms 38 is sleeping
-1501 ms 62 is sleeping
-1501 ms 74 is sleeping
-1501 ms 72 is sleeping
-1501 ms 80 is sleeping
-1501 ms 108 is sleeping
-1501 ms 180 is sleeping
-1501 ms 40 is sleeping
-1501 ms 164 is sleeping
-1501 ms 182 is sleeping
-1501 ms 90 is sleeping
-1501 ms 124 is sleeping
-1501 ms 100 is sleeping
-1501 ms 88 is sleeping
-1501 ms 66 is sleeping
-1501 ms 156 is sleeping
-1501 ms 104 is sleeping
-1501 ms 102 is sleeping
-1501 ms 122 is sleeping
-1501 ms 152 is sleeping
-1501 ms 36 is sleeping
-1501 ms 174 is sleeping
-1501 ms 114 is sleeping
-1501 ms 150 is sleeping
-1501 ms 42 is sleeping
-1501 ms 116 is sleeping
-1501 ms 138 is sleeping
-1501 ms 56 is sleeping
-1501 ms 52 is sleeping
-1501 ms 136 is sleeping
-1501 ms 50 is sleeping
-1501 ms 178 is sleeping
-1501 ms 184 is sleeping
-1501 ms 144 is sleeping
-1501 ms 154 is sleeping
-1501 ms 134 is sleeping
-1501 ms 176 is sleeping
-1501 ms 148 is sleeping
-1501 ms 106 is sleeping
-1501 ms 142 is sleeping
-1501 ms 94 is sleeping
-1501 ms 48 is sleeping
-1501 ms 54 is sleeping
-1501 ms 128 is sleeping
-1501 ms 86 is sleeping
-1501 ms 146 is sleeping
-1501 ms 120 is sleeping
-1501 ms 82 is sleeping
-1501 ms 110 is sleeping
-1501 ms 46 is sleeping
-1501 ms 168 is sleeping
-1501 ms 126 is sleeping
-1501 ms 68 is sleeping
-1501 ms 158 is sleeping
-1501 ms 162 is sleeping
-1501 ms 76 is sleeping
-1501 ms 96 is sleeping
-1501 ms 58 is sleeping
-1501 ms 44 is sleeping
-1501 ms 84 is sleeping
-1501 ms 98 is sleeping
-1501 ms 166 is sleeping
-1501 ms 140 is sleeping
-1501 ms 132 is sleeping
-1501 ms 112 is sleeping
-1501 ms 170 is sleeping
-1501 ms 78 is sleeping
-1501 ms 172 is sleeping
-1501 ms 118 is sleeping
-1501 ms 64 is sleeping
-1501 ms 92 is sleeping
-1501 ms 60 is sleeping
-1501 ms 70 is sleeping
-1501 ms 160 is sleeping
-1501 ms 130 is sleeping
-1502 ms 186 is sleeping
-1502 ms 190 is sleeping
-1502 ms 8 is sleeping
-1502 ms 188 is sleeping
-1502 ms 6 is sleeping
-1502 ms 194 is sleeping
-1502 ms 2 is sleeping
-1502 ms 192 is sleeping
-1502 ms 4 is sleeping
-1502 ms 198 is sleeping
-1502 ms 196 is sleeping
-1502 ms 200 is sleeping
-1600 ms 26 is thinking
-1600 ms 20 is thinking
-1600 ms 32 is thinking
-1600 ms 18 is thinking
-1600 ms 12 is thinking
-1600 ms 28 is thinking
-1600 ms 34 is thinking
-1600 ms 24 is thinking
-1600 ms 30 is thinking
-1600 ms 22 is thinking
-1600 ms 16 is thinking
-1600 ms 10 is thinking
-1600 ms 14 is thinking
-1601 ms 184 is thinking
-1601 ms 46 is thinking
-1601 ms 82 is thinking
-1601 ms 72 is thinking
-1601 ms 50 is thinking
-1601 ms 144 is thinking
-1601 ms 126 is thinking
-1601 ms 146 is thinking
-1601 ms 112 is thinking
-1601 ms 172 is thinking
-1601 ms 164 is thinking
-1601 ms 136 is thinking
-1601 ms 118 is thinking
-1601 ms 66 is thinking
-1601 ms 84 is thinking
-1601 ms 52 is thinking
-1601 ms 130 is thinking
-1601 ms 168 is thinking
-1601 ms 134 is thinking
-1601 ms 174 is thinking
-1601 ms 114 is thinking
-1601 ms 98 is thinking
-1601 ms 100 is thinking
-1601 ms 124 is thinking
-1601 ms 102 is thinking
-1601 ms 120 is thinking
-1601 ms 148 is thinking
-1601 ms 132 is thinking
-1601 ms 150 is thinking
-1601 ms 110 is thinking
-1601 ms 48 is thinking
-1601 ms 62 is thinking
-1601 ms 76 is thinking
-1601 ms 170 is thinking
-1601 ms 40 is thinking
-1601 ms 140 is thinking
-1601 ms 138 is thinking
-1601 ms 92 is thinking
-1601 ms 80 is thinking
-1601 ms 142 is thinking
-1601 ms 94 is thinking
-1601 ms 64 is thinking
-1601 ms 162 is thinking
-1601 ms 128 is thinking
-1601 ms 166 is thinking
-1601 ms 160 is thinking
-1601 ms 176 is thinking
-1601 ms 78 is thinking
-1601 ms 152 is thinking
-1601 ms 38 is thinking
-1601 ms 182 is thinking
-1601 ms 42 is thinking
-1601 ms 154 is thinking
-1601 ms 104 is thinking
-1601 ms 74 is thinking
-1601 ms 88 is thinking
-1601 ms 54 is thinking
-1601 ms 44 is thinking
-1601 ms 70 is thinking
-1601 ms 56 is thinking
-1601 ms 156 is thinking
-1601 ms 180 is thinking
-1601 ms 108 is thinking
-1601 ms 60 is thinking
-1601 ms 58 is thinking
-1601 ms 90 is thinking
-1601 ms 68 is thinking
-1601 ms 106 is thinking
-1601 ms 158 is thinking
-1601 ms 36 is thinking
-1601 ms 122 is thinking
-1601 ms 86 is thinking
-1601 ms 96 is thinking
-1601 ms 116 is thinking
-1601 ms 178 is thinking
-1602 ms 186 is thinking
-1602 ms 190 is thinking
-1602 ms 194 is thinking
-1602 ms 196 is thinking
-1602 ms 6 is thinking
-1602 ms 188 is thinking
-1602 ms 8 is thinking
-1602 ms 200 is thinking
-1602 ms 198 is thinking
-1602 ms 2 is thinking
-1602 ms 192 is thinking
-1602 ms 4 is thinking
+1200 ms 13 is eating
+1200 ms 9 is eating
+1200 ms 3 has taken a RIGHT fork
+1200 ms 3 has taken a LEFT fork
+1200 ms 3 is eating
+1200 ms 17 is thinking
+1200 ms 1 has taken a RIGHT fork
+1200 ms 1 has taken a LEFT fork
+1200 ms 1 is eating
+1200 ms 17 has taken a RIGHT fork
+1200 ms 17 has taken a LEFT fork
+1200 ms 17 is eating
+1200 ms 5 has taken a RIGHT fork
+1200 ms 5 has taken a LEFT fork
+1200 ms 5 is eating
+1400 ms 19 is sleeping
+1400 ms 2 is thinking
+1400 ms 20 is thinking
+1400 ms 2 has taken a RIGHT fork
+1400 ms 17 is sleeping
+1400 ms 18 is thinking
+1400 ms 18 has taken a RIGHT fork
+1400 ms 3 is sleeping
+1400 ms 18 has taken a LEFT fork
+1400 ms 18 is eating
+1400 ms 7 is sleeping
+1400 ms 13 is sleeping
+1400 ms 5 is sleeping
+1400 ms 20 has taken a RIGHT fork
+1400 ms 20 has taken a LEFT fork
+1400 ms 20 is eating
+1400 ms 9 is sleeping
+1400 ms 2 has taken a LEFT fork
+1400 ms 2 is eating
+1400 ms 15 is sleeping
+1400 ms 1 is sleeping
+1400 ms 11 is sleeping
+1400 ms 6 is thinking
+1400 ms 6 has taken a RIGHT fork
+1400 ms 6 has taken a LEFT fork
+1400 ms 6 is eating
+1400 ms 16 is thinking
+1400 ms 16 has taken a RIGHT fork
+1400 ms 16 has taken a LEFT fork
+1400 ms 16 is eating
+1400 ms 14 is thinking
+1400 ms 14 has taken a RIGHT fork
+1400 ms 14 has taken a LEFT fork
+1400 ms 14 is eating
+1400 ms 4 is thinking
+1400 ms 4 has taken a RIGHT fork
+1400 ms 4 has taken a LEFT fork
+1400 ms 4 is eating
+1400 ms 8 is thinking
+1400 ms 8 has taken a RIGHT fork
+1400 ms 8 has taken a LEFT fork
+1400 ms 8 is eating
+1400 ms 12 is thinking
+1400 ms 12 has taken a RIGHT fork
+1400 ms 12 has taken a LEFT fork
+1400 ms 12 is eating
+1400 ms 10 is thinking
+1400 ms 10 has taken a RIGHT fork
+1400 ms 10 has taken a LEFT fork
+1400 ms 10 is eating
+1600 ms 10 is sleeping
+1600 ms 8 is sleeping
+1600 ms 6 is sleeping
+1600 ms 18 is sleeping
+1600 ms 12 is sleeping
+1600 ms 20 is sleeping
+1600 ms 4 is sleeping
+1600 ms 16 is sleeping
+1600 ms 2 is sleeping
+1600 ms 1 is thinking
+1600 ms 1 has taken a RIGHT fork
+1600 ms 19 is thinking
+1600 ms 19 has taken a RIGHT fork
+1600 ms 19 has taken a LEFT fork
+1600 ms 19 is eating
+1600 ms 1 has taken a LEFT fork
+1600 ms 1 is eating
+1600 ms 5 is thinking
+1600 ms 5 has taken a RIGHT fork
+1600 ms 5 has taken a LEFT fork
+1600 ms 5 is eating
+1600 ms 14 is sleeping
+1600 ms 15 is thinking
+1600 ms 15 has taken a RIGHT fork
+1600 ms 15 has taken a LEFT fork
+1600 ms 15 is eating
+1600 ms 13 is thinking
+1600 ms 9 is thinking
+1600 ms 17 is thinking
+1600 ms 3 is thinking
+1600 ms 17 has taken a RIGHT fork
+1600 ms 3 has taken a RIGHT fork
+1600 ms 7 is thinking
+1600 ms 17 has taken a LEFT fork
+1600 ms 7 has taken a RIGHT fork
+1600 ms 7 has taken a LEFT fork
+1600 ms 11 is thinking
+1600 ms 13 has taken a RIGHT fork
+1600 ms 7 is eating
+1600 ms 9 has taken a RIGHT fork
+1600 ms 3 has taken a LEFT fork
+1600 ms 9 has taken a LEFT fork
+1600 ms 17 is eating
+1600 ms 9 is eating
+1600 ms 11 has taken a RIGHT fork
+1600 ms 11 has taken a LEFT fork
+1600 ms 11 is eating
+1600 ms 3 is eating
+1600 ms 13 has taken a LEFT fork
+1600 ms 13 is eating
+1800 ms 5 is sleeping
+1800 ms 1 is sleeping
+1800 ms 15 is sleeping
+1800 ms 19 is sleeping
+1800 ms 7 is sleeping
+1800 ms 9 is sleeping
+1800 ms 12 is thinking
+1800 ms 3 is sleeping
+1800 ms 12 has taken a RIGHT fork
+1800 ms 4 is thinking
+1800 ms 8 is thinking
+1800 ms 11 is sleeping
+1800 ms 8 has taken a RIGHT fork
+1800 ms 8 has taken a LEFT fork
+1800 ms 12 has taken a LEFT fork
+1800 ms 8 is eating
+1800 ms 12 is eating
+1800 ms 13 is sleeping
+1800 ms 4 has taken a RIGHT fork
+1800 ms 17 is sleeping
+1800 ms 4 has taken a LEFT fork
+1800 ms 4 is eating
+1800 ms 10 is thinking
+1800 ms 10 has taken a RIGHT fork
+1800 ms 10 has taken a LEFT fork
+1800 ms 10 is eating
+1800 ms 2 is thinking
+1800 ms 2 has taken a RIGHT fork
+1800 ms 14 is thinking
+1800 ms 20 is thinking
+1800 ms 18 is thinking
+1800 ms 20 has taken a RIGHT fork
+1800 ms 16 is thinking
+1800 ms 20 has taken a LEFT fork
+1800 ms 16 has taken a RIGHT fork
+1800 ms 20 is eating
+1800 ms 6 is thinking
+1800 ms 18 has taken a RIGHT fork
+1800 ms 6 has taken a RIGHT fork
+1800 ms 18 has taken a LEFT fork
+1800 ms 6 has taken a LEFT fork
+1800 ms 6 is eating
+1800 ms 16 has taken a LEFT fork
+1800 ms 14 has taken a RIGHT fork
+1800 ms 14 has taken a LEFT fork
+1800 ms 14 is eating
+1800 ms 16 is eating
+1800 ms 18 is eating
+1800 ms 2 has taken a LEFT fork
+1800 ms 2 is eating
+2000 ms 13 is thinking
+2000 ms 19 is thinking
+2000 ms 2 is sleeping
+2000 ms 6 is sleeping
+2000 ms 20 is sleeping
+2000 ms 14 is sleeping
+2000 ms 17 is thinking
+2000 ms 18 is sleeping
+2000 ms 17 has taken a RIGHT fork
+2000 ms 9 is thinking
+2000 ms 17 has taken a LEFT fork
+2000 ms 10 is sleeping
+2000 ms 17 is eating
+2000 ms 9 has taken a RIGHT fork
+2000 ms 9 has taken a LEFT fork
+2000 ms 4 is sleeping
+2000 ms 9 is eating
+2000 ms 5 is thinking
+2000 ms 5 has taken a RIGHT fork
+2000 ms 13 has taken a RIGHT fork
+2000 ms 5 has taken a LEFT fork
+2000 ms 13 has taken a LEFT fork
+2000 ms 5 is eating
+2000 ms 19 has taken a RIGHT fork
+2000 ms 15 is thinking
+2000 ms 13 is eating
+2000 ms 19 has taken a LEFT fork
+2000 ms 7 is thinking
+2000 ms 19 is eating
+2000 ms 1 is thinking
+2000 ms 1 has taken a RIGHT fork
+2000 ms 1 has taken a LEFT fork
+2000 ms 1 is eating
+2000 ms 7 has taken a RIGHT fork
+2000 ms 7 has taken a LEFT fork
+2000 ms 8 is sleeping
+2000 ms 7 is eating
+2000 ms 16 is sleeping
+2000 ms 12 is sleeping
+2000 ms 11 is thinking
+2000 ms 11 has taken a RIGHT fork
+2000 ms 11 has taken a LEFT fork
+2000 ms 11 is eating
+2000 ms 15 has taken a RIGHT fork
+2000 ms 15 has taken a LEFT fork
+2000 ms 15 is eating
+2000 ms 3 is thinking
+2000 ms 3 has taken a RIGHT fork
+2000 ms 3 has taken a LEFT fork
+2000 ms 3 is eating
+2200 ms 14 is thinking
+2200 ms 18 is thinking
+2200 ms 4 is thinking
+2200 ms 20 is thinking
+2200 ms 12 is thinking
+2200 ms 2 is thinking
+2200 ms 16 is thinking
+2200 ms 7 is sleeping
+2200 ms 15 is sleeping
+2200 ms 5 is sleeping
+2200 ms 1 is sleeping
+2200 ms 17 is sleeping
+2200 ms 18 has taken a RIGHT fork
+2200 ms 18 has taken a LEFT fork
+2200 ms 14 has taken a RIGHT fork
+2200 ms 8 is thinking
+2200 ms 14 has taken a LEFT fork
+2200 ms 18 is eating
+2200 ms 19 is sleeping
+2200 ms 2 has taken a RIGHT fork
+2200 ms 8 has taken a RIGHT fork
+2200 ms 12 has taken a RIGHT fork
+2200 ms 8 has taken a LEFT fork
+2200 ms 3 is sleeping
+2200 ms 8 is eating
+2200 ms 12 has taken a LEFT fork
+2200 ms 12 is eating
+2200 ms 2 has taken a LEFT fork
+2200 ms 4 has taken a RIGHT fork
+2200 ms 13 is sleeping
+2200 ms 4 has taken a LEFT fork
+2200 ms 16 has taken a RIGHT fork
+2200 ms 16 has taken a LEFT fork
+2200 ms 16 is eating
+2200 ms 4 is eating
+2200 ms 14 is eating
+2200 ms 2 is eating
+2200 ms 6 is thinking
+2200 ms 20 has taken a RIGHT fork
+2200 ms 20 has taken a LEFT fork
+2200 ms 20 is eating
+2200 ms 6 has taken a RIGHT fork
+2200 ms 6 has taken a LEFT fork
+2200 ms 6 is eating
+2200 ms 11 is sleeping
+2200 ms 9 is sleeping
+2200 ms 10 is thinking
+2200 ms 10 has taken a RIGHT fork
+2200 ms 10 has taken a LEFT fork
+2200 ms 10 is eating
+2400 ms 15 is thinking
+2400 ms 13 is thinking
+2400 ms 8 is sleeping
+2400 ms 4 is sleeping
+2400 ms 20 is sleeping
+2400 ms 14 is sleeping
+2400 ms 5 is thinking
+2400 ms 18 is sleeping
+2400 ms 15 has taken a RIGHT fork
+2400 ms 6 is sleeping
+2400 ms 11 is thinking
+2400 ms 1 is thinking
+2400 ms 12 is sleeping
+2400 ms 11 has taken a RIGHT fork
+2400 ms 10 is sleeping
+2400 ms 11 has taken a LEFT fork
+2400 ms 19 is thinking
+2400 ms 11 is eating
+2400 ms 5 has taken a RIGHT fork
+2400 ms 19 has taken a RIGHT fork
+2400 ms 15 has taken a LEFT fork
+2400 ms 16 is sleeping
+2400 ms 5 has taken a LEFT fork
+2400 ms 5 is eating
+2400 ms 15 is eating
+2400 ms 19 has taken a LEFT fork
+2400 ms 13 has taken a RIGHT fork
+2400 ms 7 is thinking
+2400 ms 19 is eating
+2400 ms 7 has taken a RIGHT fork
+2400 ms 2 is sleeping
+2400 ms 3 is thinking
+2400 ms 3 has taken a RIGHT fork
+2400 ms 13 has taken a LEFT fork
+2400 ms 3 has taken a LEFT fork
+2400 ms 3 is eating
+2400 ms 7 has taken a LEFT fork
+2400 ms 13 is eating
+2400 ms 7 is eating
+2400 ms 1 has taken a RIGHT fork
+2400 ms 1 has taken a LEFT fork
+2400 ms 1 is eating
+2400 ms 17 is thinking
+2400 ms 17 has taken a RIGHT fork
+2400 ms 17 has taken a LEFT fork
+2400 ms 17 is eating
+2400 ms 9 is thinking
+2400 ms 9 has taken a RIGHT fork
+2400 ms 9 has taken a LEFT fork
+2400 ms 9 is eating
+2600 ms 14 is thinking
+2600 ms 2 is thinking
+2600 ms 15 is sleeping
+2600 ms 14 has taken a RIGHT fork
+2600 ms 5 is sleeping
+2600 ms 14 has taken a LEFT fork
+2600 ms 14 is eating
+2600 ms 13 is sleeping
+2600 ms 18 is thinking
+2600 ms 7 is sleeping
+2600 ms 1 is sleeping
+2600 ms 17 is sleeping
+2600 ms 9 is sleeping
+2600 ms 3 is sleeping
+2600 ms 19 is sleeping
+2600 ms 2 has taken a RIGHT fork
+2600 ms 2 has taken a LEFT fork
+2600 ms 18 has taken a RIGHT fork
+2600 ms 18 has taken a LEFT fork
+2600 ms 2 is eating
+2600 ms 18 is eating
+2600 ms 4 is thinking
+2600 ms 4 has taken a RIGHT fork
+2600 ms 4 has taken a LEFT fork
+2600 ms 4 is eating
+2600 ms 11 is sleeping
+2600 ms 16 is thinking
+2600 ms 16 has taken a RIGHT fork
+2600 ms 16 has taken a LEFT fork
+2600 ms 16 is eating
+2600 ms 8 is thinking
+2600 ms 8 has taken a RIGHT fork
+2600 ms 8 has taken a LEFT fork
+2600 ms 8 is eating
+2600 ms 20 is thinking
+2600 ms 20 has taken a RIGHT fork
+2600 ms 20 has taken a LEFT fork
+2600 ms 20 is eating
+2600 ms 10 is thinking
+2600 ms 10 has taken a RIGHT fork
+2600 ms 10 has taken a LEFT fork
+2600 ms 10 is eating
+2600 ms 6 is thinking
+2600 ms 6 has taken a RIGHT fork
+2600 ms 6 has taken a LEFT fork
+2600 ms 6 is eating
+2600 ms 12 is thinking
+2600 ms 12 has taken a RIGHT fork
+2600 ms 12 has taken a LEFT fork
+2600 ms 12 is eating
+2800 ms 20 is sleeping
+2800 ms 2 is sleeping
+2800 ms 8 is sleeping
+2800 ms 3 is thinking
+2800 ms 3 has taken a RIGHT fork
+2800 ms 3 has taken a LEFT fork
+2800 ms 14 is sleeping
+2800 ms 16 is sleeping
+2800 ms 12 is sleeping
+2800 ms 18 is sleeping
+2800 ms 7 is thinking
+2800 ms 6 is sleeping
+2800 ms 4 is sleeping
+2800 ms 13 is thinking
+2800 ms 13 has taken a RIGHT fork
+2800 ms 3 is eating
+2800 ms 13 has taken a LEFT fork
+2800 ms 7 has taken a RIGHT fork
+2800 ms 7 has taken a LEFT fork
+2800 ms 13 is eating
+2800 ms 7 is eating
+2800 ms 19 is thinking
+2800 ms 19 has taken a RIGHT fork
+2800 ms 19 has taken a LEFT fork
+2800 ms 19 is eating
+2800 ms 10 is sleeping
+2800 ms 5 is thinking
+2800 ms 17 is thinking
+2800 ms 1 is thinking
+2800 ms 1 has taken a RIGHT fork
+2800 ms 1 has taken a LEFT fork
+2800 ms 11 is thinking
+2800 ms 11 has taken a RIGHT fork
+2800 ms 11 has taken a LEFT fork
+2800 ms 9 is thinking
+2800 ms 11 is eating
+2800 ms 9 has taken a RIGHT fork
+2800 ms 1 is eating
+2800 ms 17 has taken a RIGHT fork
+2800 ms 17 has taken a LEFT fork
+2800 ms 5 has taken a RIGHT fork
+2800 ms 5 has taken a LEFT fork
+2800 ms 5 is eating
+2800 ms 17 is eating
+2800 ms 15 is thinking
+2800 ms 15 has taken a RIGHT fork
+2800 ms 15 has taken a LEFT fork
+2800 ms 15 is eating
+2800 ms 9 has taken a LEFT fork
+2800 ms 9 is eating
+3000 ms 20 is thinking
+3000 ms 3 is sleeping
+3000 ms 9 is sleeping
+3000 ms 1 is sleeping
+3000 ms 20 has taken a RIGHT fork
+3000 ms 20 has taken a LEFT fork
+3000 ms 11 is sleeping
+3000 ms 20 is eating
+3000 ms 18 is thinking
+3000 ms 18 has taken a RIGHT fork
+3000 ms 5 is sleeping
+3000 ms 18 has taken a LEFT fork
+3000 ms 15 is sleeping
+3000 ms 17 is sleeping
+3000 ms 14 is thinking
+3000 ms 14 has taken a RIGHT fork
+3000 ms 13 is sleeping
+3000 ms 14 has taken a LEFT fork
+3000 ms 14 is eating
+3000 ms 6 is thinking
+3000 ms 19 is sleeping
+3000 ms 6 has taken a RIGHT fork
+3000 ms 6 has taken a LEFT fork
+3000 ms 7 is sleeping
+3000 ms 6 is eating
+3000 ms 18 is eating
+3000 ms 12 is thinking
+3000 ms 12 has taken a RIGHT fork
+3000 ms 12 has taken a LEFT fork
+3000 ms 12 is eating
+3000 ms 4 is thinking
+3000 ms 2 is thinking
+3000 ms 4 has taken a RIGHT fork
+3000 ms 2 has taken a RIGHT fork
+3000 ms 4 has taken a LEFT fork
+3000 ms 2 has taken a LEFT fork
+3000 ms 2 is eating
+3000 ms 16 is thinking
+3000 ms 16 has taken a RIGHT fork
+3000 ms 16 has taken a LEFT fork
+3000 ms 4 is eating
+3000 ms 16 is eating
+3000 ms 10 is thinking
+3000 ms 10 has taken a RIGHT fork
+3000 ms 10 has taken a LEFT fork
+3000 ms 10 is eating
+3000 ms 8 is thinking
+3000 ms 8 has taken a RIGHT fork
+3000 ms 8 has taken a LEFT fork
+3000 ms 8 is eating
+3200 ms 16 is sleeping
+3200 ms 6 is sleeping
+3200 ms 14 is sleeping
+3200 ms 8 is sleeping
+3200 ms 9 is thinking
+3200 ms 9 has taken a RIGHT fork
+3200 ms 9 has taken a LEFT fork
+3200 ms 9 is eating
+3200 ms 5 is thinking
+3200 ms 5 has taken a RIGHT fork
+3200 ms 10 is sleeping
+3200 ms 4 is sleeping
+3200 ms 18 is sleeping
+3200 ms 5 has taken a LEFT fork
+3200 ms 5 is eating
+3200 ms 2 is sleeping
+3200 ms 3 is thinking
+3200 ms 17 is thinking
+3200 ms 12 is sleeping
+3200 ms 1 is thinking
+3200 ms 1 has taken a RIGHT fork
+3200 ms 13 is thinking
+3200 ms 1 has taken a LEFT fork
+3200 ms 13 has taken a RIGHT fork
+3200 ms 1 is eating
+3200 ms 13 has taken a LEFT fork
+3200 ms 15 is thinking
+3200 ms 15 has taken a RIGHT fork
+3200 ms 15 has taken a LEFT fork
+3200 ms 13 is eating
+3200 ms 17 has taken a RIGHT fork
+3200 ms 15 is eating
+3200 ms 20 is sleeping
+3200 ms 11 is thinking
+3200 ms 3 has taken a RIGHT fork
+3200 ms 17 has taken a LEFT fork
+3200 ms 3 has taken a LEFT fork
+3200 ms 19 is thinking
+3200 ms 17 is eating
+3200 ms 19 has taken a RIGHT fork
+3200 ms 19 has taken a LEFT fork
+3200 ms 19 is eating
+3200 ms 11 has taken a RIGHT fork
+3200 ms 3 is eating
+3200 ms 11 has taken a LEFT fork
+3200 ms 11 is eating
+3200 ms 7 is thinking
+3200 ms 7 has taken a RIGHT fork
+3200 ms 7 has taken a LEFT fork
+3200 ms 7 is eating
+3400 ms 9 is sleeping
+3400 ms 5 is sleeping
+3400 ms 7 is sleeping
+3400 ms 3 is sleeping
+3400 ms 19 is sleeping
+3400 ms 15 is sleeping
+3400 ms 4 is thinking
+3400 ms 17 is sleeping
+3400 ms 14 is thinking
+3400 ms 14 has taken a RIGHT fork
+3400 ms 14 has taken a LEFT fork
+3400 ms 14 is eating
+3400 ms 2 is thinking
+3400 ms 2 has taken a RIGHT fork
+3400 ms 2 has taken a LEFT fork
+3400 ms 1 is sleeping
+3400 ms 2 is eating
+3400 ms 11 is sleeping
+3400 ms 4 has taken a RIGHT fork
+3400 ms 10 is thinking
+3400 ms 10 has taken a RIGHT fork
+3400 ms 10 has taken a LEFT fork
+3400 ms 10 is eating
+3400 ms 4 has taken a LEFT fork
+3400 ms 4 is eating
+3400 ms 13 is sleeping
+3400 ms 12 is thinking
+3400 ms 12 has taken a RIGHT fork
+3400 ms 12 has taken a LEFT fork
+3400 ms 12 is eating
+3400 ms 16 is thinking
+3400 ms 18 is thinking
+3400 ms 18 has taken a RIGHT fork
+3400 ms 18 has taken a LEFT fork
+3400 ms 18 is eating
+3400 ms 16 has taken a RIGHT fork
+3400 ms 8 is thinking
+3400 ms 16 has taken a LEFT fork
+3400 ms 6 is thinking
+3400 ms 6 has taken a RIGHT fork
+3400 ms 6 has taken a LEFT fork
+3400 ms 16 is eating
+3400 ms 6 is eating
+3400 ms 8 has taken a RIGHT fork
+3400 ms 8 has taken a LEFT fork
+3400 ms 8 is eating
+3400 ms 20 is thinking
+3400 ms 20 has taken a RIGHT fork
+3400 ms 20 has taken a LEFT fork
+3400 ms 20 is eating
+3600 ms 9 is thinking
+3600 ms 1 is thinking
+3600 ms 16 is sleeping
+3600 ms 12 is sleeping
+3600 ms 20 is sleeping
+3600 ms 14 is sleeping
+3600 ms 19 is thinking
+3600 ms 13 is thinking
+3600 ms 19 has taken a RIGHT fork
+3600 ms 18 is sleeping
+3600 ms 11 is thinking
+3600 ms 19 has taken a LEFT fork
+3600 ms 10 is sleeping
+3600 ms 11 has taken a RIGHT fork
+3600 ms 11 has taken a LEFT fork
+3600 ms 4 is sleeping
+3600 ms 11 is eating
+3600 ms 19 is eating
+3600 ms 2 is sleeping
+3600 ms 1 has taken a RIGHT fork
+3600 ms 3 is thinking
+3600 ms 1 has taken a LEFT fork
+3600 ms 13 has taken a RIGHT fork
+3600 ms 3 has taken a RIGHT fork
+3600 ms 13 has taken a LEFT fork
+3600 ms 1 is eating
+3600 ms 13 is eating
+3600 ms 17 is thinking
+3600 ms 9 has taken a RIGHT fork
+3600 ms 17 has taken a RIGHT fork
+3600 ms 17 has taken a LEFT fork
+3600 ms 6 is sleeping
+3600 ms 17 is eating
+3600 ms 15 is thinking
+3600 ms 7 is thinking
+3600 ms 7 has taken a RIGHT fork
+3600 ms 15 has taken a RIGHT fork
+3600 ms 3 has taken a LEFT fork
+3600 ms 8 is sleeping
+3600 ms 7 has taken a LEFT fork
+3600 ms 7 is eating
+3600 ms 3 is eating
+3600 ms 5 is thinking
+3600 ms 5 has taken a RIGHT fork
+3600 ms 5 has taken a LEFT fork
+3600 ms 5 is eating
+3600 ms 15 has taken a LEFT fork
+3600 ms 15 is eating
+3600 ms 9 has taken a LEFT fork
+3600 ms 9 is eating
+3800 ms 13 is sleeping
+3800 ms 15 is sleeping
+3800 ms 2 is thinking
+3800 ms 6 is thinking
+3800 ms 2 has taken a RIGHT fork
+3800 ms 18 is thinking
+3800 ms 6 has taken a RIGHT fork
+3800 ms 20 is thinking
+3800 ms 10 is thinking
+3800 ms 14 is thinking
+3800 ms 9 is sleeping
+3800 ms 14 has taken a RIGHT fork
+3800 ms 14 has taken a LEFT fork
+3800 ms 12 is thinking
+3800 ms 4 is thinking
+3800 ms 7 is sleeping
+3800 ms 16 is thinking
+3800 ms 3 is sleeping
+3800 ms 12 has taken a RIGHT fork
+3800 ms 14 is eating
+3800 ms 17 is sleeping
+3800 ms 19 is sleeping
+3800 ms 11 is sleeping
+3800 ms 1 is sleeping
+3800 ms 16 has taken a RIGHT fork
+3800 ms 5 is sleeping
+3800 ms 10 has taken a RIGHT fork
+3800 ms 2 has taken a LEFT fork
+3800 ms 12 has taken a LEFT fork
+3800 ms 2 is eating
+3800 ms 12 is eating
+3800 ms 18 has taken a RIGHT fork
+3800 ms 6 has taken a LEFT fork
+3800 ms 18 has taken a LEFT fork
+3800 ms 6 is eating
+3800 ms 10 has taken a LEFT fork
+3800 ms 18 is eating
+3800 ms 16 has taken a LEFT fork
+3800 ms 16 is eating
+3800 ms 20 has taken a RIGHT fork
+3800 ms 20 has taken a LEFT fork
+3800 ms 4 has taken a RIGHT fork
+3800 ms 4 has taken a LEFT fork
+3800 ms 4 is eating
+3800 ms 10 is eating
+3800 ms 20 is eating
+3800 ms 8 is thinking
+3800 ms 8 has taken a RIGHT fork
+3800 ms 8 has taken a LEFT fork
+3800 ms 8 is eating
+4000 ms 15 is thinking
+4000 ms 11 is thinking
+4000 ms 9 is thinking
+4000 ms 4 is sleeping
+4000 ms 6 is sleeping
+4000 ms 2 is sleeping
+4000 ms 12 is sleeping
+4000 ms 8 is sleeping
+4000 ms 11 has taken a RIGHT fork
+4000 ms 14 is sleeping
+4000 ms 11 has taken a LEFT fork
+4000 ms 11 is eating
+4000 ms 18 is sleeping
+4000 ms 15 has taken a RIGHT fork
+4000 ms 10 is sleeping
+4000 ms 16 is sleeping
+4000 ms 20 is sleeping
+4000 ms 15 has taken a LEFT fork
+4000 ms 15 is eating
+4000 ms 9 has taken a RIGHT fork
+4000 ms 9 has taken a LEFT fork
+4000 ms 9 is eating
+4000 ms 1 is thinking
+4000 ms 1 has taken a RIGHT fork
+4000 ms 1 has taken a LEFT fork
+4000 ms 1 is eating
+4000 ms 5 is thinking
+4000 ms 3 is thinking
+4000 ms 5 has taken a RIGHT fork
+4000 ms 17 is thinking
+4000 ms 7 is thinking
+4000 ms 7 has taken a RIGHT fork
+4000 ms 7 has taken a LEFT fork
+4000 ms 17 has taken a RIGHT fork
+4000 ms 17 has taken a LEFT fork
+4000 ms 17 is eating
+4000 ms 5 has taken a LEFT fork
+4000 ms 7 is eating
+4000 ms 13 is thinking
+4000 ms 3 has taken a RIGHT fork
+4000 ms 5 is eating
+4000 ms 3 has taken a LEFT fork
+4000 ms 3 is eating
+4000 ms 13 has taken a RIGHT fork
+4000 ms 13 has taken a LEFT fork
+4000 ms 13 is eating
+4000 ms 19 is thinking
+4000 ms 19 has taken a RIGHT fork
+4000 ms 19 has taken a LEFT fork
+4000 ms 19 is eating
+4200 ms 5 is sleeping
+4200 ms 1 is sleeping
+4200 ms 19 is sleeping
+4200 ms 8 is thinking
+4200 ms 14 is thinking
+4200 ms 8 has taken a RIGHT fork
+4200 ms 2 is thinking
+4200 ms 9 is sleeping
+4200 ms 20 is thinking
+4200 ms 7 is sleeping
+4200 ms 15 is sleeping
+4200 ms 10 is thinking
+4200 ms 12 is thinking
+4200 ms 17 is sleeping
+4200 ms 20 has taken a RIGHT fork
+4200 ms 20 has taken a LEFT fork
+4200 ms 20 is eating
+4200 ms 14 has taken a RIGHT fork
+4200 ms 18 is thinking
+4200 ms 18 has taken a RIGHT fork
+4200 ms 18 has taken a LEFT fork
+4200 ms 18 is eating
+4200 ms 8 has taken a LEFT fork
+4200 ms 8 is eating
+4200 ms 16 is thinking
+4200 ms 16 has taken a RIGHT fork
+4200 ms 16 has taken a LEFT fork
+4200 ms 16 is eating
+4200 ms 3 is sleeping
+4200 ms 2 has taken a RIGHT fork
+4200 ms 2 has taken a LEFT fork
+4200 ms 2 is eating
+4200 ms 11 is sleeping
+4200 ms 10 has taken a RIGHT fork
+4200 ms 14 has taken a LEFT fork
+4200 ms 10 has taken a LEFT fork
+4200 ms 10 is eating
+4200 ms 14 is eating
+4200 ms 4 is thinking
+4200 ms 4 has taken a RIGHT fork
+4200 ms 4 has taken a LEFT fork
+4200 ms 4 is eating
+4200 ms 12 has taken a RIGHT fork
+4200 ms 12 has taken a LEFT fork
+4200 ms 12 is eating
+4200 ms 13 is sleeping
+4200 ms 6 is thinking
+4200 ms 6 has taken a RIGHT fork
+4200 ms 6 has taken a LEFT fork
+4200 ms 6 is eating

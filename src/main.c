@@ -41,22 +41,24 @@ void	ft_check_status(t_philo *lst_philo, t_args *args)
 void	ft_check_death(t_philo *philo, t_args *args)
 {
 	t_philo	*aux;
-int i = 0;
+	int		time;
+
 	aux = philo;
-	while (args->alive && args->hungry && i < 200)
+	while (args->alive && args->hungry)
 	{
-		if (!pthread_mutex_lock(&args->mutex_args))
-			printf("\n%s\n\n", "\033[1;31mWOLOLO\033[0m");
-		if ((ft_get_timestamp() - aux->last_meal) / 1000 > args->t_die)
-		{//revisar esto xq nunca entra aquí
+		pthread_mutex_lock(&args->mutex_print);
+		time = ft_get_timestamp() - aux->last_meal;
+		if (time > args->t_die)
+		{
+			sleep(4);
 			args->alive = false;
 			ft_print("is dead", aux);
 		}
-		if (!pthread_mutex_unlock(&args->mutex_args))
-			printf("\n%s\n\n", "\033[1;32mWOLOLO\033[0m");
-		aux = philo->right;
-		i++;
-		usleep(100);
+		pthread_mutex_unlock(&args->mutex_print);
+		printf("Philo :%d Dirección: %p\n", aux->id, &aux->last_meal);
+		//printf("Philo %d -> tiempo: %d -> muerte: %d -> Vivos: %d -> Hambre: %d\n", aux->id, time, args->t_die, args->alive, args->hungry);
+		aux = aux->left;
+		usleep(300);
 	}
 }
 
@@ -77,6 +79,7 @@ int	main(int argc, char *argv[])
 	ft_init_philos(lst_philo, args);
 	ft_create_mutex(lst_philo, args);
 	args->zero_time = ft_get_timestamp();
+	printf("Tiempo Zero: %d\n", args->zero_time);
 	if (ft_create_threads(lst_philo, &routine))
 		return (1);
 	ft_check_death(lst_philo, args);

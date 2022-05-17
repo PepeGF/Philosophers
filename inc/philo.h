@@ -31,7 +31,8 @@ typedef struct s_args
 	bool			alive;
 	bool			hungry;
 	int				zero_time;
-	pthread_mutex_t	mutex_args;
+	pthread_mutex_t	mutex_life;
+	pthread_mutex_t	mutex_satisfaction;
 	pthread_mutex_t	mutex_print;//puede que no sea necesario
 }	t_args;
 
@@ -44,7 +45,6 @@ typedef struct s_philo
 	int				l_fork_id;
 	int				last_meal;
 	pthread_mutex_t	fork;
-	pthread_mutex_t	mutex2;
 	struct s_philo	*right;
 	struct s_philo	*left;
 	struct s_args	*args;

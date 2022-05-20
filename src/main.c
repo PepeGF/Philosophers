@@ -17,24 +17,25 @@ void	leaks()
 	system("leaks philo");
 }
 
-void	ft_check_status(t_philo *lst_philo, t_args *args)
+void	ft_check_satisfaction(t_philo *philo, t_args *args)
 {
-	t_philo	*aux;
-	int		i;
+	int	i;
 
-	aux = lst_philo;
 	i = 0;
-	while (args->alive)
+	while (args->n_meal != -1 && philo->meals >= args->n_meal
+			&& i < args->n_philo)
 	{
-		if (aux->meals == args->n_meal)
-			i++;
-		if (args->alive == false)
-			break ;
-		if (i == args->n_philo)
-			break ;
-		aux = aux->right;
-		if (aux == lst_philo)
-			i = 0;
+		// pthread_mutex_lock(&philo->args->mutex_print);
+		i++;
+		// printf("%i\n", i);
+		// pthread_mutex_unlock(&philo->args->mutex_print);
+	}
+	if (i == args->n_philo)
+	{
+		pthread_mutex_lock(&philo->args->mutex_life);
+		args->hungry = false;
+		printf("------Ya no hay hambre en el mundo------\n");
+		pthread_mutex_unlock(&philo->args->mutex_life);	
 	}
 }
 
@@ -44,21 +45,24 @@ void	ft_check_death(t_philo *philo, t_args *args)
 	int		time;
 
 	aux = philo;
-	while (args->alive && args->hungry)
+	while (args->alive)
 	{
-		pthread_mutex_lock(&args->mutex_print);
+		pthread_mutex_lock(&args->mutex_life);
 		time = ft_get_timestamp() - aux->last_meal;
+		// printf("Philo %d - time last_meal: %d\n", aux->id, time);
 		if (time > args->t_die)
 		{
-			sleep(4);
-			args->alive = false;
 			ft_print("is dead", aux);
+			args->alive = false;
 		}
-		pthread_mutex_unlock(&args->mutex_print);
-		printf("Philo :%d Dirección: %p\n", aux->id, &aux->last_meal);
+		pthread_mutex_unlock(&args->mutex_life);
+		//printf("Philo :%d Dirección: %p\n", aux->id, &aux->last_meal);
 		//printf("Philo %d -> tiempo: %d -> muerte: %d -> Vivos: %d -> Hambre: %d\n", aux->id, time, args->t_die, args->alive, args->hungry);
-		aux = aux->left;
-		usleep(300);
+		ft_check_satisfaction(aux, args);
+		if (!args->hungry)
+			break;
+		aux = aux->right;
+		usleep(500);
 	}
 }
 
@@ -79,7 +83,6 @@ int	main(int argc, char *argv[])
 	ft_init_philos(lst_philo, args);
 	ft_create_mutex(lst_philo, args);
 	args->zero_time = ft_get_timestamp();
-	printf("Tiempo Zero: %d\n", args->zero_time);
 	if (ft_create_threads(lst_philo, &routine))
 		return (1);
 	ft_check_death(lst_philo, args);

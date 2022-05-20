@@ -33,7 +33,7 @@ typedef struct s_args
 	int				zero_time;
 	pthread_mutex_t	mutex_life;
 	pthread_mutex_t	mutex_satisfaction;
-	pthread_mutex_t	mutex_print;//puede que no sea necesario
+	pthread_mutex_t	mutex_print;
 }	t_args;
 
 typedef struct s_philo

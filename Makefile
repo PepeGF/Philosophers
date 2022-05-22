@@ -21,7 +21,7 @@ SRCS = main.c atoi.c arguments_manage.c list_functions.c philos_functions.c \
 OBJS = $(SRCS:%.c=bin/%.o)
 
 CC = gcc
-CFLAGS = -Wall -Werror -Wextra -g -O0
+CFLAGS = -Wall -Werror -Wextra #-g -O0
 RM = rm -f
 
 ###	--- RULES --- ###

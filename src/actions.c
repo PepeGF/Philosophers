@@ -2,13 +2,15 @@
 
 void	ft_print(char *msg, t_philo *philo)
 {
-	pthread_mutex_lock(&philo->args->mutex_print);
+	pthread_mutex_lock(&philo->args->mutex_life);
+	int time = ft_get_timestamp();
 	if (philo->args->alive == true)
 	{
-		printf("%d ms %d %s\n", ft_get_timestamp()
-			- philo->args->zero_time, philo->id, msg);
+		pthread_mutex_unlock(&philo->args->mutex_life);
+		printf("%d ms %d %s(%d){%d}[%d]\n", /*ft_get_timestamp()*/time
+			- philo->args->zero_time, philo->id, msg, philo->meals+1, philo->hungry,time - philo->last_meal);
 	}
-	pthread_mutex_unlock(&philo->args->mutex_print);
+	pthread_mutex_unlock(&philo->args->mutex_life);
 }
 
 void	*routine(void *philo)
@@ -20,8 +22,25 @@ void	*routine(void *philo)
 	args = ph->args;
 	ph->last_meal = ft_get_timestamp();
 	if (ph->id % 2 == 0)
-		usleep(args->t_eat * 0.9); //si no funciona dejar un valor fijo
-	while (args->alive == true && args->hungry == true)
+		usleep(args->t_eat * 900); //si no funciona dejar un valor fijo
+	while (1)
+	{
+		pthread_mutex_lock(&args->mutex_satisfaction);//prescindible???
+		pthread_mutex_lock(&args->mutex_life);
+		if (args->alive == false || args->hungry == false)
+		{
+			pthread_mutex_unlock(&args->mutex_life);
+			pthread_mutex_unlock(&args->mutex_satisfaction);//prescindible??
+			break;
+		}
+		pthread_mutex_unlock(&args->mutex_life);
+		pthread_mutex_unlock(&args->mutex_satisfaction);
+		if (ft_eating(ph))
+			break;
+		ft_sleeping(ph);
+		ft_thinking(ph);
+	}
+	/*while (args->alive == true && args->hungry == true)
 	{
 		if (ft_eating(ph))
 			break;
@@ -29,33 +48,47 @@ void	*routine(void *philo)
 		 	break;
 		ft_sleeping(ph);
 		ft_thinking(ph);
-	}
+	}*/
 	return (NULL);
 }
 
 int	ft_eating(t_philo *philo)
 {
 	pthread_mutex_lock(&philo->fork);
-	ft_print("has taken a RIGHT fork", philo);
+	ft_print("has taken a RIGHT fork", philo); //quitar right
 	if (philo->args->n_philo == 1)
 	{
 		pthread_mutex_unlock(&philo->fork);
 		return (1);
 	}
 	pthread_mutex_lock(&philo->left->fork);
-	ft_print("has taken a LEFT fork", philo);
-	pthread_mutex_lock(&philo->args->mutex_life);
+	ft_print("has taken a LEFT fork", philo); //quitar left
 	ft_print("is eating", philo);
 	// printf("Philo %d has eaten %d times\n", philo->id, philo->meals);
+	pthread_mutex_lock(&philo->args->mutex_satisfaction);
 	philo->last_meal = ft_get_timestamp();
-	pthread_mutex_unlock(&philo->args->mutex_life);
-	while (philo->args->alive)
+	philo->meals++;
+	if (philo->meals >= philo->args->n_meal)
+		philo->hungry = false;
+	pthread_mutex_unlock(&philo->args->mutex_satisfaction);
+	while (1/*philo->args->alive*/)
 	{
+		// pthread_mutex_lock(&philo->args->mutex_life);
+		if (philo->args->alive == false)
+		{
+			// pthread_mutex_unlock(&philo->args->mutex_life);
+			break;
+		}
+		// pthread_mutex_unlock(&philo->args->mutex_life);
 		if (ft_get_timestamp() - philo->last_meal >= philo->args->t_eat)
 			break;
-		usleep(300);
+		usleep(500);
 	}
-	philo->meals++;
+	pthread_mutex_lock(&philo->args->mutex_satisfaction);
+	/*philo->meals++;
+	if (philo->meals >= philo->args->n_meal)
+		philo->hungry = false;*/
+	pthread_mutex_unlock(&philo->args->mutex_satisfaction);
 	pthread_mutex_unlock(&philo->left->fork);
 	pthread_mutex_unlock(&philo->fork);
 	return (0);
@@ -68,11 +101,18 @@ void	ft_sleeping(t_philo *philo)
 	start_sleep = ft_get_timestamp();
 
 	ft_print("is sleeping", philo);
-	while (philo->args->alive)
+	while (1/*philo->args->alive*/)
 	{
+		// pthread_mutex_lock(&philo->args->mutex_life);
+		if (philo->args->alive == false)
+		{
+			// pthread_mutex_unlock(&philo->args->mutex_life);
+			break;
+		}
+		// pthread_mutex_unlock(&philo->args->mutex_life);
 		if (ft_get_timestamp() - start_sleep >= philo->args->t_sleep)
 			break;
-		usleep(300);
+		usleep(500);
 	}
 	return ;
 }
@@ -81,4 +121,5 @@ void	ft_thinking(t_philo *philo)
 {
 	ft_print("is thinking", philo);
 	return ;
+	//esta función se podría quitar
 }

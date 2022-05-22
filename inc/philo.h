@@ -44,6 +44,7 @@ typedef struct s_philo
 	int				r_fork_id;
 	int				l_fork_id;
 	int				last_meal;
+	bool			hungry;
 	pthread_mutex_t	fork;
 	struct s_philo	*right;
 	struct s_philo	*left;

@@ -22,19 +22,19 @@ void	*routine(void *philo)
 	args = ph->args;
 	ph->last_meal = ft_get_timestamp();
 	if (ph->id % 2 == 0)
-		usleep(args->t_eat * 900); //si no funciona dejar un valor fijo
+		usleep(args->t_eat * 500); //si no funciona dejar un valor fijo
 	while (1)
 	{
-		pthread_mutex_lock(&args->mutex_satisfaction);//prescindible???
-		pthread_mutex_lock(&args->mutex_life);
+		//pthread_mutex_lock(&args->mutex_satisfaction);//prescindible???
+		//pthread_mutex_lock(&args->mutex_life);
 		if (args->alive == false || args->hungry == false)
 		{
-			pthread_mutex_unlock(&args->mutex_life);
-			pthread_mutex_unlock(&args->mutex_satisfaction);//prescindible??
+		//	pthread_mutex_unlock(&args->mutex_life);
+		//	pthread_mutex_unlock(&args->mutex_satisfaction);//prescindible??
 			break;
 		}
-		pthread_mutex_unlock(&args->mutex_life);
-		pthread_mutex_unlock(&args->mutex_satisfaction);
+		//pthread_mutex_unlock(&args->mutex_life);
+		//pthread_mutex_unlock(&args->mutex_satisfaction);
 		if (ft_eating(ph))
 			break;
 		ft_sleeping(ph);
@@ -71,6 +71,7 @@ int	ft_eating(t_philo *philo)
 	if (philo->meals >= philo->args->n_meal)
 		philo->hungry = false;
 	pthread_mutex_unlock(&philo->args->mutex_satisfaction);
+	usleep(philo->args->t_eat / 2);
 	while (1/*philo->args->alive*/)
 	{
 		// pthread_mutex_lock(&philo->args->mutex_life);

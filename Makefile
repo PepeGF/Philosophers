@@ -21,7 +21,7 @@ SRCS = main.c atoi.c arguments_manage.c list_functions.c philos_functions.c \
 OBJS = $(SRCS:%.c=bin/%.o)
 
 CC = gcc
-CFLAGS = -Wall -Werror -Wextra #-g -O0
+CFLAGS = -Wall -Werror -Wextra -g -O0
 RM = rm -f
 
 ###	--- RULES --- ###
@@ -32,11 +32,15 @@ bin/%.o: src/%.c
 	@mkdir -p bin
 	@$(CC) $(CFLAGS) -c $< -o $@
 
+	
 $(NAME): $(OBJS)
 	@echo $(PURPLE)"[Creating philo]"$(NONE)
-	#@$(CC) -o $(NAME) $(OBJS) -pthread -fsanitize=thread 
-	@$(CC) -o $(NAME) $(OBJS) -pthread #-fsanitize=address
+	@$(CC) -o $(NAME) $(OBJS) -pthread -fsanitize=address
 	@echo $(GREEN)"$(NAME): ready to be executed"$(NONE)
+	@echo $(RED)"Recuerda borrar regla basura"$(NONE)
+
+basura:
+	@$(CC) -o $(NAME) $(OBJS) -pthread -fsanitize=thread
 
 clean:
 	@$(RM) $(OBJS)

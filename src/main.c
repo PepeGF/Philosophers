@@ -6,7 +6,7 @@
 /*   By: josgarci <josgarci@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/22 17:15:57 by josgarci          #+#    #+#             */
-/*   Updated: 2022/05/07 12:42:47 by josgarci         ###   ########.fr       */
+/*   Updated: 2022/05/23 19:02:15 by josgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ void	ft_check_satisfaction(t_philo *philo, t_args *args)
 			}
 		}
 	}
+
 	/*while (args->n_meal != -1 && philo->meals >= args->n_meal
 			&& i < args->n_philo)
 	{
@@ -156,6 +157,52 @@ void	ft_check_status(t_philo *philo, t_args *args)
 	}
 }
 
+void ft_prueba()
+{
+	struct timeval time1;
+	struct timeval time2;
+
+	gettimeofday(&time1, NULL);
+	usleep(1000);
+	gettimeofday(&time2, NULL);
+
+	long long wololo1 = time1.tv_sec * 1000000 + time1.tv_usec;
+	long long wololo2 = time2.tv_sec * 1000000 + time2.tv_usec;
+	printf("tiempo en 1000 us: %llu, porcentaje %.2lld \n", wololo2 - wololo1, (wololo2 - wololo1)*100/1000-100);
+
+	gettimeofday(&time1, NULL);
+	usleep(500);
+	gettimeofday(&time2, NULL);
+
+	wololo1 = time1.tv_sec * 1000000 + time1.tv_usec;
+	wololo2 = time2.tv_sec * 1000000 + time2.tv_usec;
+	printf("tiempo en 500 us: %llu, porcentaje %.2lld \n", wololo2 - wololo1, (wololo2 - wololo1)*100/500-100);
+
+	gettimeofday(&time1, NULL);
+	usleep(300);
+	gettimeofday(&time2, NULL);
+
+	wololo1 = time1.tv_sec * 1000000 + time1.tv_usec;
+	wololo2 = time2.tv_sec * 1000000 + time2.tv_usec;
+	printf("tiempo en 300 us: %llu, porcentaje %.2lld \n", wololo2 - wololo1, (wololo2 - wololo1)*100/300-100);
+
+	gettimeofday(&time1, NULL);
+	usleep(200);
+	gettimeofday(&time2, NULL);
+
+	wololo1 = time1.tv_sec * 1000000 + time1.tv_usec;
+	wololo2 = time2.tv_sec * 1000000 + time2.tv_usec;
+	printf("tiempo en 200 us: %llu, porcentaje %.2lld \n", wololo2 - wololo1, (wololo2 - wololo1)*100/200-100);
+
+	gettimeofday(&time1, NULL);
+	usleep(100);
+	gettimeofday(&time2, NULL);
+
+	wololo1 = time1.tv_sec * 1000000 + time1.tv_usec;
+	wololo2 = time2.tv_sec * 1000000 + time2.tv_usec;
+	printf("tiempo en 100 us: %llu, porcentaje %.2lld \n", wololo2 - wololo1, (wololo2 - wololo1)*100/100-100);
+}
+
 int	main(int argc, char *argv[])
 {
 	t_args		*args;
@@ -171,6 +218,8 @@ int	main(int argc, char *argv[])
 	ft_create_philos(&lst_philo, args);
 	ft_link_list(lst_philo);
 	ft_init_philos(lst_philo, args);
+//ft_prueba();
+	
 	ft_create_mutex(lst_philo, args);
 	args->zero_time = ft_get_timestamp();
 	if (ft_create_threads(lst_philo, &routine))
@@ -180,6 +229,7 @@ int	main(int argc, char *argv[])
 	if (ft_join_threads(lst_philo, args))
 		return (1);
 	ft_destroy_mutex(lst_philo, args);
+	
 	ft_free_philos(lst_philo, args);
 	//free(args); //ojo con estoooooooooooooooooo, hay que liberarlo en más sitios
 	return (0);

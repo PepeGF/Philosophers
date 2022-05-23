@@ -53,9 +53,9 @@ void	ft_link_list(t_philo *lst_philo)
 		}
 		aux = aux->right;
 	}
-	aux = lst_philo;
-/*	int i = 1;
-	while (i <= 20)
+/*	aux = lst_philo;
+	int i = 1;
+	while (i <= args->n_philo)
 	{
 		printf("Filo nº: %d, filo de la dcha: %d\n", aux->id, aux->right->id);
 		i++;

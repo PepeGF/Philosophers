@@ -22,18 +22,18 @@ void	*routine(void *philo)
 	args = ph->args;
 	ph->last_meal = ft_get_timestamp();
 	if (ph->id % 2 == 0)
-		usleep(args->t_eat * 500); //si no funciona dejar un valor fijo
+		usleep(2000); //si no funciona dejar un valor fijo
 	while (1)
 	{
 		//pthread_mutex_lock(&args->mutex_satisfaction);//prescindible???
-		//pthread_mutex_lock(&args->mutex_life);
-		if (args->alive == false || args->hungry == false)
+		pthread_mutex_lock(&args->mutex_life);
+		if (args->alive == false || ph->hungry == false)
 		{
-		//	pthread_mutex_unlock(&args->mutex_life);
+			pthread_mutex_unlock(&args->mutex_life);
 		//	pthread_mutex_unlock(&args->mutex_satisfaction);//prescindible??
 			break;
 		}
-		//pthread_mutex_unlock(&args->mutex_life);
+		pthread_mutex_unlock(&args->mutex_life);
 		//pthread_mutex_unlock(&args->mutex_satisfaction);
 		if (ft_eating(ph))
 			break;
@@ -67,11 +67,11 @@ int	ft_eating(t_philo *philo)
 	// printf("Philo %d has eaten %d times\n", philo->id, philo->meals);
 	pthread_mutex_lock(&philo->args->mutex_satisfaction);
 	philo->last_meal = ft_get_timestamp();
-	philo->meals++;
+	//philo->meals++;
 	if (philo->meals >= philo->args->n_meal)
 		philo->hungry = false;
 	pthread_mutex_unlock(&philo->args->mutex_satisfaction);
-	usleep(philo->args->t_eat / 2);
+	usleep(philo->args->t_eat * 500);
 	while (1/*philo->args->alive*/)
 	{
 		// pthread_mutex_lock(&philo->args->mutex_life);
@@ -86,12 +86,14 @@ int	ft_eating(t_philo *philo)
 		usleep(500);
 	}
 	pthread_mutex_lock(&philo->args->mutex_satisfaction);
-	/*philo->meals++;
+	philo->meals++;
 	if (philo->meals >= philo->args->n_meal)
-		philo->hungry = false;*/
+		philo->hungry = false;
 	pthread_mutex_unlock(&philo->args->mutex_satisfaction);
 	pthread_mutex_unlock(&philo->left->fork);
+	ft_print("has dropped LEFT fork", philo);
 	pthread_mutex_unlock(&philo->fork);
+	ft_print("has dropped LEFT fork", philo);
 	return (0);
 }
 

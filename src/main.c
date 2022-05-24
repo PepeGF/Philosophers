@@ -123,6 +123,7 @@ int	ft_check_satisfaction_1(t_philo *philo, t_args *args)
 		pthread_mutex_unlock(&args->mutex_satisfaction);
 		return (1);
 	}
+	pthread_mutex_unlock(&args->mutex_satisfaction);
 	//si no ha comido suficiente devolver 0
 	return (0);
 }
@@ -149,6 +150,7 @@ void	ft_check_status(t_philo *philo, t_args *args)
 		{
 			pthread_mutex_lock(&args->mutex_satisfaction);
 			args->hungry = false;
+			printf("%s\n", "------Ya no hay hambre en el mundo------");
 			pthread_mutex_unlock(&args->mutex_satisfaction);
 			break;
 		}
@@ -157,51 +159,6 @@ void	ft_check_status(t_philo *philo, t_args *args)
 	}
 }
 
-void ft_prueba()
-{
-	struct timeval time1;
-	struct timeval time2;
-
-	gettimeofday(&time1, NULL);
-	usleep(1000);
-	gettimeofday(&time2, NULL);
-
-	long long wololo1 = time1.tv_sec * 1000000 + time1.tv_usec;
-	long long wololo2 = time2.tv_sec * 1000000 + time2.tv_usec;
-	printf("tiempo en 1000 us: %llu, porcentaje %.2lld \n", wololo2 - wololo1, (wololo2 - wololo1)*100/1000-100);
-
-	gettimeofday(&time1, NULL);
-	usleep(500);
-	gettimeofday(&time2, NULL);
-
-	wololo1 = time1.tv_sec * 1000000 + time1.tv_usec;
-	wololo2 = time2.tv_sec * 1000000 + time2.tv_usec;
-	printf("tiempo en 500 us: %llu, porcentaje %.2lld \n", wololo2 - wololo1, (wololo2 - wololo1)*100/500-100);
-
-	gettimeofday(&time1, NULL);
-	usleep(300);
-	gettimeofday(&time2, NULL);
-
-	wololo1 = time1.tv_sec * 1000000 + time1.tv_usec;
-	wololo2 = time2.tv_sec * 1000000 + time2.tv_usec;
-	printf("tiempo en 300 us: %llu, porcentaje %.2lld \n", wololo2 - wololo1, (wololo2 - wololo1)*100/300-100);
-
-	gettimeofday(&time1, NULL);
-	usleep(200);
-	gettimeofday(&time2, NULL);
-
-	wololo1 = time1.tv_sec * 1000000 + time1.tv_usec;
-	wololo2 = time2.tv_sec * 1000000 + time2.tv_usec;
-	printf("tiempo en 200 us: %llu, porcentaje %.2lld \n", wololo2 - wololo1, (wololo2 - wololo1)*100/200-100);
-
-	gettimeofday(&time1, NULL);
-	usleep(100);
-	gettimeofday(&time2, NULL);
-
-	wololo1 = time1.tv_sec * 1000000 + time1.tv_usec;
-	wololo2 = time2.tv_sec * 1000000 + time2.tv_usec;
-	printf("tiempo en 100 us: %llu, porcentaje %.2lld \n", wololo2 - wololo1, (wololo2 - wololo1)*100/100-100);
-}
 
 int	main(int argc, char *argv[])
 {
@@ -218,8 +175,6 @@ int	main(int argc, char *argv[])
 	ft_create_philos(&lst_philo, args);
 	ft_link_list(lst_philo);
 	ft_init_philos(lst_philo, args);
-//ft_prueba();
-	
 	ft_create_mutex(lst_philo, args);
 	args->zero_time = ft_get_timestamp();
 	if (ft_create_threads(lst_philo, &routine))

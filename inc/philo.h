@@ -31,6 +31,7 @@ typedef struct s_args
 	bool			alive;
 	bool			hungry;
 	int				zero_time;
+	int				satisfied;
 	pthread_mutex_t	mutex_life;
 	pthread_mutex_t	mutex_satisfaction;
 	pthread_mutex_t	mutex_print;

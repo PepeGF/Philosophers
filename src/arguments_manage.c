@@ -31,6 +31,24 @@ int	arg_number_manage(int argc)
 	return (1);
 }
 
+static void	ft_fill_args(t_args *args, int *matrix, char **argv)
+{
+	int	i;
+
+	i = 0;
+	args->n_philo = matrix[i++];
+	args->t_die = matrix[i++];
+	args->t_eat = matrix[i++];
+	args->t_sleep = matrix[i++];
+	if (argv[i + 1])
+		args->n_meal = matrix[i];
+	else
+		args->n_meal = -1;
+	args->alive = true;
+	args->hungry = true;
+	args->satisfied = 0;
+}
+
 int	atoi_args(char **argv, t_args *args)
 {
 	int	i;
@@ -48,7 +66,8 @@ int	atoi_args(char **argv, t_args *args)
 		i++;
 	}
 	i = 0;
-	args->n_philo = matrix[i++];
+	ft_fill_args(args, matrix, argv);
+		/*args->n_philo = matrix[i++];
 	args->t_die = matrix[i++];
 	args->t_eat = matrix[i++];
 	args->t_sleep = matrix[i++];
@@ -57,6 +76,6 @@ int	atoi_args(char **argv, t_args *args)
 	else
 		args->n_meal = -1;
 	args->alive = true;
-	args->hungry = true;
+	args->hungry = true;*/
 	return (0);
 }

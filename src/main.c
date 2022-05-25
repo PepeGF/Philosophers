@@ -17,15 +17,57 @@ void	leaks()
 	system("leaks philo");
 }
 
+int	ft_check_satisfaction(t_philo *philo, t_args *args)
+{
+	int		i;
+	int		satisfied;
+	t_philo	*aux;
 
+	i = 0;
+	satisfied = 0;
+	aux = philo;
+	while (i < args->n_philo)
+	{
+		if (aux->hungry == false)
+			satisfied++;
+		aux = aux->right;
+		i++;
+	}
+	return (satisfied);
+}
 
+void	ft_check_status(t_philo *philo, t_args *args)
+{
+	t_philo	*aux;
+	
+	aux = philo;
+	while (1)
+	{
+		pthread_mutex_lock(&args->mutex_life);
+		if (args->alive == false || args->satisfied == args->n_philo)
+		{
+			pthread_mutex_unlock(&args->mutex_life);
+			break; 
+		}
+		if (ft_get_timestamp() - aux->last_meal >= args->t_die)
+		{
+			ft_print("is dead", aux);
+			args->alive = false;
+		}
+		pthread_mutex_unlock(&args->mutex_life);
+		aux = aux->right;
+		usleep(300);
+		if (aux == philo->left)
+			usleep(1000);
+	}
+}
 
 int	main(int argc, char *argv[])
 {
 	t_args		*args;
 	t_philo		*lst_philo;
 
- // atexit(leaks);
+ //atexit(leaks);
 	args = malloc(sizeof(t_args));
 	if (!args)
 		return (1);
@@ -40,7 +82,6 @@ int	main(int argc, char *argv[])
 	if (ft_create_threads(lst_philo, &routine))
 		return (1);
 	ft_check_status(lst_philo, args);
-	//ft_check_death(lst_philo, args);
 	if (ft_join_threads(lst_philo, args))
 		return (1);
 	ft_destroy_mutex(lst_philo, args);

@@ -38,7 +38,7 @@ t_philo	*ft_lstnew(int id)
 
 void	ft_link_list(t_philo *lst_philo)
 {
-	t_philo *aux;
+	t_philo	*aux;
 
 	aux = lst_philo;
 	while (aux)
@@ -49,7 +49,7 @@ void	ft_link_list(t_philo *lst_philo)
 		{
 			lst_philo->left = aux;
 			aux->right = lst_philo;
-			break;
+			break ;
 		}
 		aux = aux->right;
 	}

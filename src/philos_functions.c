@@ -20,7 +20,7 @@ void	ft_init_philos(t_philo	*lst_philo, t_args *args)
 	i = 1;
 	args->alive = true;
 	args->hungry = true;
-	while(i <= args->n_philo)
+	while (i <= args->n_philo)
 	{
 		lst_philo->args = args;
 		lst_philo->r_fork_id = i;
@@ -29,7 +29,6 @@ void	ft_init_philos(t_philo	*lst_philo, t_args *args)
 		else
 			lst_philo->l_fork_id = args->n_philo;
 		lst_philo->hungry = true;
-//printf("Philo %d hay %d porculeros.\n", lst_philo->id, lst_philo->args->n_philo);
 		lst_philo = lst_philo->right;
 		lst_philo->meals = 0;
 		i++;

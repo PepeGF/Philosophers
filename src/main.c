@@ -68,17 +68,17 @@ void	ft_check_death(t_philo *philo, t_args *args)
 	aux = philo;
 	while (1/*args->alive*/)
 	{
-		pthread_mutex_lock(&args->mutex_life);
+		//pthread_mutex_lock(&args->mutex_life);
 		if (args->alive == false)
 		{
-			pthread_mutex_unlock(&args->mutex_life);
+			// pthread_mutex_unlock(&args->mutex_life);
 			break;
 		}
-		pthread_mutex_unlock(&args->mutex_life);
-		pthread_mutex_lock(&args->mutex_satisfaction);
+		// pthread_mutex_unlock(&args->mutex_life);
+		// pthread_mutex_lock(&args->mutex_satisfaction);
 		time = ft_get_timestamp() - aux->last_meal;
 		// printf("Philo %d - time last_meal: %d\n", aux->id, time);
-		pthread_mutex_unlock(&args->mutex_satisfaction);
+		// pthread_mutex_unlock(&args->mutex_satisfaction);
 		if (time > args->t_die)
 		{
 			ft_print("is dead", aux);
@@ -100,14 +100,15 @@ int	ft_check_death_1(t_philo *philo, t_args *args)
 {
 	int	time;
 
-	pthread_mutex_lock(&args->mutex_satisfaction);
+	//pthread_mutex_lock(&args->mutex_satisfaction);
 	time = ft_get_timestamp() - philo->last_meal;
-	pthread_mutex_unlock(&args->mutex_satisfaction);
+	//pthread_mutex_unlock(&args->mutex_satisfaction);
 	if (time > args->t_die)
 	{
 		pthread_mutex_lock(&args->mutex_life);
-		printf("%d is dead // time = %d\n", philo->id, time);
+		printf("time %d ms %d is dead\n", time, philo->id);
 		args->alive = false;
+		args->hungry = false;
 		pthread_mutex_unlock(&args->mutex_life);
 		return (1);
 	}
@@ -116,14 +117,15 @@ int	ft_check_death_1(t_philo *philo, t_args *args)
 
 int	ft_check_satisfaction_1(t_philo *philo, t_args *args)
 {
+(void)args;
 	//si ha comido suficiente devolver 1
-	pthread_mutex_lock(&args->mutex_satisfaction);
+	// pthread_mutex_lock(&args->mutex_satisfaction);
 	if (!philo->hungry)
 	{
-		pthread_mutex_unlock(&args->mutex_satisfaction);
+		// pthread_mutex_unlock(&args->mutex_satisfaction);
 		return (1);
 	}
-	pthread_mutex_unlock(&args->mutex_satisfaction);
+	// pthread_mutex_unlock(&args->mutex_satisfaction);
 	//si no ha comido suficiente devolver 0
 	return (0);
 }
@@ -150,12 +152,12 @@ void	ft_check_status(t_philo *philo, t_args *args)
 		{
 			pthread_mutex_lock(&args->mutex_satisfaction);
 			args->hungry = false;
-			printf("%s\n", "------Ya no hay hambre en el mundo------");
+			// printf("%s\n", "------Ya no hay hambre en el mundo------");
 			pthread_mutex_unlock(&args->mutex_satisfaction);
 			break;
 		}
 		aux = aux->right;
-		usleep(9000 / args->n_philo);
+		usleep(8000 / args->n_philo);
 	}
 }
 

@@ -39,7 +39,7 @@ int	ft_check_satisfaction(t_philo *philo, t_args *args)
 void	ft_check_status(t_philo *philo, t_args *args)
 {
 	t_philo	*aux;
-	
+
 	aux = philo;
 	while (1)
 	{
@@ -47,7 +47,7 @@ void	ft_check_status(t_philo *philo, t_args *args)
 		if (args->alive == false || args->satisfied == args->n_philo)
 		{
 			pthread_mutex_unlock(&args->mutex_life);
-			break; 
+			break ;
 		}
 		if (ft_get_timestamp() - aux->last_meal >= args->t_die)
 		{
@@ -67,7 +67,7 @@ int	main(int argc, char *argv[])
 	t_args		*args;
 	t_philo		*lst_philo;
 
- //atexit(leaks);
+//atexit(leaks);
 	args = malloc(sizeof(t_args));
 	if (!args)
 		return (1);
@@ -86,6 +86,5 @@ int	main(int argc, char *argv[])
 		return (1);
 	ft_destroy_mutex(lst_philo, args);
 	ft_free_philos(lst_philo, args);
-	//free(args); //ojo con estoooooooooooooooooo, hay que liberarlo en más sitios
 	return (0);
 }

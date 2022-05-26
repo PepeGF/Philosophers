@@ -43,15 +43,14 @@ void	ft_create_mutex(t_philo *lst_philo, t_args *args)
 	int		i;
 	t_philo	*aux;
 //hay que gestionar la liberación y el cierre si la creación de los mutex fallan
-
 	i = 1;
 	aux = lst_philo;
 	if (pthread_mutex_init(&args->mutex_life, NULL))
-	printf("Problema creando el mutex de life nº\n");
+			printf("Problema creando el mutex de life nº\n");
 	if (pthread_mutex_init(&args->mutex_print, NULL))
-	printf("Problema creando el mutex de print nº\n");
+			printf("Problema creando el mutex de print nº\n");
 	if (pthread_mutex_init(&args->mutex_satisfaction, NULL))
-	printf("Problema creando el mutex de satisfaction nº\n");
+			printf("Problema creando el mutex de satisfaction nº\n");
 	while (i <= args->n_philo)
 	{
 		if (pthread_mutex_init(&aux->fork, NULL))
@@ -69,9 +68,9 @@ void	ft_destroy_mutex(t_philo *lst_philo, t_args *args)
 	if (pthread_mutex_destroy(&args->mutex_life))
 			printf("Problema destruyendo el mutex de life\n");
 	if (pthread_mutex_destroy(&args->mutex_print))
-		printf("Problema destruyendo el mutex de print\n");
+			printf("Problema destruyendo el mutex de print\n");
 	if (pthread_mutex_destroy(&args->mutex_satisfaction))
-		printf("Problema destruyendo el mutex de satisfaction\n");
+			printf("Problema destruyendo el mutex de satisfaction\n");
 	while (i <= args->n_philo)
 	{
 		if (pthread_mutex_destroy(&lst_philo->fork))

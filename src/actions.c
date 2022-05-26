@@ -2,32 +2,33 @@
 
 void	ft_print(char *msg, t_philo *philo)
 {
+	int	time;
+
 	pthread_mutex_lock(&philo->args->mutex_print);
-	int time = ft_get_timestamp();
+	time = ft_get_timestamp();
 	if (philo->args->alive == true)
 	{
-		printf("%d ms %d %s(%d){%d}[%d]\n", /*ft_get_timestamp()*/time
-			- philo->args->zero_time, philo->id, msg, philo->meals+1, philo->hungry,time - philo->last_meal);
+		printf("%d ms %d %s(%d){%d}[%d]\n",time	- philo->args->zero_time, philo->id, msg, philo->meals+1, philo->hungry,time - philo->last_meal);
 	}
 	pthread_mutex_unlock(&philo->args->mutex_print);
 }
 
 void	*routine(void *philo)
 {
-	t_philo *ph;
+	t_philo	*ph;
 	t_args	*args;
-	
+
 	ph = (t_philo *)philo;
 	args = ph->args;
 	ph->last_meal = ft_get_timestamp();
 	if (ph->id % 2 == 0 || ph->id == args->n_philo)
-		usleep(args->t_eat * 500); //si no funciona dejar un valor fijo
+		usleep(args->t_eat * 500);
 	while (1)
 	{
 		if (args->alive == false || ph->hungry == false)
-			break;
+			break ;
 		if (ft_eating(ph))
-			break;
+			break ;
 		ft_sleeping(ph);
 		ft_print("is thinking", ph);
 	}
@@ -39,9 +40,9 @@ void	ft_keep_eating(t_philo *philo)
 	while (1)
 	{
 		if (philo->args->alive == false)
-			break;
+			break ;
 		if (ft_get_timestamp() - philo->last_meal >= philo->args->t_eat)
-			break;
+			break ;
 		usleep(500);
 	}
 	philo->meals++;
@@ -78,18 +79,16 @@ int	ft_eating(t_philo *philo)
 
 void	ft_sleeping(t_philo *philo)
 {
-	int start_sleep;
+	int	start_sleep;
 
 	start_sleep = ft_get_timestamp();
-
 	ft_print("is sleeping", philo);
 	usleep(philo->args->t_sleep * 500);
-	while (1/*philo->args->alive*/)
+	while (1)
 	{
 		if (ft_get_timestamp() - start_sleep >= philo->args->t_sleep)
-			break;
+			break ;
 		usleep(500);
 	}
 	return ;
 }
-

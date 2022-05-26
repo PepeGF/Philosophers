@@ -67,15 +67,5 @@ int	atoi_args(char **argv, t_args *args)
 	}
 	i = 0;
 	ft_fill_args(args, matrix, argv);
-		/*args->n_philo = matrix[i++];
-	args->t_die = matrix[i++];
-	args->t_eat = matrix[i++];
-	args->t_sleep = matrix[i++];
-	if (argv[i + 1])
-		args->n_meal = matrix[i];
-	else
-		args->n_meal = -1;
-	args->alive = true;
-	args->hungry = true;*/
 	return (0);
 }

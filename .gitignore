@@ -1,6 +1,8 @@
 philo
 .DS_Store
 tags
+subject/casi_wololo.c
+./wololo.txt
 
 # Prerequisites
 *.d

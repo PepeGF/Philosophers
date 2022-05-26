@@ -21,7 +21,7 @@ void	*routine(void *philo)
 	ph = (t_philo *)philo;
 	args = ph->args;
 	ph->last_meal = ft_get_timestamp();
-	if (ph->id % 2 == 0 || ph->id == args->n_philo)
+	if (ph->id % 2 == 0 || (ph->id == args->n_philo && ph->id != 1))
 		usleep(args->t_eat * 500);
 	while (1)
 	{
@@ -61,7 +61,11 @@ int	ft_eating(t_philo *philo)
 	ft_print("has taken a fork (right)", philo);
 	if (philo->args->n_philo == 1)
 	{
+		philo->last_meal = ft_get_timestamp();
 		pthread_mutex_unlock(&philo->fork);
+		while (ft_get_timestamp() - philo->last_meal \
+			< philo->args->t_die)
+			usleep(1000);
 		return (1);
 	}
 	pthread_mutex_lock(&philo->left->fork);

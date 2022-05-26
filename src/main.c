@@ -41,6 +41,8 @@ void	ft_check_status(t_philo *philo, t_args *args)
 	t_philo	*aux;
 
 	aux = philo;
+	if (args->n_philo == 1)
+		usleep(args->t_die * 500);
 	while (1)
 	{
 		pthread_mutex_lock(&args->mutex_life);
@@ -57,7 +59,7 @@ void	ft_check_status(t_philo *philo, t_args *args)
 		pthread_mutex_unlock(&args->mutex_life);
 		aux = aux->right;
 		usleep(300);
-		if (aux == philo->left)
+		if (aux == philo->left && args->n_philo != 1)
 			usleep(1000);
 	}
 }

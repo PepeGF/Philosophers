@@ -69,24 +69,26 @@ int	main(int argc, char *argv[])
 	t_args		*args;
 	t_philo		*lst_philo;
 
-//atexit(leaks);
+atexit(leaks);
 	args = malloc(sizeof(t_args));
-	if (!args)
-		return (1);
-	if (!arg_number_manage(argc) || atoi_args(argv, args))
+	if (!args || arg_number_manage(argc) || atoi_args(argv, args))
 		return (1);
 	lst_philo = 0;
-	ft_create_philos(&lst_philo, args);
+	if (ft_create_philos(&lst_philo, args))
+		return (2);
 	ft_link_list(lst_philo);
 	ft_init_philos(lst_philo, args);
-	ft_create_mutex(lst_philo, args);
+	if (ft_create_mutex(lst_philo, args))
+		return (3);
 	args->zero_time = ft_get_timestamp();
 	if (ft_create_threads(lst_philo, &routine))
-		return (1);
+		return (4);
+	usleep(800);
 	ft_check_status(lst_philo, args);
 	if (ft_join_threads(lst_philo, args))
-		return (1);
-	ft_destroy_mutex(lst_philo, args);
+		return (5);
+	if (ft_destroy_mutex(lst_philo, args))
+		return (6);
 	ft_free_philos(lst_philo, args);
 	return (0);
 }

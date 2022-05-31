@@ -26,9 +26,9 @@ int	arg_number_manage(int argc)
 		write(1, "Usage: philo number_of_philosophers time_to_die ", 48);
 		write(1, " time_to_eat time_to_sleep [number_of_times_each", 48);
 		write(1, "_philosopher_must_eat]\n", 23);
-		return (0);
+		return (1);
 	}
-	return (1);
+	return (0);
 }
 
 static void	ft_fill_args(t_args *args, int *matrix, char **argv)
@@ -54,6 +54,8 @@ int	atoi_args(char **argv, t_args *args)
 	int	i;
 	int	matrix[5];
 
+	if (!args)
+		return (1);
 	i = 1;
 	while (argv[i])
 	{

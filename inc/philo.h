@@ -42,8 +42,6 @@ typedef struct s_philo
 	int				id;
 	pthread_t		thread;
 	int				meals;
-	int				r_fork_id;
-	int				l_fork_id;
 	int				last_meal;
 	bool			hungry;
 	pthread_mutex_t	fork;
@@ -64,15 +62,15 @@ t_philo	*ft_lstnew(int id);
 void	ft_link_list(t_philo *lst_philo);
 
 /* Philos functions */
-void	ft_create_philos(t_philo **lst_philo, t_args *args);
+int		ft_create_philos(t_philo **lst_philo, t_args *args);
 void	ft_init_philos(t_philo	*lst_philo, t_args *args);
 void	ft_free_philos(t_philo *lst_philo, t_args *args);
 
 /* Threads functions */
 int		ft_create_threads(t_philo *lst_philo, void *routine);
 int		ft_join_threads(t_philo *lst_philo, t_args *args);
-void	ft_create_mutex(t_philo *lst_philo, t_args *args);
-void	ft_destroy_mutex(t_philo *lst_philo, t_args *args);
+int		ft_create_mutex(t_philo *lst_philo, t_args *args);
+int		ft_destroy_mutex(t_philo *lst_philo, t_args *args);
 
 /* Action functions */
 void	*routine(void *philo);

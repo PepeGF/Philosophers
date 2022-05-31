@@ -77,7 +77,7 @@ int	ft_create_mutex(t_philo *lst_philo, t_args *args)
 int	ft_destroy_mutex(t_philo *lst_philo, t_args *args)
 {
 	int		i;
-//hay que gestionar la liberación y el cierre si los destroy de los mutex fallan
+
 	i = 1;
 	if (pthread_mutex_destroy(&args->mutex_life))
 		return (1);

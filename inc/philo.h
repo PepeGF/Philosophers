@@ -53,7 +53,7 @@ typedef struct s_philo
 /* Arguments manage */
 int		ft_atoi(const char *str);
 int		atoi_args(char **argv, t_args *args);
-int		arg_number_manage(int argc);
+int		arg_number_manage(int argc, t_args *args);
 
 /* Lists functions */
 t_philo	*ft_lstlast(t_philo *lst);

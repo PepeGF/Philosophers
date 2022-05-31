@@ -35,12 +35,11 @@ int	ft_create_philos(t_philo **lst_philo, t_args *args)
 	while (i < args->n_philo)
 	{
 		aux = ft_lstnew(i + 1);
-		if (!aux /* || i == 5*/)
+		if (!aux)
 		{
 			write (1, "Algo ha fallado creando philos\n", 31);
-			//revisar esto con valgrind
-			free((*lst_philo)->args);
 			ft_free_list(lst_philo);
+			free(args);
 			return (1);
 		}
 		else
@@ -57,7 +56,6 @@ void	ft_init_philos(t_philo *lst_philo, t_args *args)
 	i = 1;
 	args->alive = true;
 	args->hungry = true;
-	//printf("->->->->->%d\n", args->n_philo);
 	while (i <= args->n_philo)
 	{
 		lst_philo->args = args;
@@ -67,7 +65,6 @@ void	ft_init_philos(t_philo *lst_philo, t_args *args)
 		lst_philo = lst_philo->right;
 		i++;
 	}
-	//printf("->->->->->%d\n", lst_philo->args->n_philo);
 }
 
 void	ft_free_philos(t_philo *lst_philo, t_args *args)

@@ -20,7 +20,7 @@ void	ft_print(char *msg, t_philo *philo)
 	time = ft_get_timestamp();
 	if (philo->args->alive == true)
 	{
-		printf("%d ms %d %s(%d){%d}[%d]\n",time	- philo->args->zero_time, philo->id, msg, philo->meals+1, philo->hungry,time - philo->last_meal);
+		printf("%d ms %d %s\n", time - philo->args->zero_time, philo->id, msg);
 	}
 	pthread_mutex_unlock(&philo->args->mutex_print);
 }

@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include "../inc/philo.h"
 
-int	arg_number_manage(int argc)
+int	arg_number_manage(int argc, t_args *args)
 {
 	if (argc < 5)
 	{
@@ -23,6 +23,8 @@ int	arg_number_manage(int argc)
 	}
 	if (argc < 5 || argc > 6)
 	{
+		free(args);
+		args = NULL;
 		write(1, "Usage: philo number_of_philosophers time_to_die ", 48);
 		write(1, " time_to_eat time_to_sleep [number_of_times_each", 48);
 		write(1, "_philosopher_must_eat]\n", 23);
@@ -77,6 +79,7 @@ int	atoi_args(char **argv, t_args *args)
 		if (ft_isnumber(argv[i]))
 		{
 			free(args);
+			args = NULL;
 			return (1);
 		}
 		matrix[i - 1] = ft_atoi(argv[i]);

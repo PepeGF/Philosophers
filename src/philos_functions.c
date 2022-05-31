@@ -12,19 +12,7 @@
 
 #include "../inc/philo.h"
 
-static void	ft_free_list(t_philo **lst_philo)
-{
-	t_philo	*aux;
-	t_philo	*aux2;
-
-	aux = *lst_philo;
-	while (aux)
-	{
-		aux2 = aux;
-		aux = aux->right;
-		free(aux2);
-	}
-}
+static void	ft_free_list(t_philo **lst_philo);
 
 int	ft_create_philos(t_philo **lst_philo, t_args *args)
 {
@@ -37,7 +25,6 @@ int	ft_create_philos(t_philo **lst_philo, t_args *args)
 		aux = ft_lstnew(i + 1);
 		if (!aux)
 		{
-			write (1, "Algo ha fallado creando philos\n", 31);
 			ft_free_list(lst_philo);
 			free(args);
 			return (1);
@@ -51,11 +38,9 @@ int	ft_create_philos(t_philo **lst_philo, t_args *args)
 
 void	ft_init_philos(t_philo *lst_philo, t_args *args)
 {
-	int		i;
+	int	i;
 
 	i = 1;
-	args->alive = true;
-	args->hungry = true;
 	while (i <= args->n_philo)
 	{
 		lst_philo->args = args;
@@ -85,4 +70,18 @@ void	ft_free_philos(t_philo *lst_philo, t_args *args)
 	free(aux);
 	free(args);
 	return ;
+}
+
+static void	ft_free_list(t_philo **lst_philo)
+{
+	t_philo	*aux;
+	t_philo	*aux2;
+
+	aux = *lst_philo;
+	while (aux)
+	{
+		aux2 = aux;
+		aux = aux->right;
+		free(aux2);
+	}
 }

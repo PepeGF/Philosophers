@@ -33,7 +33,37 @@ int	arg_number_manage(int argc, t_args *args)
 	return (0);
 }
 
-static void	ft_fill_args(t_args *args, int *matrix, char **argv)
+static int	ft_isnumber(char *str);
+
+int	atoi_args(char **argv, t_args *args)
+{
+	int	i;
+	int	matrix[5];
+
+	i = 1;
+	while (argv[i])
+	{
+		if (ft_isnumber(argv[i]))
+		{
+			free(args);
+			args = NULL;
+			return (1);
+		}
+		matrix[i - 1] = ft_atoi(argv[i]);
+		if (matrix [i - 1] <= 0)
+		{
+			write(1, "Wrong argument\n", 15);
+			free(args);
+			return (1);
+		}
+		i++;
+	}
+	i = 0;
+	ft_fill_args(args, matrix, argv);
+	return (0);
+}
+
+void	ft_fill_args(t_args *args, int *matrix, char **argv)
 {
 	int	i;
 
@@ -65,33 +95,5 @@ static int	ft_isnumber(char *str)
 		}
 		i++;
 	}
-	return (0);
-}
-
-int	atoi_args(char **argv, t_args *args)
-{
-	int	i;
-	int	matrix[5];
-
-	i = 1;
-	while (argv[i])
-	{
-		if (ft_isnumber(argv[i]))
-		{
-			free(args);
-			args = NULL;
-			return (1);
-		}
-		matrix[i - 1] = ft_atoi(argv[i]);
-		if (matrix [i - 1] <= 0)
-		{
-			write(1, "Wrong argument\n", 15);
-			free(args);
-			return (1);
-		}
-		i++;
-	}
-	i = 0;
-	ft_fill_args(args, matrix, argv);
 	return (0);
 }

@@ -50,10 +50,15 @@ typedef struct s_philo
 	struct s_args	*args;
 }	t_philo;
 
+/* Main file */
+int		ft_first_part(int argc, char *argv[], t_philo **lst_philo,
+			t_args *args);
+int		ft_second_part(t_philo *lst_philo, t_args *args);
+
 /* Arguments manage */
-int		ft_atoi(const char *str);
 int		atoi_args(char **argv, t_args *args);
 int		arg_number_manage(int argc, t_args *args);
+void	ft_fill_args(t_args *args, int *matrix, char **argv);
 
 /* Lists functions */
 t_philo	*ft_lstlast(t_philo *lst);
@@ -73,14 +78,21 @@ int		ft_create_mutex(t_philo *lst_philo, t_args *args);
 int		ft_destroy_mutex(t_philo *lst_philo, t_args *args);
 
 /* Action functions */
-void	*routine(void *philo);
+void	ft_print(char *msg, t_philo *philo);
+void	*ft_routine(void *philo);
 int		ft_eating(t_philo *philo);
+void	ft_keep_eating(t_philo *philo);
 void	ft_sleeping(t_philo *philo);
-void	ft_thinking(t_philo *philo);
 
 /* Time functions */
 int		ft_get_timestamp(void);
-//void	ft_set_zero_time(t_args *args);
+void	ft_set_zero_time(t_args *args);
 
-void	ft_print(char *msg, t_philo *philo);
+/* Checker functions */
+int		ft_check_satisfaction(t_philo *philo, t_args *args);
+void	ft_check_status(t_philo *philo, t_args *args);
+
+/* Atoi function */
+int		ft_atoi(const char *str);
+
 #endif

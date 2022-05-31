@@ -49,20 +49,41 @@ static void	ft_fill_args(t_args *args, int *matrix, char **argv)
 	args->satisfied = 0;
 }
 
+static int	ft_isnumber(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] < '0' || str[i] > '9')
+		{
+			write(1, "Wrong argument\n", 15);
+			return (1);
+		}
+		i++;
+	}
+	return (0);
+}
+
 int	atoi_args(char **argv, t_args *args)
 {
 	int	i;
 	int	matrix[5];
 
-	if (!args)
-		return (1);
 	i = 1;
 	while (argv[i])
 	{
+		if (ft_isnumber(argv[i]))
+		{
+			free(args);
+			return (1);
+		}
 		matrix[i - 1] = ft_atoi(argv[i]);
 		if (matrix [i - 1] <= 0)
 		{
 			write(1, "Wrong argument\n", 15);
+			free(args);
 			return (1);
 		}
 		i++;
